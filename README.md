@@ -6,6 +6,7 @@ Specific alterations of the intestinal microbiome in autoimmune hepatitis show p
 [Usuage](#usuage)  
 [Figure 1 (difference in evolved/unevolved samples)](#figure-1)  
 [Figure 2 (samples grouped by time-in-host, blood)](#figure-2)  
+[Citation](#citation)
 
 # Usuage
 
@@ -38,5 +39,11 @@ source('figure1.R')
 
 ```r
 source('figure2.R')
+```
+
+#citation
+
+```
+_bibtex_item_
 ```
 
