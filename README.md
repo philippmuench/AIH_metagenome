@@ -13,8 +13,9 @@ Specific alterations of the intestinal microbiome in autoimmune hepatitis show p
 to install R packages please type these commands to your R console
 
 ```r
-install.packages('')
-
+install.packages(reshape2)
+install.packages(ggplot2)
+install.packages(pander)
 ```
 
 # Figures
