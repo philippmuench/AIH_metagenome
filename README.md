@@ -41,7 +41,7 @@ source('figure1.R')
 source('figure2.R')
 ```
 
-#citation
+# citation
 
 ```
 _bibtex_item_
