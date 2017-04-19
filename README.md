@@ -4,8 +4,8 @@ Specific alterations of the intestinal microbiome in autoimmune hepatitis show p
 
 # Table of Contents  
 [Usuage](#usuage)  
-[Figure 1 (difference in evolved/unevolved samples)](#figure-1)  
-[Figure 2 (samples grouped by time-in-host, blood)](#figure-2)  
+[Figure 1 (alpha diversity)](#figure-1)  
+[Figure 2 (todo)](#figure-2)  
 [Citation](#citation)
 
 # Usuage
@@ -21,15 +21,20 @@ install.packages(pander)
 # Figures
 ## Figure 1
 **Description:** 
+alpha diversity plots for shannon, chao1 and observed OTU
 
 **File:**
-- [figure1](results/figure1/figure1.pdf)
+- [figure1](results/figure1/figure_1_index_observed.pdf)
+- [figure1](results/figure1/figure_1_index_chao1.pdf)
+- [figure1](results/figure1/figure_1_index_shannon.pdf)
 
 **Reproduce:**
 
 ```r
-source('figure1.R')
+source('figure1.R') # P values are written to stdout
 ```
+
+
 ## Figure 2
 **Description:** 
 
