@@ -26,5 +26,5 @@ pdf(file="results/figure1/figure1_index_chao1.pdf", width=8, height=6)
 print(plot.chao1)
 dev.off()
 pdf(file="results/figure1/figure_1_index_shannon.pdf", width=8, height=6)
-print(plot.shannon)-
+print(plot.shannon)
 dev.off()

@@ -1,4 +1,5 @@
-getAdiv <- function(path.to.alpha.dif = "data/adiv.txt", path.sample.matrix = "data/mapping_cat.txt", index_type="shannon"){
+# function to load the alpha diversity
+getAdiv <- function(path.to.alpha.dif = "data/alpha_diversity/alpha_diversity.txt", path.sample.matrix = "data/sample_mapping_cat_adiv.txt", index_type="shannon"){
   require(ggplot2)
   require(scales)
   # load alpha diversity
@@ -17,15 +18,17 @@ getAdiv <- function(path.to.alpha.dif = "data/adiv.txt", path.sample.matrix = "d
   if (index_type == "observed_otus"){
     df.adiv <- data.frame(sample=adiv$sample, value=adiv$observed_otus , type=adiv$type2, type2=adiv$type)
   }
+
   # remove FAP and HIV samples
   df.adiv <- df.adiv[-which(df.adiv$type2=="FAP"),]
   df.adiv <- df.adiv[-which(df.adiv$type2=="HIV"),]
   df <- as.data.frame(melt(df.adiv))
+
   #limits <- aes(ymax = resp + se, ymin=resp - se)
   p <- ggplot(df, aes(x=sample, y=value))
   p <- p + geom_point() + facet_grid(type ~ ., scales="free", space="free", shrink =TRUE)
   p <- p + theme_minimal() + coord_flip()
-  #print(p)
+
   # make sample an ordered factor
   df.adiv$sample <- factor(df.adiv$sample, levels = df.adiv$sample)
   #df.adiv <- df.adiv[order(match(rownames(df), df.adiv$sample)),]
@@ -35,6 +38,7 @@ getAdiv <- function(path.to.alpha.dif = "data/adiv.txt", path.sample.matrix = "d
   return(df.adiv)
 }
 
+# function to plot alpha diversity
 plotAdiv <- function(df){
 	require(ggplot2)
 	a <- ggplot(df, aes(reorder(type2, -value), value, fill = type))
