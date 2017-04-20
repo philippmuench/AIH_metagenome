@@ -45,9 +45,9 @@ alpha diversity plots for shannon, chao1 and observed OTU
 others group: NASH, alkohol, others, ALD, HCV
 
 **File:**
-- [figure1 (observed OTUs index)](results/figure1/figure_1_index_observed.pdf)
-- [figure1 (chao1 index)](results/figure1/figure_1_index_chao1.pdf)
-- [figure1 (Shannon index)](results/figure1/figure_1_index_shannon.pdf)
+- [figure 1 (observed OTUs index)](results/figure1/figure_1_index_observed.pdf)
+- [figure 1 (chao1 index)](results/figure1/figure_1_index_chao1.pdf)
+- [figure 1 (Shannon index)](results/figure1/figure_1_index_shannon.pdf)
 
 **Statistics:**
 
@@ -108,9 +108,9 @@ Applied filtering: `removeRelAb()` with 0.01 (genera with rel. abundance < 1% ar
 
 **File:**
 - [figure 2 (merged)](results/figure2/figure_2.pdf)
-- [figure 2 a (bar plot)](results/figure2/figure_2_bar.pdf)
-- [figure 2 b up (triplot)](results/figure2/figure_2_tri.pdf)
-- [figure 2 b down (difference)](results/figure2/figure_2_diff.pdf)
+- [figure 2a (bar plot)](results/figure2/figure_2_bar.pdf)
+- [figure 2b up (triplot)](results/figure2/figure_2_tri.pdf)
+- [figure 2b down (difference)](results/figure2/figure_2_diff.pdf)
 - [data to reproduce figure 2c (ZIG analysis on class level, AIH vs. control)](results/figure2/figure_2_c_aih_vs_control.csv)
 - [data to reproduce figure 2c (ZIG analysis on class level, AIH vs. healthy)](results/figure2/figure_2_c_aih_vs_healthy.csv)
 
@@ -128,7 +128,10 @@ source('figure2_c.R') # to reproduce data shown in figure 2 c
 **Description:** 
 
 **File:**
-- [figure3 (b)](results/figure3/figure_3_b.pdf)
+- [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. control)](results/figure3/figure_3_c_aih_vs_control.csv)
+- [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. healthy)](results/figure3/figure_3_c_aih_vs_healthy.csv)
+- [figure 3 b](results/figure3/figure_3_b.pdf)
+- [figure 3 c](results/figure3/figure_3_c.pdf)
 
 **Reproduce:**
 
