@@ -10,7 +10,14 @@ Specific alterations of the intestinal microbiome in autoimmune hepatitis show p
 
 # Usuage
 
-to install R packages please type these commands to your R console
+clone this repo
+
+```
+git clone https://github.com/philippmuench/AIH_new.git
+cd AIH_new
+
+```
+open R and install R packages please type these commands to your R console
 
 ```r
 install.packages("reshape2")
