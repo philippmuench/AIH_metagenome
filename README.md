@@ -149,6 +149,7 @@ source('figure2_c.R') # to reproduce data shown in figure 2 c
 **Reproduce:**
 
 ```r
+source('figure3_a.R') # generate tables with ZIG analysis results
 source('figure3_b.R')
 ```
 
