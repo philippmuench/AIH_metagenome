@@ -110,7 +110,7 @@ source('figure1.R') # P values are written to stdout
 
 **Description:** 
 
-> Figure2: a) Average relative abundance othe most relevant phyla (?) in health, AIH and control asrevealed by the 16S rRNA gene ribotyping. b) Ternary plot of all OTUs detected in the data set with RA > x% in at least one sample. Each circle represents one OUT. The size of each circle represents its relative abundance (weighted average). The position of each circle is determined by the contribution of the indicated disease status to the total relative abundance. C) FDR adjusted P values of differently expressed bacterial classes between disese groups.
+> Figure2: a) Average relative abundance othe most relevant phyla (?) in health, AIH and control asrevealed by the 16S rRNA gene ribotyping. b) Ternary plot of all OTUs detected in the data set with RA > 1% in at least one sample. Each circle represent one class. The size of each circle represents its relative abundance (weighted average) of the OTUs associated with this class. The position of each circle is determined by the contribution of the indicated disease status to the total relative abundance. c) FDR adjusted P values of differently expressed bacterial classes between disese groups.
 
 **Notes:**
 
