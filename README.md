@@ -104,15 +104,18 @@ source('figure1.R') # P values are written to stdout
 Applied filtering: `removeRelAb()` with 0.01 (genera with rel. abundance < 1% are removed)
 
 **File:**
-- [figure2 (merged)](results/figure2/figure_2.pdf)
-- [figure2 (bar plot)](results/figure2/figure_2_bar.pdf)
-- [figure2 (difference)](results/figure2/figure_2_diff.pdf)
-- [figure2 (triplot)](results/figure2/figure_2_tri.pdf)
+- [figure 2 (merged)](results/figure2/figure_2.pdf)
+- [figure 2 a (bar plot)](results/figure2/figure_2_bar.pdf)
+- [figure 2 b up (triplot)](results/figure2/figure_2_tri.pdf)
+- [figure 2 b down (difference)](results/figure2/figure_2_diff.pdf)
+- [data to reproduce figure 2c (ZIG analysis on class level, AIH vs. control)](results/figure2/figure_2_c_aih_vs_control.csv)
+- [data to reproduce figure 2c (ZIG analysis on class level, AIH vs. healthy)](results/figure2/figure_2_c_aih_vs_healthy.csv)
 
 **Reproduce:**
 
 ```r
-source('figure2.R')
+source('figure2.R') # to reproduce figure 2 a, b
+source('figure2_c.R') # to reproduce data shown in figure 2 c
 ```
 
 
