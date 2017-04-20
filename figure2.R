@@ -9,7 +9,7 @@ source("src/plot.functions.R") # all function for plotting
 source("src/calc.functions.R") # functions for data manipulation
 
 # path to files
-path.L <- "data/otu_table_L3.txt" # path to L3 table
+path.L <- "data/OTU_table/otu_table_L3.txt" # path to L3 table
 
 # load OTU table
 raw.data <- read.table(path.L , header=T)
@@ -49,6 +49,6 @@ dif <- plotDifferenceClass(df.diff.m,"results/figure2/figure_2_diff.pdf", jColor
 tri <- triplotTaxaClass(df, "results/figure2/figure_2_triplot.pdf", label=F, jColors)
 
 # arrange all 3 in one plot
-pdf("figures/class_level.pdf", width=12, height=10)
+pdf("results/figure2/figure_2.pdf", width=12, height=10)
 print(grid.arrange(bar,  arrangeGrob(tri, dif),ncol=2))
 dev.off()
