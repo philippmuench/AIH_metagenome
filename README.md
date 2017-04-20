@@ -5,7 +5,10 @@ Specific alterations of the intestinal microbiome in autoimmune hepatitis show p
 # Table of Contents  
 [Usuage](#usuage)  
 [Figure 1 (alpha diversity)](#figure-1)  
-[Figure 2 (class level visualization)](#figure-2)  
+[Figure 2 (class level)](#figure-2)  
+[Figure 3 (genus level)](#figure-3)  
+[Figure 5 (alpha diveristy with hep)](#figure-5)  
+[Figure 6 (marker correlation)](#figure-6)  
 [Citation](#citation)
 
 # Usuage
