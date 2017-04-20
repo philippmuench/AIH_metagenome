@@ -160,10 +160,34 @@ source('figure3_b.R')
 > Figure 5: Mean and SD of alpha diversity and hepatopathy status.
 
 **File:**
+- [figure 5](results/figure5/figure_5.pdf)
+
+
+**Results:**
+```
+    Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = chao1 ~ marker, data = alpha)
+
+$marker
+                                                   diff        lwr        upr     p adj
+hepatop_ohne_veraenderung-                    676.72081   20.24452 1333.19711 0.0402698
+keine_hepatopathie-                           872.74112  249.17307 1496.30916 0.0020684
+mit_fibrose-                                  608.94853  -25.85588 1243.75294 0.0659437
+mit_zirrhose-                                 536.56865  -85.51294 1158.65024 0.1217344
+keine_hepatopathie-hepatop_ohne_veraenderung  196.02030  -88.59827  480.63887 0.3070441
+mit_fibrose-hepatop_ohne_veraenderung         -67.77229 -376.23179  240.68721 0.9711754
+mit_zirrhose-hepatop_ohne_veraenderung       -140.15217 -421.49915  141.19482 0.6261394
+mit_fibrose-keine_hepatopathie               -263.79259 -494.06035  -33.52483 0.0171538
+mit_zirrhose-keine_hepatopathie              -336.17247 -528.60974 -143.73519 0.0000800
+mit_zirrhose-mit_fibrose                      -72.37988 -298.59136  153.83161 0.8942774
+```
 
 **Reproduce:**
 
 ```r
+source('figure5.R') # P values are written to stdout
 ```
 
 ## Figure 6
