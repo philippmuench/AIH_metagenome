@@ -274,7 +274,7 @@ barplotClass <- function(df, file="figures/barplot_class.pdf", tooSmall = 0.2){
 																	panel.grid.minor = element_blank(),
 																	panel.border = element_blank(),
 																	panel.background = element_blank())
-	c <- c + facet_grid(type~., scales="free", space="free_x", drop=T) + theme(panel.margin = unit(-1, "lines"))
+	c <- c + facet_grid(type~., scales="free", space="free_x", drop=T) #+ theme(panel.margin = unit(-1, "lines"))
 	c <- c + xlab("") + ylab("")
 	pdf(file, width = 5, height = 5)
 	print(c)

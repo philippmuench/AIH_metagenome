@@ -16,12 +16,14 @@ to install R packages please type these commands to your R console
 install.packages("reshape2")
 install.packages("ggplot2")
 install.packages("pander")
+install.packages("ggtern")
 ```
 
 # Figures
 ## Figure 1
 **Description:** 
 alpha diversity plots for shannon, chao1 and observed OTU
+others group: NASH, alkohol, others, ALD, HCV
 
 **File:**
 - [figure1 (observed OTUs index)](results/figure1/figure_1_index_observed.pdf)
@@ -83,6 +85,9 @@ source('figure1.R') # P values are written to stdout
 
 ## Figure 2
 **Description:** 
+Applied filtering: removeRelAb() with 0.01 (genera with rel. abundance < 1% are removed)
+
+
 
 **File:**
 - [figure2](results/figure2/figure2.pdf)
