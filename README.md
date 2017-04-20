@@ -24,6 +24,15 @@ install.packages("reshape2")
 install.packages("ggplot2")
 install.packages("pander")
 install.packages("ggtern")
+install.packages("limma")
+install.packages("biom")
+install.packages("colorspace")
+install.packages("grid")
+install.packages("gridExtra")
+install.packages("ggrepel")
+source("https://bioconductor.org/biocLite.R")
+biocLite("metagenomeSeq")
+biocLite("phyloseq")
 ```
 
 # Figures
