@@ -87,10 +87,11 @@ source('figure1.R') # P values are written to stdout
 **Description:** 
 Applied filtering: removeRelAb() with 0.01 (genera with rel. abundance < 1% are removed)
 
-
-
 **File:**
-- [figure2](results/figure2/figure2.pdf)
+- [figure2 (merged)](results/figure2/figure_2.pdf)
+- [figure2 (bar plot)](results/figure2/figure_2_bar.pdf)
+- [figure2 (difference)](results/figure2/figure_2_diff.pdf)
+- [figure2 (triplot)](results/figure2/figure_2_tri.pdf)
 
 **Reproduce:**
 
