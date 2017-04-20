@@ -3,7 +3,7 @@
 Specific alterations of the intestinal microbiome in autoimmune hepatitis show partially liver disease-specific patterns being also related to the extent of liver parenchymatous tissue remodeling
 
 # Table of Contents  
-[Usuage](#usuage)  
+[Usage](#Usage)  
 [Figure 1 (alpha diversity)](#figure-1)  
 [Figure 2 (class level)](#figure-2)  
 [Figure 3 (genus level)](#figure-3)  
@@ -11,7 +11,7 @@ Specific alterations of the intestinal microbiome in autoimmune hepatitis show p
 [Figure 6 (marker correlation)](#figure-6)  
 [Citation](#citation)
 
-# Usuage
+# Usage
 
 clone this repo
 
