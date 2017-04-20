@@ -207,8 +207,8 @@ source('figure5.R') # P values are written to stdout
 **Results:**
 
 Correlation coefficient:
-
-shannon
+(*) = significant
+shannon index
 
 | Marker | group  | cor | P value  |
 | --------- | ------------- |:-------------:| -----:|
@@ -220,6 +220,32 @@ shannon
 | sCD14 | healthy | -0.1275773  | 0.7085 |
 | sCD14 | control | -0.05840449  |  0.8015 |
 | sCD14 | all | -0.2320581 | 0.1125|
+
+chao1 index
+
+| Marker | group  | cor | P value  |
+| --------- | ------------- |:-------------:| -----:|
+| ifap | AIH | 0.1533008 | 0.5708 |
+| ifap | healthy | -0.06697288  | 0.8362 |
+| ifap | control | -0.2686908  | 0.2389 |
+| ifap | all |  -0.3146119 | 0.02769 (*) |
+| sCD14 | AIH | -0.5519635  | 0.02664 (*) |
+| sCD14 | healthy |  -0.04979144 |  0.8844 |
+| sCD14 | control |  -0.2158375 | 0.3474  |
+| sCD14 | all |  -0.4914704 | 0.0003892 (*) |
+
+observed OTU index
+
+| Marker | group  | cor | P value  |
+| --------- | ------------- |:-------------:| -----:|
+| ifap | AIH | 0.08022598 |  0.7677 |
+| ifap | healthy | 0.003773555 |  0.9907 |
+| ifap | control | -0.2129188  | 0.3541 |
+| ifap | all | -0.2811318  | 0.05037 |
+| sCD14 | AIH | -0.6000638   |  0.01399 (*) |
+| sCD14 | healthy | 0.000699818  |  0.9984 |
+| sCD14 | control | -0.2535781 |  0.2674  |
+| sCD14 | all | -0.5157501 | 0.0001756 (*) |
 
 **Reproduce:**
 
