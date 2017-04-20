@@ -204,6 +204,23 @@ source('figure5.R') # P values are written to stdout
 - [figure 6](results/figure6/figure_6_all.pdf)
 - [figure 6 (without all)](results/figure6/figure_6.pdf)
 
+**Results:**
+
+Correlation coefficient:
+
+shannon
+
+| Marker | group  | cor | P value  |
+| --------- | ------------- |:-------------:| -----:|
+| ifap | AIH | 0.2498182 | 0.3508 |
+| ifap | healthy | -0.04517274 | 0.8891 |
+| ifap | control | 0.2270722 | 0.3222 |
+| ifap | all | 0.06604452  | 0.6521 |
+| sCD14 | AIH | -0.5259243  | 0.0364 (*) |
+| sCD14 | healthy | -0.1275773  | 0.7085 |
+| sCD14 | control | -0.05840449  |  0.8015 |
+| sCD14 | all | -0.2320581 | 0.1125|
+
 **Reproduce:**
 
 ```r
