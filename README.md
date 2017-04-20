@@ -141,7 +141,7 @@ source('figure2_c.R') # to reproduce data shown in figure 2 c
 **Files:**
 
 - [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. control)](results/figure3/figure3_a_zig_aih_vs_control.tsv)
-- [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. healthy)](results/figure3/figure3_a_zig_aih_vs_healthy.tsv)
+- [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. healthy)](results/figure3/figure3_a_zig_aih_vs_helathy.tsv)
 - [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. healthy)](results/figure3/figure3_a_zig_healthy_vs_control.tsv)
 - [figure 3 b](results/figure3/figure_3_b.pdf)
 - [figure 3 c](results/figure3/figure_3_c.pdf)
