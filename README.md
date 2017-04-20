@@ -1,4 +1,4 @@
-# AIH paper
+# code and data to reproduce Münch _et al._ manuscript
 
 Specific alterations of the intestinal microbiome in autoimmune hepatitis show partially liver disease-specific patterns being also related to the extent of liver parenchymatous tissue remodeling
 
@@ -144,13 +144,16 @@ source('figure2_c.R') # to reproduce data shown in figure 2 c
 - [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. healthy)](results/figure3/figure3_a_zig_aih_vs_helathy.tsv)
 - [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. healthy)](results/figure3/figure3_a_zig_healthy_vs_control.tsv)
 - [figure 3 b](results/figure3/figure_3_b.pdf)
-- [figure 3 c](results/figure3/figure_3_c.pdf)
+- [figure 3 c (heatmap)](results/figure3/figure_3_c_heatmap.pdf)
+- [figure 3 c (dendogram row)](results/figure3/figure_3_c_dendogram_row.pdf)
+- [figure 3 c (dendogram col)](results/figure3/figure_3_c_dendogram_col.pdf)
 
 **Reproduce:**
 
 ```r
 source('figure3_a.R') # generate tables with ZIG analysis results
 source('figure3_b.R')
+source('figure3_c.R')
 ```
 
 ## Figure 5
