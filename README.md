@@ -106,6 +106,22 @@ Applied filtering: `removeRelAb()` with 0.01 (genera with rel. abundance < 1% ar
 source('figure2.R')
 ```
 
+
+
+## Figure 3
+
+**Description:** 
+
+**File:**
+- [figure3 (b)](results/figure3/figure_3_b.pdf)
+
+**Reproduce:**
+
+```r
+source('figure3_b.R')
+```
+
+
 # citation
 
 ```
