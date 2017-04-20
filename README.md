@@ -28,8 +28,9 @@ alpha diversity plots for shannon, chao1 and observed OTU
 - [figure1 (chao1 index)](results/figure1/figure_1_index_chao1.pdf)
 - [figure1 (Shannon index)](results/figure1/figure_1_index_shannon.pdf)
 
-**Statistics**
-observed
+**Statistics:**
+
+- observed
 
 ```
     Tukey multiple comparisons of means
@@ -44,7 +45,7 @@ others-AIH     -131.6277 -252.41317  -10.84226 0.0296658
 others-control -275.4600 -390.48441 -160.43550 0.0000011
 ```
 
-chao1
+- chao1
 ```
     Tukey multiple comparisons of means
     95% family-wise confidence level
@@ -58,7 +59,7 @@ others-AIH     -202.2373 -369.4693  -35.00522 0.0140803
 others-control -390.9231 -550.1788 -231.66734 0.0000007
 ```
 
-shannon
+- shannon
 ```
   Using sample, type, type2 as id variables
   Tukey multiple comparisons of means
