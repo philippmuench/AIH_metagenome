@@ -44,10 +44,12 @@ biocLite("phyloseq")
 
 > Figure 1: Mean and SD of alpha diversity of gut microbiota composition by disease status (AIH: black; non-AIH hepatitic diseases; grey; healthy: green)
 
-alpha diversity plots for shannon, chao1 and observed OTU
+**Notes:**
+
 others group: NASH, alkohol, others, ALD, HCV
 
 **File:**
+
 - [figure 1 (observed OTUs index)](results/figure1/figure_1_index_observed.pdf)
 - [figure 1 (chao1 index)](results/figure1/figure_1_index_chao1.pdf)
 - [figure 1 (Shannon index)](results/figure1/figure_1_index_shannon.pdf)
@@ -106,11 +108,13 @@ source('figure1.R') # P values are written to stdout
 
 
 ## Figure 2
+
 **Description:** 
 
 > Figure2: a) Average relative abundance othe most relevant phyla (?) in health, AIH and control asrevealed by the 16S rRNA gene ribotyping. b) Ternary plot of all OTUs detected in the data set with RA > x% in at least one sample. Each circle represents one OUT. The size of each circle represents its relative abundance (weighted average). The position of each circle is determined by the contribution of the indicated disease status to the total relative abundance. C) FDR adjusted P values of differently expressed bacterial classes between disese groups.
 
 **Notes:**
+
 Applied filtering: `removeRelAb()` with 0.01 (genera with rel. abundance < 1% are removed)
 
 **File:**
@@ -135,7 +139,8 @@ source('figure2_c.R') # to reproduce data shown in figure 2 c
 > Figure 3: b Ternary plot of all OTUs classified to class level. Each circle represents the mean abundance of OTUs associated to one class. The size of each circle represents its relative abundance (weighted average). The position of each circle is determined by the contribution of the indicated disease status to the total relative abundance. c) Heatmap of RA abundance of OTUs pooled to species level and single linkage hierarchical clustering.
 
 
-**File:**
+**Files:**
+
 - [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. control)](results/figure3/figure_3_c_aih_vs_control.csv)
 - [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. healthy)](results/figure3/figure_3_c_aih_vs_healthy.csv)
 - [figure 3 b](results/figure3/figure_3_b.pdf)
