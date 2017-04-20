@@ -174,9 +174,14 @@ source('figure3_b.R')
 
 **File:**
 
+- [figure 6](results/figure6/figure_6_all.pdf)
+- [figure 6 (without all)](results/figure6/figure_6.pdf)
+
 **Reproduce:**
 
 ```r
+source('figure6.R')
+
 ```
 
 # citation
