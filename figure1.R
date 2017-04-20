@@ -19,12 +19,12 @@ plot.chao1 <- plotAdiv(df.chao1)
 plot.shannon <- plotAdiv(df.shannon)
 
 # save as pdf
-pdf(file="figure_1/figure_1_index_observed.pdf", width=8, height=6)
+pdf(file="results/figure1/figure_1_index_observed.pdf", width=8, height=6)
 print(plot.observed)
 dev.off()
-pdf(file="figure_1/figure1_index_chao1.pdf", width=8, height=6)
+pdf(file="results/figure1/figure1_index_chao1.pdf", width=8, height=6)
 print(plot.chao1)
 dev.off()
-pdf(file="figure_1/figure_1_index_shannon.pdf", width=8, height=6)
+pdf(file="results/figure1/figure_1_index_shannon.pdf", width=8, height=6)
 print(plot.shannon)-
 dev.off()

@@ -24,9 +24,9 @@ install.packages(pander)
 alpha diversity plots for shannon, chao1 and observed OTU
 
 **File:**
-- [figure1](results/figure1/figure_1_index_observed.pdf)
-- [figure1](results/figure1/figure_1_index_chao1.pdf)
-- [figure1](results/figure1/figure_1_index_shannon.pdf)
+- [figure1 (observed OTUs index)](results/figure1/figure_1_index_observed.pdf)
+- [figure1 (chao1 index)](results/figure1/figure_1_index_chao1.pdf)
+- [figure1 (Shannon index)](results/figure1/figure_1_index_shannon.pdf)
 
 **Reproduce:**
 
