@@ -85,7 +85,7 @@ source('figure1.R') # P values are written to stdout
 
 ## Figure 2
 **Description:** 
-Applied filtering: removeRelAb() with 0.01 (genera with rel. abundance < 1% are removed)
+Applied filtering: `removeRelAb()` with 0.01 (genera with rel. abundance < 1% are removed)
 
 **File:**
 - [figure2 (merged)](results/figure2/figure_2.pdf)
