@@ -40,7 +40,9 @@ biocLite("phyloseq")
 
 # Figures
 ## Figure 1
-**Description:** 
+**Description:**
+* Mean and SD of alpha diversity of gut microbiota composition by disease status (AIH: black; non-AIH hepatitic diseases; grey; healthy: green)*
+
 alpha diversity plots for shannon, chao1 and observed OTU
 others group: NASH, alkohol, others, ALD, HCV
 
@@ -104,6 +106,9 @@ source('figure1.R') # P values are written to stdout
 
 ## Figure 2
 **Description:** 
+*a) Average relative abundance othe most relevant phyla (?) in health, AIH and control asrevealed by the 16S rRNA gene ribotyping. b) Ternary plot of all OTUs detected in the data set with RA > x% in at least one sample. Each circle represents one OUT. The size of each circle represents its relative abundance (weighted average). The position of each circle is determined by the contribution of the indicated disease status to the total relative abundance. C) FDR adjusted P values of differently expressed bacterial classes between disese groups.*
+
+**Notes:**
 Applied filtering: `removeRelAb()` with 0.01 (genera with rel. abundance < 1% are removed)
 
 **File:**
@@ -125,7 +130,9 @@ source('figure2_c.R') # to reproduce data shown in figure 2 c
 
 ## Figure 3
 
-**Description:** 
+**Description:**
+*b Ternary plot of all OTUs classified to class level. Each circle represents the mean abundance of OTUs associated to one class. The size of each circle represents its relative abundance (weighted average). The position of each circle is determined by the contribution of the indicated disease status to the total relative abundance. c) Heatmap of RA abundance of OTUs pooled to species level and single linkage hierarchical clustering.  *
+
 
 **File:**
 - [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. control)](results/figure3/figure_3_c_aih_vs_control.csv)
@@ -139,6 +146,29 @@ source('figure2_c.R') # to reproduce data shown in figure 2 c
 source('figure3_b.R')
 ```
 
+## Figure 5
+
+**Description:**
+*Mean and SD of alpha diversity and hepatopathy status.  *
+
+**File:**
+
+**Reproduce:**
+
+```r
+```
+
+## Figure 6
+
+**Description:**
+*Correlation between alpha diversity and abundance of indicated marker.*
+
+**File:**
+
+**Reproduce:**
+
+```r
+```
 
 # citation
 
