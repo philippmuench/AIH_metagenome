@@ -1,4 +1,4 @@
-# code to reproduce Münch _et al._ manuscript
+# code and data to reproduce Münch _et al._ manuscript
 
 Specific alterations of the intestinal microbiome in autoimmune hepatitis show partially liver disease-specific patterns being also related to the extent of liver parenchymatous tissue remodeling
 
