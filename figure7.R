@@ -61,15 +61,24 @@ p <- p + theme_bw() + geom_hline(yintercept = 0,linetype = 3)
 p <- p + geom_vline(xintercept = 0,linetype = 3)
 
 
+p <- p + theme(legend.position="none") + coord_equal()
+pdf("results/figure7/figure_7_print.pdf", width=6, height=4)
+p
+dev.off()
+
+
+
 pdf("results/figure7/figure_7.pdf", width=6, height=4)
 p
 dev.off()
 
+
+
+
+
 # add label
 p <- p + geom_label(size = 2, aes(fill = mapping.types.ordered), colour = "white", fontface = "bold")
-
 pdf("results/figure7/figure_7_label.pdf", width=6, height=4)
 p
 dev.off()
-
 

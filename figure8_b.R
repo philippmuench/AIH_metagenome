@@ -90,6 +90,13 @@ g <- g + theme(plot.title = element_text(size = 8),
                axis.title.y = element_text(size = 8))
 g
 
+
+g <- g + theme(legend.position="none") + coord_equal()
+pdf("results/figure8/figure_8_b_print.pdf", width=6, height=4)
+g
+dev.off()
+
+g <- g + theme(legend.position="right") + coord_equal()
 pdf("results/figure8/figure_8_constrained_by_liver.pdf", width=6, height=4)
 g
 dev.off()

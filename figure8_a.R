@@ -88,6 +88,16 @@ g <- g + theme(plot.title = element_text(size = 8),
 #g <- g + geom_label(size = 2, aes(fill = type.names), colour = "white", fontface = "bold")
 g
 
+
+
+
+g <- g + theme(legend.position="none") + coord_equal()
+pdf("results/figure8/figure_8_a_print.pdf", width=6, height=4)
+g
+dev.off()
+
+
+
 pdf("results/figure8/figure_8_constrained_by_cohort.pdf", width=6, height=4)
 g
 dev.off()
