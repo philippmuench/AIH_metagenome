@@ -31,10 +31,10 @@ pcoaProp <- function(obj){
 }
 
 # draw pcoa using ggplot
-drawPcoa <- function(obs.pcoa, df, sample.names=sample.type, colorvalues=colorvalues)
+drawPcoa <- function(obs.pcoa, df, sample.names=sample.type, colorvalues=colorvalues, label=F)
 {
   p <- ggplot(df, aes(x=MDS1,y=MDS2))
-  p <- p + geom_point(aes(size=4, alpha=0.8, colour= sample.names)) # draw points
+  p <- p + geom_point(aes(size=4, alpha=0.8, colour= sample.names, label =sample.names)) # draw points
   #  if (ellipse){
   #   p <- p + geom_segment(aes(x=x.centroid, y=y.centroid, xend=x, yend=y), color="grey80")
   #  p <- p + geom_path(data=conf.rgn) + theme_bw() + geom_hline(yintercept=0,linetype=3)
@@ -54,6 +54,9 @@ drawPcoa <- function(obs.pcoa, df, sample.names=sample.type, colorvalues=colorva
   p <- p + scale_color_manual(values = colorvalues)
   p <- p + theme_bw() + geom_hline(yintercept = 0,linetype = 3)
   p <- p + geom_vline(xintercept = 0,linetype = 3)
+  if (label){
+    p <- p + geom_label(size = 2, aes(fill = type.names), colour = "white", fontface = "bold")
+  }
   return(p)
 }
 

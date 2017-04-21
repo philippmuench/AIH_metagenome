@@ -71,7 +71,7 @@ colorvalues <- c("green", "red", "blue")
 
 # plot
 g <- ggplot(df, aes(x=as.numeric(as.matrix(CAP1)),
-                    y=as.numeric(as.matrix(CAP2))), color=type.names)
+                    y=as.numeric(as.matrix(CAP2)), label=sample), color=type.names)
 g <- g + geom_point(size= 4, alpha = 0.8, aes(color= type.names))
 g <- g + scale_color_manual(values = colorvalues)
 g <- g + theme_bw() + geom_hline(yintercept = 0,linetype = 3)
@@ -85,9 +85,15 @@ g <- g + ylab(paste("Constrained PCoA 2 (", format(cap.var[2]*100, digits=4), " 
 g <- g + theme(plot.title = element_text(size = 8),
                axis.title.x = element_text(size = 8),
                axis.title.y = element_text(size = 8))
+#g <- g + geom_label(size = 2, aes(fill = type.names), colour = "white", fontface = "bold")
 g
 
-
 pdf("results/figure8/figure_8_constrained_by_cohort.pdf", width=6, height=4)
+g
+dev.off()
+
+# add label
+g <- g + geom_label(size = 2, aes(fill = type.names), colour = "white", fontface = "bold")
+pdf("results/figure8/figure_8_constrained_by_cohort_label.pdf", width=6, height=4)
 g
 dev.off()
