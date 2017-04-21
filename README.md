@@ -286,13 +286,9 @@ source('figure7.R')
 **Reproduce:**
 
 ```r
-source('figure8
-_a.R') # by cohort
-source('figure8
-_b.R') # by hepatopathy status
+source('figure8_a.R') # by cohort
+source('figure8_b.R') # by hepatopathy status
 ```
-
-
 
 # citation
 
