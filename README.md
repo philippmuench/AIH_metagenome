@@ -264,6 +264,7 @@ source('figure6.R')
 **File:**
 
 - [figure 7](results/figure7/figure_7.pdf)
+- [figure 7 (with label)(results/figure7/figure_7_label.pdf)
 
 **Reproduce:**
 
@@ -280,7 +281,9 @@ source('figure7.R')
 **File:**
 
 - [figure 8a (by cohort)](results/figure8/figure_8_constrained_by_cohort.pdf)
-- [figure 8b (by hepathopathy status)](results/figure8/figure_8_constrained_by_hep.pdf)
+- [figure 8a (by cohort with label)](results/figure8/figure_8_constrained_by_cohort_label.pdf)
+- [figure 8b (by hepathopathy status)](results/figure8/figure_8_constrained_by_liver.pdf)
+- [figure 8b (by hepathopathy status with label)](results/figure8/figure_8_constrained_by_liver_label.pdf)
 
 
 **Reproduce:**
