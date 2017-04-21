@@ -9,6 +9,8 @@ Specific alterations of the intestinal microbiome in autoimmune hepatitis show p
 [Figure 3 (genus level)](#figure-3)  
 [Figure 5 (alpha diveristy with hep)](#figure-5)  
 [Figure 6 (marker correlation)](#figure-6)  
+[Figure 7 (PCoA)](#figure-7)  
+[Figure 8 (constrained PCoA by cohort and hepathopathy status)](#figure-8)  
 [Citation](#citation)
 
 # Usage
@@ -251,8 +253,46 @@ observed OTU index
 
 ```r
 source('figure6.R')
-
 ```
+
+## Figure 7
+
+**Description:**
+
+> Figure 7: PCoA
+
+**File:**
+
+- [figure 7](results/figure7/figure_7.pdf)
+
+**Reproduce:**
+
+```r
+source('figure7.R')
+```
+
+## Figure 8
+
+**Description:**
+
+> Figure 8: Constrained principle coordinate analysis 
+
+**File:**
+
+- [figure 8a (by chohoert)](results/figure8/figure_8_constrained_by_cohort.pdf)
+- [figure 8b (by hepathopathy status)](results/figure8/figure_8_constrained_by_hep.pdf)
+
+
+**Reproduce:**
+
+```r
+source('figure8
+_a.R') # by cohort
+source('figure8
+_b.R') # by hepatopathy status
+```
+
+
 
 # citation
 
