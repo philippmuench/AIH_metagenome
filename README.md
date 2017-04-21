@@ -279,7 +279,7 @@ source('figure7.R')
 
 **File:**
 
-- [figure 8a (by chohoert)](results/figure8/figure_8_constrained_by_cohort.pdf)
+- [figure 8a (by cohort)](results/figure8/figure_8_constrained_by_cohort.pdf)
 - [figure 8b (by hepathopathy status)](results/figure8/figure_8_constrained_by_hep.pdf)
 
 
