@@ -172,11 +172,11 @@ write.table(aih_sig, file="results/figure2/aih_db.csv", sep='\t')
 pie(table(as.character(as.matrix(aih_sig$class))))
 
 # control
-control_sig$logFC <- fit.top.aih[match(control_sig$rownames.data., rownames(fit.top.aih)),]$logFC
-control_sig$AveExpr <- fit.top.aih[match(control_sig$rownames.data., rownames(fit.top.aih)),]$AveExpr
-control_sig$t <- fit.top.aih[match(control_sig$rownames.data., rownames(fit.top.aih)),]$t
-control_sig$P.Value <- fit.top.aih[match(control_sig$rownames.data., rownames(fit.top.aih)),]$P.Value
-control_sig$adj.P.Val <- fit.top.aih[match(control_sig$rownames.data., rownames(fit.top.aih)),]$adj.P.Val
+control_sig$logFC <- fit.top.aih[match(control_sig$rownames.data., rownames(fit.top.control)),]$logFC
+control_sig$AveExpr <- fit.top.aih[match(control_sig$rownames.data., rownames(fit.top.control)),]$AveExpr
+control_sig$t <- fit.top.aih[match(control_sig$rownames.data., rownames(fit.top.control)),]$t
+control_sig$P.Value <- fit.top.aih[match(control_sig$rownames.data., rownames(fit.top.control)),]$P.Value
+control_sig$adj.P.Val <- fit.top.aih[match(control_sig$rownames.data., rownames(fit.top.control)),]$adj.P.Val
 
 control_sig$species <- annot[match(control_sig$rownames.data., annot$OTU),]$X7
 control_sig$genus <- annot[match(control_sig$rownames.data., annot$OTU),]$X6
@@ -188,11 +188,11 @@ pie(table(as.character(as.matrix(control_sig$class))))
 write.table(control_sig, file="results/figure2/control_db.csv", sep='\t')
 
 # healthy
-healthy_sig$logFC <- fit.top.aih[match(healthy_sig$rownames.data., rownames(fit.top.aih)),]$logFC
-healthy_sig$AveExpr <- fit.top.aih[match(healthy_sig$rownames.data., rownames(fit.top.aih)),]$AveExpr
-healthy_sig$t <- fit.top.aih[match(healthy_sig$rownames.data., rownames(fit.top.aih)),]$t
-healthy_sig$P.Value <- fit.top.aih[match(healthy_sig$rownames.data., rownames(fit.top.aih)),]$P.Value
-healthy_sig$adj.P.Val <- fit.top.aih[match(healthy_sig$rownames.data., rownames(fit.top.aih)),]$adj.P.Val
+healthy_sig$logFC <- fit.top.aih[match(healthy_sig$rownames.data., rownames(fit.top.healthy)),]$logFC
+healthy_sig$AveExpr <- fit.top.aih[match(healthy_sig$rownames.data., rownames(fit.top.healthy)),]$AveExpr
+healthy_sig$t <- fit.top.aih[match(healthy_sig$rownames.data., rownames(fit.top.healthy)),]$t
+healthy_sig$P.Value <- fit.top.aih[match(healthy_sig$rownames.data., rownames(fit.top.healthy)),]$P.Value
+healthy_sig$adj.P.Val <- fit.top.aih[match(healthy_sig$rownames.data., rownames(fit.top.healthy)),]$adj.P.Val
 
 healthy_sig$species <- annot[match(healthy_sig$rownames.data., annot$OTU),]$X7
 healthy_sig$genus <- annot[match(healthy_sig$rownames.data., annot$OTU),]$X6
