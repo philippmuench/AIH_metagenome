@@ -28,6 +28,9 @@ raw.data <- removeRelAb(raw.data, 0.01)
 # transform data for barchart
 raw.data.t <- t(raw.data)
 
+raw.data.df <- as.data.frame(raw.data.t)
+write.table(raw.data.df, file="results/figure3/dataset1.csv", sep=';')
+
 # process tax ID
 df <- processTaxaID(raw.data.t)
 
