@@ -42,7 +42,6 @@ data <- as.data.frame(returnAppropriateObj(otu.biom, TRUE, FALSE))
 
 data <- as.data.frame(scale(data, center=FALSE, scale=colSums(data)))
 
-
 bool_data <- data > 0.01
 abundance_threshold <- apply(bool_data, 1, any)
 
@@ -113,6 +112,8 @@ df_aih_healthy_control <- data[, aih_healthy_control]
 #fit.top_healthy_control$star <- add.significance.stars(fit.top_healthy_control$adj.P.Val)
 
 # aih 
+
+
 fit <- lmFit(df_aih_healthy_control, design=as.matrix(aih_design))
 fit2 <- eBayes(fit)
 fit.top.aih <- topTable(fit2, number=Inf, adjust.method="fdr")
@@ -135,6 +136,7 @@ fit.top.control$star <- add.significance.stars(fit.top.control$adj.P.Val)
 
 require(ggplot2)
 require(ggtern)
+df_zig <- df
 df$average <- rowMeans(cbind(df$healthy,df$control,df$AIH))
 df$color <- "normal"
 
@@ -151,10 +153,12 @@ control_sig <- df[control_ones,]
 healthy_sig <- df[healthy_ones,]
 
 
+
+
 annot <- as.data.frame(fData(otu.biom))
 annot$OTU <- rownames(annot)
 
-
+#annotate fit table
 ## AIH
 aih_sig$logFC <- fit.top.aih[match(aih_sig$rownames.data., rownames(fit.top.aih)),]$logFC
 aih_sig$AveExpr <- fit.top.aih[match(aih_sig$rownames.data., rownames(fit.top.aih)),]$AveExpr
@@ -203,12 +207,16 @@ healthy_sig$phylum <- annot[match(healthy_sig$rownames.data., annot$OTU),]$X2
 pie(table(as.character(as.matrix(healthy_sig$class))))
 write.table(healthy_sig, file="results/figure2/healthy_db.csv", sep='\t')
 
+df_clean <- df[which(df$color != "normal"),]
 
 
-c <- ggtern(df,aes(x=healthy, y=control, z= AIH, color=color))
+c <- ggtern(df_clean,aes(x=healthy, y=control, z= AIH, color=color))
 c <- c + geom_point(aes(size = average), alpha=1) # add point AIH
 
 c <- c + guides(size = FALSE) + theme_classic() # theme stuff   guides(colour=FALSE)
 c <- c + theme(legend.key = element_blank(),
                strip.background = element_rect(colour="white", fill="#FFFFFF") )
+c
+
+
 

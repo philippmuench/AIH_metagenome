@@ -38,8 +38,8 @@ otu.biom <- removeSamplefromBiom(otu.biom, "FAP")
 # normalize otu table based on quantile estimate
 otu.biom <- normalizeBiomTable(otu.biom)
 
-familyData.raw  <- aggTax(otu.biom, lvl = "X7", out = "MRexperiment", log=FALSE, norm=T)
-mat.familyData.raw  <- aggTax(otu.biom, lvl = "X7", out = "matrix", log=FALSE, norm=T)
+familyData.raw  <- aggTax(otu.biom, lvl = "X3", out = "MRexperiment", log=FALSE, norm=T)
+mat.familyData.raw  <- aggTax(otu.biom, lvl = "X3", out = "matrix", log=FALSE, norm=T)
 
 mat.raw <- as.data.frame(mat.familyData.raw)
 
@@ -81,8 +81,8 @@ df_sd <- data.frame(rownames(data),
 df_mean <- df
 df2 <- df
 df2$rownames.data. <- NULL
-df <- df[which(rowSums(df2) > 0.1),]
-df_sd <- df_sd[which(rowSums(df2) > 0.1),]
+df <- df[which(rowSums(df2) > 0.01),]
+df_sd <- df_sd[which(rowSums(df2) > 0.01),]
 
 df_sd <- df_sd[which(rownames(df) != "f__"),]
 df <- df[which(rownames(df) != "f__"),]

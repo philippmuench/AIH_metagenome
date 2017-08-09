@@ -52,3 +52,6 @@ tri <- triplotTaxaClass(df, "results/figure2/figure_2_triplot.pdf", label=F, jCo
 pdf("results/figure2/figure_2.pdf", width=12, height=10)
 print(grid.arrange(bar,  arrangeGrob(tri, dif),ncol=2))
 dev.off()
+
+
+

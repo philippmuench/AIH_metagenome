@@ -28,3 +28,4 @@ dev.off()
 pdf(file="results/figure1/figure_1_index_shannon.pdf", width=3, height=2)
 print(plot.shannon)
 dev.off()
+

@@ -43,7 +43,7 @@ familyData.raw  <- aggTax(otu.biom, lvl = "X6", out = "MRexperiment", log=FALSE)
 mat.familyData.raw  <- aggTax(otu.biom, lvl = "X6", out = "matrix", log=FALSE)
 # get the values for plotting
 mat.raw <- as.data.frame(mat.familyData.raw)
-mat.raw <- mat.raw/colSums(mat.raw)
+mat.raw <-as.data.frame(scale(mat.raw, center=FALSE, scale=colSums(mat.raw)))
 mat.t.raw <- as.data.frame(t(mat.raw))
 #as.data.frame(t(returnAppropriateObj(biom, norm=FALSE, log=TRUE)))
 #colnames(mat) <- fData(biom)$V2
@@ -71,7 +71,7 @@ fit <- lmFit(t(mat.aih.healthy), design=as.matrix(design.aih.healthy))
 fit2 <- eBayes(fit)
 fit.top <- topTable(fit2, number=Inf, adjust.method="fdr")
 fit.top$star <- add.significance.stars(fit.top$adj.P.Val)
-write.table(fit.top, file="results/figure3/figure3_a_zig_aih_vs_helathy_new.tsv", sep="\t", quote=F)
+write.table(fit.top, file="results/figure3/figure3_genus_aih_vs_helathy_new.tsv", sep="\t", quote=F)
 
 # statistics aih vs. control
 mat.aih.control <- mat[which(pData(familyData)$Treatment=="AIH" | pData(familyData)$Treatment != "control"),]
@@ -81,7 +81,7 @@ fit <- lmFit(t(mat.aih.control), design=as.matrix(design.aih.control))
 fit2 <- eBayes(fit)
 fit.top <- topTable(fit2, number=Inf, adjust.method="fdr")
 fit.top$star <- add.significance.stars(fit.top$adj.P.Val)
-write.table(fit.top, file="results/figure3/figure3_a_zig_aih_vs_control_new.tsv", sep="\t", quote=F)
+write.table(fit.top, file="results/figure3/figure3_genus_aih_vs_control_new.tsv", sep="\t", quote=F)
 
 # statistics healthy vs. control
 mat.healthy.control <- mat[which(pData(familyData)$Treatment=="control" | pData(familyData)$Treatment != "AIH"),]
@@ -91,7 +91,7 @@ fit <- lmFit(t(mat.healthy.control), design=as.matrix(design.healthy.control))
 fit2 <- eBayes(fit)
 fit.top <- topTable(fit2, number=Inf, adjust.method="fdr")
 fit.top$star <- add.significance.stars(fit.top$adj.P.Val)
-write.table(fit.top, file="results/figure3/figure3_a_zig_healthy_vs_control_new.tsv", sep="\t", quote=F)
+write.table(fit.top, file="results/figure3/figure3_genus_healthy_vs_control_new.tsv", sep="\t", quote=F)
 
 mat.raw[which(mat.raw$type=="control"),]$type <- "healthy"
 mat.raw[which(mat.raw$type!="healthy" & mat.raw$type !="AIH"),]$type <- "control"
