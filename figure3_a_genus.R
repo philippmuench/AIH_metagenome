@@ -62,36 +62,57 @@ mat.t <- as.data.frame(t(mat))
 #colnames(mat) <- fData(biom)$V2
 mat.t$type <- pData(familyData)$Treatment
 
+
+
+
 mat <- mat.t
 # statistics aih vs. healthy
 mat.aih.healthy <- mat[which(pData(familyData)$Treatment=="AIH" | pData(familyData)$Treatment == "control"),]
+groups <- mat.aih.healthy$type
 design.aih.healthy <- (mat.aih.healthy$type=="AIH")*1
 mat.aih.healthy <- mat.aih.healthy[,-ncol(mat.aih.healthy)]
-fit <- lmFit(t(mat.aih.healthy), design=as.matrix(design.aih.healthy))
+overthres <- which(colSums(mat.aih.healthy[,-ncol(mat.aih.healthy)]) > 0.1)
+mat.aih.healthy <- mat.aih.healthy[,overthres]
+groups<-as.factor(design.aih.healthy)
+design<-model.matrix(~groups)
+mat.aih.healthy<-log2(mat.aih.healthy)
+fit <- lmFit(t(mat.aih.healthy), design=design)
 fit2 <- eBayes(fit)
 fit.top <- topTable(fit2, number=Inf, adjust.method="fdr")
 fit.top$star <- add.significance.stars(fit.top$adj.P.Val)
-write.table(fit.top, file="results/figure3/figure3_genus_aih_vs_helathy_new.tsv", sep="\t", quote=F)
+write.table(fit.top, file="results/figure3/figure3_genus_aih_vs_helathy_new2.tsv", sep="\t", quote=F)
 
 # statistics aih vs. control
 mat.aih.control <- mat[which(pData(familyData)$Treatment=="AIH" | pData(familyData)$Treatment != "control"),]
+groups <- mat.aih.control$type
 design.aih.control <- (mat.aih.control$type=="AIH")*1
 mat.aih.control <- mat.aih.control[,-ncol(mat.aih.control)]
-fit <- lmFit(t(mat.aih.control), design=as.matrix(design.aih.control))
+overthres <- which(colSums(mat.aih.control[,-ncol(mat.aih.control)]) > 0.1)
+mat.aih.control <- mat.aih.control[,overthres]
+groups<-as.factor(design.aih.control)
+design<-model.matrix(~groups)
+mat.aih.control<-log2(mat.aih.control)
+fit <- lmFit(t(mat.aih.control), design=design)
 fit2 <- eBayes(fit)
 fit.top <- topTable(fit2, number=Inf, adjust.method="fdr")
 fit.top$star <- add.significance.stars(fit.top$adj.P.Val)
-write.table(fit.top, file="results/figure3/figure3_genus_aih_vs_control_new.tsv", sep="\t", quote=F)
+write.table(fit.top, file="results/figure3/figure3_genus_aih_vs_control_new2.tsv", sep="\t", quote=F)
 
 # statistics healthy vs. control
 mat.healthy.control <- mat[which(pData(familyData)$Treatment=="control" | pData(familyData)$Treatment != "AIH"),]
+groups <- mat.healthy.control$type
 design.healthy.control <- (mat.healthy.control$type=="control")*1
 mat.healthy.control <- mat.healthy.control[,-ncol(mat.healthy.control)]
-fit <- lmFit(t(mat.healthy.control), design=as.matrix(design.healthy.control))
+overthres <- which(colSums(mat.healthy.control[,-ncol(mat.healthy.control)]) > 0.1)
+mat.healthy.control <- mat.healthy.control[,overthres]
+groups<-as.factor(design.healthy.control)
+design<-model.matrix(~groups)
+mat.healthy.control<-log2(mat.healthy.control)
+fit <- lmFit(t(mat.healthy.control), design=design)
 fit2 <- eBayes(fit)
 fit.top <- topTable(fit2, number=Inf, adjust.method="fdr")
 fit.top$star <- add.significance.stars(fit.top$adj.P.Val)
-write.table(fit.top, file="results/figure3/figure3_genus_healthy_vs_control_new.tsv", sep="\t", quote=F)
+write.table(fit.top, file="results/figure3/figure3_genus_healthy_vs_control_new2.tsv", sep="\t", quote=F)
 
 mat.raw[which(mat.raw$type=="control"),]$type <- "healthy"
 mat.raw[which(mat.raw$type!="healthy" & mat.raw$type !="AIH"),]$type <- "control"

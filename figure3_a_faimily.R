@@ -67,7 +67,10 @@ mat <- mat.t
 mat.aih.healthy <- mat[which(pData(familyData)$Treatment=="AIH" | pData(familyData)$Treatment == "control"),]
 design.aih.healthy <- (mat.aih.healthy$type=="AIH")*1
 mat.aih.healthy <- mat.aih.healthy[,-ncol(mat.aih.healthy)]
-fit <- lmFit(t(mat.aih.healthy), design=as.matrix(design.aih.healthy))
+mat.aih.healthy<-log2(mat.aih.healthy)
+groups<-as.factor(design.aih.healthy)
+design<-model.matrix(~groups)
+fit <- lmFit(t(mat.aih.healthy), design=design)
 fit2 <- eBayes(fit)
 fit.top <- topTable(fit2, number=Inf, adjust.method="fdr")
 fit.top$star <- add.significance.stars(fit.top$adj.P.Val)
@@ -77,7 +80,10 @@ write.table(fit.top, file="results/figure3/figure3_family_aih_vs_helathy_new.tsv
 mat.aih.control <- mat[which(pData(familyData)$Treatment=="AIH" | pData(familyData)$Treatment != "control"),]
 design.aih.control <- (mat.aih.control$type=="AIH")*1
 mat.aih.control <- mat.aih.control[,-ncol(mat.aih.control)]
-fit <- lmFit(t(mat.aih.control), design=as.matrix(design.aih.control))
+mat.aih.control<-log2(mat.aih.control)
+groups<-as.factor(design.aih.control)
+design<-model.matrix(~groups)
+fit <- lmFit(t(mat.aih.control), design=design)
 fit2 <- eBayes(fit)
 fit.top <- topTable(fit2, number=Inf, adjust.method="fdr")
 fit.top$star <- add.significance.stars(fit.top$adj.P.Val)
@@ -87,7 +93,10 @@ write.table(fit.top, file="results/figure3/figure3_family_aih_vs_control_new.tsv
 mat.healthy.control <- mat[which(pData(familyData)$Treatment=="control" | pData(familyData)$Treatment != "AIH"),]
 design.healthy.control <- (mat.healthy.control$type=="control")*1
 mat.healthy.control <- mat.healthy.control[,-ncol(mat.healthy.control)]
-fit <- lmFit(t(mat.healthy.control), design=as.matrix(design.healthy.control))
+mat.healthy.control<-log2(mat.healthy.control)
+groups<-as.factor(design.healthy.control)
+design<-model.matrix(~groups)
+fit <- lmFit(t(mat.healthy.control), design=design)
 fit2 <- eBayes(fit)
 fit.top <- topTable(fit2, number=Inf, adjust.method="fdr")
 fit.top$star <- add.significance.stars(fit.top$adj.P.Val)
