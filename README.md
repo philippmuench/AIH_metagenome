@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-# code and data to reproduce AIH manuscript
->>>>>>> 2222d18b5eead456f89c55b445b54db353751439
-
 # AIH analysis
 
 ## notes
