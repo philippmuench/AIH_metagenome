@@ -182,7 +182,6 @@ which was modified manually to create part c of  `ms/version_september_17/figure
 
 ![alt text](ms/version_september_17/figure5.png)
 
-
 - [figure 5, no groups](results/figure5/figure_5_no_cat.pdf)
 - [figure 5, dataset](results/figure5/data.csv)
 
@@ -217,6 +216,8 @@ mit_zirrhose-mit_fibrose                      -72.37988 -311.7586 166.99883 0.85
 
 
 ### correlation of alpha diversity with markers
+
+![alt text](ms/version_september_17/figure6.png)
 
 - [figure 6](results/figure6/figure_6.pdf)
 - [figure 6 (with mean line)](results/figure6/figure_6_all.pdf)
