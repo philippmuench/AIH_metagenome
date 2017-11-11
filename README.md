@@ -62,8 +62,6 @@ script generates
 
 which was modified manually to create part a of  `ms/version_september_17/figure2.pdf`
 
-
-
 ## figure 2b
 
 PCOA contrained by cohort
@@ -78,6 +76,20 @@ script generates
 
 which was modified manually to create part b of  `ms/version_september_17/figure2.pdf`
 
+## figure 2c
+
+PCOA contrained by cohort
+
+```
+soource('figure_2c.R')
+```
+
+script generates
+- `results/figure_2b_constrained_by_liver_print.pdf`
+- `results/figure_2b_constrained_by_liver.pdf`
+- `results/figure_2b_constrained_by_liver_label.pdf`
+
+which was modified manually to create part c of  `ms/version_september_17/figure2.pdf`
 
 ## figure 3
 
