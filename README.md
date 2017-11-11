@@ -63,6 +63,22 @@ script generates
 which was modified manually to create part a of  `ms/version_september_17/figure2.pdf`
 
 
+
+## figure 2b
+
+PCOA contrained by cohort
+
+```
+soource('figure_2b.R')
+```
+
+script generates
+- `results/figure_2b_constrained_by_cohort_print.pdf`
+- `results/figure_2b_constrained_by_cohort_label.pdf`
+
+which was modified manually to create part b of  `ms/version_september_17/figure2.pdf`
+
+
 ## figure 3
 
 analysis on OTU level
