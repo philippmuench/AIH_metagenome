@@ -93,7 +93,6 @@ pdf("results/figure_2b_constrained_by_cohort_print.pdf", width=6, height=4)
 g
 dev.off()
 
-
 # add label
 g <- g + geom_label(size = 2, aes(fill = type.names), colour = "white", fontface = "bold")
 pdf("results/figure_2b_constrained_by_cohort_label.pdf", width=6, height=4)

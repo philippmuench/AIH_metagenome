@@ -4,6 +4,10 @@
 
 code depends on `metagenomeSeq` and other libraries that must be installed via either Bioconductor or CRAN. Some libraries that were used in this analysis were removed from CRAN e.g. ('biom'). You may need install these libraries (e.g. using `devtools::install_github`) manually to run these scripts.
 
+## data
+
+data which will be used by the scripts is located in the `data/` folder
+
 ## figure 1a
 
 alpha diversity
@@ -189,7 +193,171 @@ script generates
 
 which was modified manually to create part c of  `ms/version_september_17/figure_s3.pdf`
 
-## additional analysis
+## unsorted analysis
+
+### correlation of alpha diversity with hep. status
 
 - [figure 5, no groups](results/figure5/figure_5_no_cat.pdf)
 - [figure 5, dataset](results/figure5/data.csv)
+
+### correlation of alpha diversity with markers
+
+- [figure 6](results/figure6/figure_6.pdf)
+- [figure 6](results/figure6/figure_6_all.pdf)
+
+correlation coefficients will be printed to screen
+
+shannon
+
+```
+> printCorrelationCoef(chao1)
+control
+
+	Pearson's product-moment correlation
+
+data:  df.adiv[which(df.adiv$type == "others"), ]$adiv and df.adiv[which(df.adiv$type == "others"), ]$ifap
+t = -1.2159, df = 19, p-value = 0.2389
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.6275839  0.1843826
+sample estimates:
+       cor 
+-0.2686908 
+
+
+	Pearson's product-moment correlation
+
+data:  df.adiv[which(df.adiv$type == "others"), ]$adiv and df.adiv[which(df.adiv$type == "others"), ]$lbp
+t = 0.47462, df = 19, p-value = 0.6405
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.3392953  0.5158291
+sample estimates:
+      cor 
+0.1082462 
+
+
+	Pearson's product-moment correlation
+
+data:  df.adiv[which(df.adiv$type == "others"), ]$adiv and df.adiv[which(df.adiv$type == "others"), ]$sCD14
+t = -0.96352, df = 19, p-value = 0.3474
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.5923340  0.2380273
+sample estimates:
+       cor 
+-0.2158375 
+
+healthy
+
+	Pearson's product-moment correlation
+
+data:  df.adiv[which(df.adiv$type == "control"), ]$adiv and df.adiv[which(df.adiv$type == "control"), ]$ifap
+t = -0.21226, df = 10, p-value = 0.8362
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.6171537  0.5271918
+sample estimates:
+        cor 
+-0.06697288 
+
+
+	Pearson's product-moment correlation
+
+data:  df.adiv[which(df.adiv$type == "control"), ]$adiv and df.adiv[which(df.adiv$type == "control"), ]$lbp
+t = -0.72758, df = 10, p-value = 0.4836
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.7071303  0.4013207
+sample estimates:
+       cor 
+-0.2242239 
+
+
+	Pearson's product-moment correlation
+
+data:  df.adiv[which(df.adiv$type == "control"), ]$adiv and df.adiv[which(df.adiv$type == "control"), ]$sCD14
+t = -0.14956, df = 9, p-value = 0.8844
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.6308246  0.5670197
+sample estimates:
+        cor 
+-0.04979144 
+
+AIH
+
+	Pearson's product-moment correlation
+
+data:  df.adiv[which(df.adiv$type == "AIH"), ]$adiv and df.adiv[which(df.adiv$type == "AIH"), ]$ifap
+t = 0.58046, df = 14, p-value = 0.5708
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.3705645  0.6031700
+sample estimates:
+      cor 
+0.1533008 
+
+
+	Pearson's product-moment correlation
+
+data:  df.adiv[which(df.adiv$type == "AIH"), ]$adiv and df.adiv[which(df.adiv$type == "AIH"), ]$lbp
+t = 0.70243, df = 14, p-value = 0.4939
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.3425250  0.6232134
+sample estimates:
+      cor 
+0.1845082 
+
+
+	Pearson's product-moment correlation
+
+data:  df.adiv[which(df.adiv$type == "AIH"), ]$adiv and df.adiv[which(df.adiv$type == "AIH"), ]$sCD14
+t = -2.4767, df = 14, p-value = 0.02664
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.82259702 -0.07744908
+sample estimates:
+       cor 
+-0.5519635 
+
+all
+
+	Pearson's product-moment correlation
+
+data:  df.adiv[which(df.adiv$type == "AIH" | df.adiv$type == "control" |  and df.adiv[which(df.adiv$type == "AIH" | df.adiv$type == "control" |     df.adiv$type == "others"), ]$adiv and     df.adiv$type == "others"), ]$ifap
+t = -2.2723, df = 47, p-value = 0.02769
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.54738273 -0.03665839
+sample estimates:
+       cor 
+-0.3146119 
+
+
+	Pearson's product-moment correlation
+
+data:  df.adiv[which(df.adiv$type == "AIH" | df.adiv$type == "control" |  and df.adiv[which(df.adiv$type == "AIH" | df.adiv$type == "control" |     df.adiv$type == "others"), ]$adiv and     df.adiv$type == "others"), ]$lbp
+t = -0.54859, df = 47, p-value = 0.5859
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.3530432  0.2060530
+sample estimates:
+        cor 
+-0.07976532 
+
+
+	Pearson's product-moment correlation
+
+data:  df.adiv[which(df.adiv$type == "AIH" | df.adiv$type == "control" |  and df.adiv[which(df.adiv$type == "AIH" | df.adiv$type == "control" |     df.adiv$type == "others"), ]$adiv and     df.adiv$type == "others"), ]$sCD14
+t = -3.8275, df = 46, p-value = 0.0003892
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.6805680 -0.2409882
+sample estimates:
+       cor 
+-0.4914704 
+
+```
+
