@@ -47,6 +47,22 @@ others-control -0.5923725 -1.463349 0.27860441 0.2384276
 
 which was modified manually to create part c of  `ms/version_september_17/figure1.pdf`
 
+
+## figure 2a
+
+PCOA
+
+```
+soource('figure_2a.R')
+```
+
+script generates
+- `results/figure_2a_print.pdf`
+- `results/figure_2a_label.pdf`
+
+which was modified manually to create part a of  `ms/version_september_17/figure2.pdf`
+
+
 ## figure 3
 
 analysis on OTU level
