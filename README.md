@@ -65,10 +65,6 @@ which was modified manually to create `ms/version_september_17/figure3.pdf`
 
 ## supplementary table 2
 
-- [figure 5](results/figure5/figure_5.pdf)
-- [figure 5, no groups](results/figure5/figure_5_no_cat.pdf)
-- [figure 5](results/figure5/data.csv)
-
 statistics on class level
 
 ```
@@ -148,3 +144,9 @@ script generates
 - `results/figure_s3.pdf`
 
 which was modified manually to create part c of  `ms/version_september_17/figure_s3.pdf`
+
+## additional analysis
+
+- [figure 5](results/figure5/figure_5.pdf)
+- [figure 5, no groups](results/figure5/figure_5_no_cat.pdf)
+- [figure 5](results/figure5/data.csv)
