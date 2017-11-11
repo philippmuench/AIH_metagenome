@@ -37,6 +37,15 @@ a <- a + theme_minimal() + theme(axis.text.x = element_text(angle = 90, hjust = 
 
 ggsave("results/figure5/figure_5.pdf", a)
 
+
+b <- ggplot(alpha.m, aes(reorder(marker, - value), value))
+b <- b + stat_summary(geom = 'errorbar', fun.data = 'seFunc', width = 0, show_guide = F)
+b <- b + stat_summary(geom = 'point', fun.y = 'mean', size = 3, shape = 21) + facet_wrap(~ variable, scale="free")
+b <- b + scale_fill_manual(values = c("black","#00c094ff", "grey50"),labels = c("AIH","healthy", "control"))
+b <- b + theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+ggsave("results/figure5/figure_5_no_cat.pdf", b)
+
 # perfrom anova and tukeyHSD
 amod <- aov(chao1 ~ marker, data=alpha)
 summary(amod)
