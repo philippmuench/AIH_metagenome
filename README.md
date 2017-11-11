@@ -121,7 +121,6 @@ which was modified manually to create part c of  `ms/version_september_17/figure
 
 ![alt text](ms/version_september_17/figure3.png)
 
-
 analysis on OTU level
 
 ```
@@ -448,6 +447,8 @@ which was modified manually to create `ms/version_september_17/Table_S4.xlsx`
 
 ## supplementary figure 1
 
+![alt text](ms/version_september_17/figure_s1.png)
+
 ```
 soource('figure_s1.R')
 ```
@@ -460,6 +461,8 @@ which was modified manually to create part c of  `ms/version_september_17/figure
 
 ## supplementary figure 2
 
+![alt text](ms/version_september_17/figure_s2.png)
+
 ```
 soource('figure_s2.R')
 ```
@@ -471,6 +474,8 @@ which was modified manually to create part c of  `ms/version_september_17/figure
 
 
 ## supplementary figure 3
+
+![alt text](ms/version_september_17/figure_s3.png)
 
 ```
 soource('figure_s3.R')
