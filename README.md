@@ -1,94 +1,39 @@
-# code and data to reproduce Münch _et al._ manuscript
 
-Specific alterations of the intestinal microbiome in autoimmune hepatitis show partially liver disease-specific patterns being also related to the extent of liver parenchymatous tissue remodeling
+# AIH analysis
 
-# Table of Contents  
-[Usage](#Usage)  
-[Figure 1 (alpha diversity)](#figure-1)  
-[Figure 2 (class level)](#figure-2)  
-[Figure 3 (genus level)](#figure-3)  
-[Figure 5 (alpha diveristy with hep)](#figure-5)  
-[Figure 6 (marker correlation)](#figure-6)  
-[Figure 7 (PCoA)](#figure-7)  
-[Figure 8 (constrained PCoA by cohort and hepathopathy status)](#figure-8)  
-[Citation](#citation)
+## notes
 
-# Usage
+code depends on `metagenomeSeq` and other libraries that must be installed via either Bioconductor or CRAN. Some libraries that were used in this analysis were removed from CRAN e.g. ('biom'). You may need install these libraries (e.g. using `devtools::install_github`) manually to run these scripts.
 
-clone this repo
+## figure 1a
+
+alpha diversity
 
 ```
-git clone https://github.com/philippmuench/AIH_new.git
-cd AIH_new
-```
-open R and install R packages please type these commands to your R console
-
-```r
-install.packages("reshape2")
-install.packages("ggplot2")
-install.packages("pander")
-install.packages("ggtern")
-install.packages("limma")
-install.packages("biom")
-install.packages("colorspace")
-install.packages("grid")
-install.packages("gridExtra")
-install.packages("ggrepel")
-source("https://bioconductor.org/biocLite.R")
-biocLite("metagenomeSeq")
-biocLite("phyloseq")
+soource('figure_1a.R')
 ```
 
-# Figures
-## Figure 1
-**Description:**
+script generates
+- `results/figure_1a_class.pdf`
 
-> Figure 1: Mean and SD of alpha diversity of gut microbiota composition by disease status (AIH: black; non-AIH hepatitic diseases; grey; healthy: green)
+which was modified manually (using pvalues from supplementary table 2) to create part a of  `ms/version_september_17/figure1.pdf`
 
-**Notes:**
 
-others group: NASH, alkohol, others, ALD, HCV
 
-**File:**
 
-- [figure 1 (observed OTUs index)](results/figure1/figure_1_index_observed.pdf)
-- [figure 1 (chao1 index)](results/figure1/figure_1_index_chao1.pdf)
-- [figure 1 (Shannon index)](results/figure1/figure_1_index_shannon.pdf)
+## figure 1c
 
-**Statistics:**
-
-- observed
+alpha diversity
 
 ```
-    Tukey multiple comparisons of means
-    95% family-wise confidence level
-
-Fit: aov(formula = value ~ type, data = df.adiv)
-
-$type
-                    diff        lwr        upr     p adj
-control-AIH     143.8322   17.93869  269.72579 0.0215012
-others-AIH     -131.6277 -252.41317  -10.84226 0.0296658
-others-control -275.4600 -390.48441 -160.43550 0.0000011
+soource('figure_1c.R')
 ```
 
-- chao1
-```
-    Tukey multiple comparisons of means
-    95% family-wise confidence level
+script generates
+- `results/figure_1c_chao1.pdf`
+- test statistics gets printed to screen:
 
-Fit: aov(formula = value ~ type, data = df.adiv)
-
-$type
-                    diff       lwr        upr     p adj
-control-AIH     188.6858   14.3814  362.99019 0.0309829
-others-AIH     -202.2373 -369.4693  -35.00522 0.0140803
-others-control -390.9231 -550.1788 -231.66734 0.0000007
 ```
-
-- shannon
-```
-  Using sample, type, type2 as id variables
   Tukey multiple comparisons of means
     95% family-wise confidence level
 
@@ -99,203 +44,108 @@ $type
 control-AIH    -0.2994906 -1.252769 0.65378825 0.7308472
 others-AIH     -0.8918631 -1.806463 0.02273673 0.0574292
 others-control -0.5923725 -1.463349 0.27860441 0.2384276
+
+
 ```
 
-**Reproduce:**
+which was modified manually to create part c of  `ms/version_september_17/figure1.pdf`
 
-```r
-source('figure1.R') # P values are written to stdout
-```
+## figure 3
 
-
-## Figure 2
-
-**Description:** 
-
-> Figure2: a) Average relative abundance othe most relevant phyla (?) in health, AIH and control asrevealed by the 16S rRNA gene ribotyping. b) Ternary plot of all OTUs detected in the data set with RA > 1% in at least one sample. Each circle represent one class. The size of each circle represents its relative abundance (weighted average) of the OTUs associated with this class. The position of each circle is determined by the contribution of the indicated disease status to the total relative abundance. c) FDR adjusted P values of differently expressed bacterial classes between disese groups.
-
-**Notes:**
-
-Applied filtering: `removeRelAb()` with 0.01 (genera with rel. abundance < 1% are removed)
-
-**File:**
-- [figure 2 (merged)](results/figure2/figure_2.pdf)
-- [figure 2a (bar plot)](results/figure2/figure_2_bar.pdf)
-- [figure 2b up (triplot)](results/figure2/figure_2_tri.pdf)
-- [figure 2b down (difference)](results/figure2/figure_2_diff.pdf)
-- [data to reproduce figure 2c (ZIG analysis on class level, AIH vs. control)](results/figure2/figure_2_c_aih_vs_control.csv)
-- [data to reproduce figure 2c (ZIG analysis on class level, AIH vs. healthy)](results/figure2/figure_2_c_aih_vs_healthy.csv)
-
-**Reproduce:**
-
-```r
-source('figure2.R') # to reproduce figure 2 a, b
-source('figure2_c.R') # to reproduce data shown in figure 2 c
-```
-
-## Figure 3
-
-**Description:**
-
-> Figure 3: b Ternary plot of all OTUs classified to class level. Each circle represents the mean abundance of OTUs associated to one class. The size of each circle represents its relative abundance (weighted average). The position of each circle is determined by the contribution of the indicated disease status to the total relative abundance. c) Heatmap of RA abundance of OTUs pooled to species level and single linkage hierarchical clustering.
-
-
-**Files:**
-
-- [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. control)](results/figure3/figure3_a_zig_aih_vs_control.tsv)
-- [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. healthy)](results/figure3/figure3_a_zig_aih_vs_helathy.tsv)
-- [data to reproduce figure 3a (ZIG analysis on genus level, AIH vs. healthy)](results/figure3/figure3_a_zig_healthy_vs_control.tsv)
-- [figure 3 b](results/figure3/figure_3_b.pdf)
-- [figure 3 c (heatmap)](results/figure3/figure_3_c_heatmap.pdf)
-- [figure 3 c (dendogram row)](results/figure3/figure_3_c_dendogram_row.pdf)
-- [figure 3 c (dendogram col)](results/figure3/figure_3_c_dendogram_col.pdf)
-
-**Reproduce:**
-
-```r
-source('figure3_a.R') # generate tables with ZIG analysis results
-source('figure3_b.R')
-source('figure3_c.R')
-```
-
-## Figure 5
-
-**Description:**
-
-> Figure 5: Mean and SD of alpha diversity and hepatopathy status.
-
-**File:**
-- [figure 5](results/figure5/figure_5.pdf)
-
-
-**Results:**
-```
-    Tukey multiple comparisons of means
-    95% family-wise confidence level
-
-Fit: aov(formula = chao1 ~ marker, data = alpha)
-
-$marker
-                                                   diff        lwr        upr     p adj
-hepatop_ohne_veraenderung-                    676.72081   20.24452 1333.19711 0.0402698
-keine_hepatopathie-                           872.74112  249.17307 1496.30916 0.0020684
-mit_fibrose-                                  608.94853  -25.85588 1243.75294 0.0659437
-mit_zirrhose-                                 536.56865  -85.51294 1158.65024 0.1217344
-keine_hepatopathie-hepatop_ohne_veraenderung  196.02030  -88.59827  480.63887 0.3070441
-mit_fibrose-hepatop_ohne_veraenderung         -67.77229 -376.23179  240.68721 0.9711754
-mit_zirrhose-hepatop_ohne_veraenderung       -140.15217 -421.49915  141.19482 0.6261394
-mit_fibrose-keine_hepatopathie               -263.79259 -494.06035  -33.52483 0.0171538
-mit_zirrhose-keine_hepatopathie              -336.17247 -528.60974 -143.73519 0.0000800
-mit_zirrhose-mit_fibrose                      -72.37988 -298.59136  153.83161 0.8942774
-```
-
-**Reproduce:**
-
-```r
-source('figure5.R') # P values are written to stdout
-```
-
-## Figure 6
-
-**Description:**
-
-> Figure 6: Correlation between alpha diversity and abundance of indicated marker.
-
-**File:**
-
-- [figure 6](results/figure6/figure_6_all.pdf)
-- [figure 6 (without all)](results/figure6/figure_6.pdf)
-
-**Results:**
-
-Correlation coefficient:
-(*) = significant
-shannon index
-
-| Marker | group  | cor | P value  |
-| --------- | ------------- |:-------------:| -----:|
-| ifap | AIH | 0.2498182 | 0.3508 |
-| ifap | healthy | -0.04517274 | 0.8891 |
-| ifap | control | 0.2270722 | 0.3222 |
-| ifap | all | 0.06604452  | 0.6521 |
-| sCD14 | AIH | -0.5259243  | 0.0364 (*) |
-| sCD14 | healthy | -0.1275773  | 0.7085 |
-| sCD14 | control | -0.05840449  |  0.8015 |
-| sCD14 | all | -0.2320581 | 0.1125|
-
-chao1 index
-
-| Marker | group  | cor | P value  |
-| --------- | ------------- |:-------------:| -----:|
-| ifap | AIH | 0.1533008 | 0.5708 |
-| ifap | healthy | -0.06697288  | 0.8362 |
-| ifap | control | -0.2686908  | 0.2389 |
-| ifap | all |  -0.3146119 | 0.02769 (*) |
-| sCD14 | AIH | -0.5519635  | 0.02664 (*) |
-| sCD14 | healthy |  -0.04979144 |  0.8844 |
-| sCD14 | control |  -0.2158375 | 0.3474  |
-| sCD14 | all |  -0.4914704 | 0.0003892 (*) |
-
-observed OTU index
-
-| Marker | group  | cor | P value  |
-| --------- | ------------- |:-------------:| -----:|
-| ifap | AIH | 0.08022598 |  0.7677 |
-| ifap | healthy | 0.003773555 |  0.9907 |
-| ifap | control | -0.2129188  | 0.3541 |
-| ifap | all | -0.2811318  | 0.05037 |
-| sCD14 | AIH | -0.6000638   |  0.01399 (*) |
-| sCD14 | healthy | 0.000699818  |  0.9984 |
-| sCD14 | control | -0.2535781 |  0.2674  |
-| sCD14 | all | -0.5157501 | 0.0001756 (*) |
-
-**Reproduce:**
-
-```r
-source('figure6.R')
-```
-
-## Figure 7
-
-**Description:**
-
-> Figure 7: PCoA
-
-**File:**
-
-- [figure 7](results/figure7/figure_7.pdf)
-- [figure 7 (with label)(results/figure7/figure_7_label.pdf)
-
-**Reproduce:**
-
-```r
-source('figure7.R')
-```
-
-## Figure 8
-
-**Description:**
-
-> Figure 8: Constrained principle coordinate analysis 
-
-**File:**
-
-- [figure 8a (by cohort)](results/figure8/figure_8_constrained_by_cohort.pdf)
-- [figure 8a (by cohort with label)](results/figure8/figure_8_constrained_by_cohort_label.pdf)
-- [figure 8b (by hepathopathy status)](results/figure8/figure_8_constrained_by_liver.pdf)
-- [figure 8b (by hepathopathy status with label)](results/figure8/figure_8_constrained_by_liver_label.pdf)
-
-
-**Reproduce:**
-
-```r
-source('figure8_a.R') # by cohort
-source('figure8_b.R') # by hepatopathy status
-```
-
-# citation
+analysis on OTU level
 
 ```
-_bibtex_item_
+soource('figure_3.R')
 ```
 
+script generates
+- `results/figure_3_triplot.pdf`
+- `results/figure_3_aih_db.csv`
+- `results/figure_3_control_db.csv`
+- `results/figure_3_healthy_db.csv`
+
+which was modified manually to create `ms/version_september_17/figure3.pdf`
+
+## supplementary table 2
+
+statistics on class level
+
+```
+soource('table_s2.R')
+```
+
+script generates
+- `results/table_s2_class_aih_vs_control.tsv`
+- `table_s2_class_aih_vs_helathy.tsv`
+- `table_s2_class_healthy_vs_control.tsv`
+
+which was modified manually to create `ms/version_september_17/Table_S2.xlsx`
+
+## supplementary table 3
+
+statistics on family level
+
+```
+soource('table_s3.R')
+```
+
+script generates
+- `results/table_s3_family_aih_vs_control.tsv`
+- `table_s3_family_aih_vs_helathy.tsv`
+- `table_s3_family_healthy_vs_control.tsv`
+
+which was modified manually to create `ms/version_september_17/Table_S3.xlsx`
+
+## supplementary table 4
+
+statistics on genus level
+
+```
+soource('table_s4.R')
+```
+
+script generates
+- `results/table_s4_genus_aih_vs_control.tsv`
+- `table_s3_genus_aih_vs_helathy.tsv`
+- `table_s3_genus_healthy_vs_control.tsv`
+
+which was modified manually to create `ms/version_september_17/Table_S4.xlsx`
+
+
+
+## supplementary figure 1
+
+```
+soource('figure_s1.R')
+```
+
+script generates
+- `results/figure_s1a_observed.pdf`
+- `results/figure_s1b_shannon.pdf`
+
+which was modified manually to create part c of  `ms/version_september_17/figure_s3.pdf`
+
+
+
+## supplementary figure 2
+
+```
+soource('figure_s2.R')
+```
+
+script generates
+- `results/figure_s2.pdf`
+
+which was modified manually to create part c of  `ms/version_september_17/figure_s2.pdf`
+
+
+## supplementary figure 3
+
+```
+soource('figure_s3.R')
+```
+
+script generates
+- `results/figure_s3.pdf`
+
+which was modified manually to create part c of  `ms/version_september_17/figure_s3.pdf`
