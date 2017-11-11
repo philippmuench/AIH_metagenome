@@ -147,6 +147,5 @@ which was modified manually to create part c of  `ms/version_september_17/figure
 
 ## additional analysis
 
-- [figure 5](results/figure5/figure_5.pdf)
 - [figure 5, no groups](results/figure5/figure_5_no_cat.pdf)
-- [figure 5](results/figure5/data.csv)
+- [figure 5, dataset](results/figure5/data.csv)
