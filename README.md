@@ -18,8 +18,6 @@ script generates
 which was modified manually (using pvalues from supplementary table 2) to create part a of  `ms/version_september_17/figure1.pdf`
 
 
-
-
 ## figure 1c
 
 alpha diversity
@@ -65,14 +63,11 @@ script generates
 
 which was modified manually to create `ms/version_september_17/figure3.pdf`
 
-<<<<<<< HEAD
 ## supplementary table 2
-=======
-**File:**
+
 - [figure 5](results/figure5/figure_5.pdf)
 - [figure 5, no groups](results/figure5/figure_5_no_cat.pdf)
 - [figure 5](results/figure5/data.csv)
->>>>>>> 2222d18b5eead456f89c55b445b54db353751439
 
 statistics on class level
 
@@ -116,8 +111,6 @@ script generates
 - `table_s3_genus_healthy_vs_control.tsv`
 
 which was modified manually to create `ms/version_september_17/Table_S4.xlsx`
-
-
 
 ## supplementary figure 1
 
