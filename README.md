@@ -231,6 +231,63 @@ which was modified manually to create part c of  `ms/version_september_17/figure
 | Deinococci            	| -1.87 	| -2.07 	| 0.073636 	| 0.307263 	| -4.22 	| n.s.       	|
 | Fusobacteriia         	| -2.33 	| -6.53 	| 0.000001 	| 0.000022 	| 5.67  	|  * * *     	|
 
+### AIH vs. healthy
+
+| Class*                	| logFC 	| t     	| P value 	| FDR    	| B     	| sig. Level 	|
+|-----------------------	|-------	|-------	|---------	|--------	|-------	|------------	|
+| Fusobacteriia         	| 1.67  	| 3.39  	| 0.0027  	| 0.0314 	| -1.57 	|  *         	|
+| Gammaproteobacteria   	| 1.51  	| 4.28  	| 0.0001  	| 0.0027 	| 1.04  	|  * *       	|
+| Synergistia           	| 0.76  	| 0.81  	| 0.4371  	| 0.7733 	| -5.16 	| n.s.       	|
+| Verrucomicrobiae      	| 0.44  	| 0.83  	| 0.4101  	| 0.7733 	| -6.00 	| n.s.       	|
+| Actinobacteria        	| 0.41  	| 1.08  	| 0.2876  	| 0.7158 	| -5.87 	| n.s.       	|
+| Bacteroidia           	| 0.29  	| 1.39  	| 0.1728  	| 0.6025 	| -5.50 	| n.s.       	|
+| Coriobacteriia        	| 0.29  	| 1.03  	| 0.3112  	| 0.7158 	| -5.91 	| n.s.       	|
+| Betaproteobacteria    	| 0.24  	| 0.94  	| 0.3523  	| 0.7365 	| -5.99 	| n.s.       	|
+| Erysipelotrichi       	| 0.23  	| 0.72  	| 0.4743  	| 0.7791 	| -6.18 	| n.s.       	|
+| RF3                   	| 0.21  	| 0.41  	| 0.6899  	| 0.8755 	| -5.71 	| n.s.       	|
+| Bacilli               	| 0.16  	| 0.56  	| 0.5804  	| 0.8343 	| -6.29 	| n.s.       	|
+| Deferribacteres       	| 0.14  	| 0.28  	| 0.7846  	| 0.8755 	| -5.90 	| n.s.       	|
+| 4C0d-2                	| 0.13  	| 0.26  	| 0.7980  	| 0.8755 	| -6.06 	| n.s.       	|
+| Deinococci            	| 0.11  	| 0.15  	| 0.8809  	| 0.9210 	| -5.61 	| n.s.       	|
+| Chloroplast           	| 0.11  	| 0.26  	| 0.7993  	| 0.8755 	| -6.17 	| n.s.       	|
+| Epsilonproteobacteria 	| 0.05  	| 0.08  	| 0.9404  	| 0.9404 	| -5.98 	| n.s.       	|
+| Clostridia            	| -0.25 	| -1.32 	| 0.1937  	| 0.6025 	| -5.59 	| n.s.       	|
+| Flavobacteriia        	| -0.25 	| -0.57 	| 0.5737  	| 0.8343 	| -5.86 	| n.s.       	|
+| Mollicutes            	| -0.28 	| -0.38 	| 0.7050  	| 0.8755 	| -6.12 	| n.s.       	|
+| Alphaproteobacteria   	| -0.37 	| -1.56 	| 0.1264  	| 0.5814 	| -5.26 	| n.s.       	|
+| Deltaproteobacteria   	| -0.45 	| -1.28 	| 0.2096  	| 0.6025 	| -5.55 	| n.s.       	|
+| [Lentisphaeria]       	| -1.27 	| -1.83 	| 0.0861  	| 0.4953 	| -4.37 	| n.s.       	|
+| Opitutae              	| -1.52 	| -1.99 	| 0.0719  	| 0.4953 	| -4.05 	| n.s.       	|
+
+### AIH vs. non-AIH hep. control
+
+| Class*                	| logFC 	| t     	| P value 	| FDR  	| B     	| sig. Level 	|
+|-----------------------	|-------	|-------	|---------	|------	|-------	|------------	|
+| RF3                   	| 1.68  	| 2.34  	| 0.04    	| 0.51 	| -4.57 	| n.s.       	|
+| Deferribacteres       	| 1.17  	| 0.85  	| 0.42    	| 0.84 	| -4.60 	| n.s.       	|
+| Erysipelotrichi       	| 0.60  	| 1.54  	| 0.13    	| 0.63 	| -4.54 	| n.s.       	|
+| 4C0d-2                	| 0.28  	| 0.36  	| 0.72    	| 0.92 	| -4.61 	| n.s.       	|
+| Bacteroidia           	| 0.18  	| 0.93  	| 0.36    	| 0.84 	| -4.60 	| n.s.       	|
+| Gammaproteobacteria   	| 0.14  	| 0.37  	| 0.71    	| 0.92 	| -4.63 	| n.s.       	|
+| Clostridia            	| 0.08  	| 0.48  	| 0.64    	| 0.92 	| -4.63 	| n.s.       	|
+| Verrucomicrobiae      	| 0.07  	| 0.10  	| 0.92    	| 0.96 	| -4.63 	| n.s.       	|
+| Bacilli               	| 0.07  	| 0.17  	| 0.86    	| 0.94 	| -4.64 	| n.s.       	|
+| Betaproteobacteria    	| 0.00  	| -0.02 	| 0.98    	| 0.98 	| -4.64 	| n.s.       	|
+| Coriobacteriia        	| -0.14 	| -0.44 	| 0.66    	| 0.92 	| -4.63 	| n.s.       	|
+| Mollicutes            	| -0.17 	| -0.18 	| 0.86    	| 0.94 	| -4.61 	| n.s.       	|
+| Actinobacteria        	| -0.21 	| -0.53 	| 0.60    	| 0.92 	| -4.63 	| n.s.       	|
+| Elusimicrobia         	| -0.28 	| -0.19 	| 0.86    	| 0.94 	| -4.60 	| n.s.       	|
+| Opitutae              	| -0.34 	| -0.47 	| 0.65    	| 0.92 	| -4.60 	| n.s.       	|
+| Chloroplast           	| -0.39 	| -0.76 	| 0.45    	| 0.84 	| -4.61 	| n.s.       	|
+| Deltaproteobacteria   	| -0.50 	| -1.07 	| 0.30    	| 0.84 	| -4.59 	| n.s.       	|
+| [Lentisphaeria]       	| -0.56 	| -0.79 	| 0.44    	| 0.84 	| -4.60 	| n.s.       	|
+| Alphaproteobacteria   	| -0.56 	| -2.17 	| 0.04    	| 0.51 	| -4.45 	| n.s.       	|
+| TM7-3                 	| -0.58 	| -0.85 	| 0.42    	| 0.84 	| -4.60 	| n.s.       	|
+| Fusobacteriia         	| -0.66 	| -1.29 	| 0.21    	| 0.72 	| -4.58 	| n.s.       	|
+| Flavobacteriia        	| -0.74 	| -1.48 	| 0.16    	| 0.64 	| -4.58 	| n.s.       	|
+| Epsilonproteobacteria 	| -0.88 	| -1.69 	| 0.10    	| 0.63 	| -4.55 	| n.s.       	|
+| Deinococci            	| -1.76 	| -1.69 	| 0.13    	| 0.63 	| -4.59 	| n.s.       	|
+
 
 ## supplementary figure 3
 
