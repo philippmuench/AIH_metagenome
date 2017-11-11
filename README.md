@@ -204,6 +204,33 @@ script generates
 
 which was modified manually to create part c of  `ms/version_september_17/figure_s2.pdf`
 
+### healthy vs. non-AIH hep. control
+
+| Class*                	| logFC 	| t     	| P value  	| FDR      	| B     	| sig. Level 	|
+|-----------------------	|-------	|-------	|----------	|----------	|-------	|------------	|
+| RF3                   	| 1.47  	| 3.45  	| 0.003716 	| 0.027254 	| -1.92 	|  *         	|
+| Opitutae              	| 1.18  	| 1.96  	| 0.083799 	| 0.307263 	| -4.45 	| n.s.       	|
+| Deferribacteres       	| 1.03  	| 1.55  	| 0.142350 	| 0.377765 	| -4.80 	| n.s.       	|
+| [Lentisphaeria]       	| 0.72  	| 0.87  	| 0.402788 	| 0.579287 	| -5.98 	| n.s.       	|
+| Erysipelotrichi       	| 0.37  	| 1.10  	| 0.277168 	| 0.435550 	| -6.44 	| n.s.       	|
+| Clostridia            	| 0.33  	| 2.32  	| 0.024737 	| 0.136056 	| -4.48 	| n.s.       	|
+| 4C0d-2                	| 0.15  	| 0.30  	| 0.769840 	| 0.865654 	| -6.62 	| n.s.       	|
+| Mollicutes            	| 0.11  	| 0.13  	| 0.899250 	| 0.905493 	| -6.62 	| n.s.       	|
+| Deltaproteobacteria   	| -0.05 	| -0.12 	| 0.905493 	| 0.905493 	| -6.85 	| n.s.       	|
+| Bacilli               	| -0.09 	| -0.27 	| 0.786958 	| 0.865654 	| -7.03 	| n.s.       	|
+| Bacteroidia           	| -0.11 	| -0.57 	| 0.572722 	| 0.699994 	| -6.90 	| n.s.       	|
+| Alphaproteobacteria   	| -0.18 	| -0.81 	| 0.421300 	| 0.579287 	| -6.73 	| n.s.       	|
+| Betaproteobacteria    	| -0.25 	| -1.10 	| 0.276335 	| 0.435550 	| -6.44 	| n.s.       	|
+| Verrucomicrobiae      	| -0.36 	| -0.60 	| 0.554026 	| 0.699994 	| -6.71 	| n.s.       	|
+| Coriobacteriia        	| -0.43 	| -1.29 	| 0.204429 	| 0.408857 	| -6.20 	| n.s.       	|
+| Flavobacteriia        	| -0.49 	| -1.17 	| 0.257856 	| 0.435550 	| -5.86 	| n.s.       	|
+| Chloroplast           	| -0.50 	| -1.42 	| 0.166344 	| 0.377765 	| -5.76 	| n.s.       	|
+| Actinobacteria        	| -0.62 	| -1.45 	| 0.154523 	| 0.377765 	| -6.02 	| n.s.       	|
+| Epsilonproteobacteria 	| -0.93 	| -1.42 	| 0.171711 	| 0.377765 	| -5.54 	| n.s.       	|
+| Gammaproteobacteria   	| -1.38 	| -4.05 	| 0.000203 	| 0.002229 	| 0.01  	|  * *       	|
+| Deinococci            	| -1.87 	| -2.07 	| 0.073636 	| 0.307263 	| -4.22 	| n.s.       	|
+| Fusobacteriia         	| -2.33 	| -6.53 	| 0.000001 	| 0.000022 	| 5.67  	|  * * *     	|
+
 
 ## supplementary figure 3
 
