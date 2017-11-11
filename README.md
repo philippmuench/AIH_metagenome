@@ -151,59 +151,6 @@ script generates
 
 which was modified manually to create `ms/version_september_17/Table_S2.xlsx`
 
-## supplementary table 3
-
-statistics on family level
-
-```
-soource('table_s3.R')
-```
-
-script generates
-- `results/table_s3_family_aih_vs_control.tsv`
-- `table_s3_family_aih_vs_helathy.tsv`
-- `table_s3_family_healthy_vs_control.tsv`
-
-which was modified manually to create `ms/version_september_17/Table_S3.xlsx`
-
-## supplementary table 4
-
-statistics on genus level
-
-```
-soource('table_s4.R')
-```
-
-script generates
-- `results/table_s4_genus_aih_vs_control.tsv`
-- `table_s3_genus_aih_vs_helathy.tsv`
-- `table_s3_genus_healthy_vs_control.tsv`
-
-which was modified manually to create `ms/version_september_17/Table_S4.xlsx`
-
-## supplementary figure 1
-
-```
-soource('figure_s1.R')
-```
-
-script generates
-- `results/figure_s1a_observed.pdf`
-- `results/figure_s1b_shannon.pdf`
-
-which was modified manually to create part c of  `ms/version_september_17/figure_s3.pdf`
-
-## supplementary figure 2
-
-```
-soource('figure_s2.R')
-```
-
-script generates
-- `results/figure_s2.pdf`
-
-which was modified manually to create part c of  `ms/version_september_17/figure_s2.pdf`
-
 ### healthy vs. non-AIH hep. control
 
 | Class*                	| logFC 	| t     	| P value  	| FDR      	| B     	| sig. Level 	|
@@ -287,6 +234,240 @@ which was modified manually to create part c of  `ms/version_september_17/figure
 | Flavobacteriia        	| -0.74 	| -1.48 	| 0.16    	| 0.64 	| -4.58 	| n.s.       	|
 | Epsilonproteobacteria 	| -0.88 	| -1.69 	| 0.10    	| 0.63 	| -4.55 	| n.s.       	|
 | Deinococci            	| -1.76 	| -1.69 	| 0.13    	| 0.63 	| -4.59 	| n.s.       	|
+
+
+## supplementary table 3
+
+statistics on family level
+
+```
+soource('table_s3.R')
+```
+
+script generates
+- `results/table_s3_family_aih_vs_control.tsv`
+- `table_s3_family_aih_vs_helathy.tsv`
+- `table_s3_family_healthy_vs_control.tsv`
+
+which was modified manually to create `ms/version_september_17/Table_S3.xlsx`
+
+
+### healthy vs. non-AIH hep. control
+
+| Family*               	| logFC 	| t     	| P value 	| FDR    	| B     	| sig. Level 	|
+|-----------------------	|-------	|-------	|---------	|--------	|-------	|------------	|
+| Fusobacteriaceae      	| -2.23 	| -5.37 	| 0.00001 	| 0.0004 	| 3.65  	|  * * *     	|
+| Prevotellaceae        	| -1.89 	| -3.16 	| 0.00265 	| 0.0212 	| -2.31 	|  *         	|
+| Deinococcaceae        	| -1.87 	| -1.81 	| 0.09122 	| 0.2128 	| -4.44 	| n.s.       	|
+| Veillonellaceae       	| -1.79 	| -4.70 	| 0.00002 	| 0.0005 	| 2.35  	|  * * *     	|
+| Enterococcaceae       	| -1.65 	| -2.98 	| 0.00647 	| 0.0362 	| -2.57 	|  *         	|
+| Enterobacteriaceae    	| -1.64 	| -3.45 	| 0.00122 	| 0.0114 	| -1.52 	|  *         	|
+| Pasteurellaceae       	| -1.52 	| -3.70 	| 0.00065 	| 0.0090 	| -0.82 	|  * *       	|
+| Leuconostocaceae      	| -1.49 	| -1.64 	| 0.12009 	| 0.2495 	| -4.71 	| n.s.       	|
+| Micrococcaceae        	| -1.47 	| -2.39 	| 0.02366 	| 0.0780 	| -3.90 	| n.s.       	|
+| Staphylococcaceae     	| -1.41 	| -2.61 	| 0.01496 	| 0.0573 	| -3.35 	| n.s.       	|
+| Streptococcaceae      	| -1.36 	| -3.11 	| 0.00311 	| 0.0218 	| -2.46 	|  *         	|
+| Campylobacteraceae    	| -1.34 	| -1.79 	| 0.08719 	| 0.2123 	| -4.78 	| n.s.       	|
+| Gemellaceae           	| -1.30 	| -2.28 	| 0.03212 	| 0.0947 	| -4.03 	| n.s.       	|
+| [Paraprevotellaceae]  	| -1.28 	| -2.67 	| 0.01156 	| 0.0498 	| -3.41 	|  *         	|
+| Carnobacteriaceae     	| -1.21 	| -3.48 	| 0.00119 	| 0.0114 	| -1.44 	|  *         	|
+| Moraxellaceae         	| -1.13 	| -2.29 	| 0.02858 	| 0.0889 	| -4.18 	| n.s.       	|
+| [Weeksellaceae]       	| -1.03 	| -1.49 	| 0.15262 	| 0.2849 	| -5.16 	| n.s.       	|
+| Rhodobacteraceae      	| -0.93 	| -1.16 	| 0.25988 	| 0.4158 	| -5.61 	| n.s.       	|
+| Corynebacteriaceae    	| -0.87 	| -1.66 	| 0.10904 	| 0.2442 	| -5.15 	| n.s.       	|
+| Sphingomonadaceae     	| -0.76 	| -2.51 	| 0.01535 	| 0.0573 	| -3.93 	| n.s.       	|
+| Eubacteriaceae        	| -0.73 	| -1.21 	| 0.24008 	| 0.3954 	| -5.57 	| n.s.       	|
+| Actinomycetaceae      	| -0.70 	| -1.76 	| 0.08416 	| 0.2123 	| -5.35 	| n.s.       	|
+| Comamonadaceae        	| -0.66 	| -2.16 	| 0.03542 	| 0.0992 	| -4.62 	| n.s.       	|
+| Peptococcaceae        	| -0.61 	| -1.33 	| 0.19561 	| 0.3423 	| -5.56 	| n.s.       	|
+| Lactobacillaceae      	| -0.43 	| -0.90 	| 0.37561 	| 0.5535 	| -6.41 	| n.s.       	|
+| Coriobacteriaceae     	| -0.43 	| -1.25 	| 0.21907 	| 0.3717 	| -6.13 	| n.s.       	|
+| Verrucomicrobiaceae   	| -0.36 	| -0.62 	| 0.53792 	| 0.6148 	| -6.57 	| n.s.       	|
+| Bifidobacteriaceae    	| -0.36 	| -0.72 	| 0.47494 	| 0.5811 	| -6.66 	| n.s.       	|
+| Caulobacteraceae      	| -0.32 	| -0.69 	| 0.49812 	| 0.5811 	| -6.38 	| n.s.       	|
+| Methylobacteriaceae   	| -0.31 	| -0.36 	| 0.72166 	| 0.7924 	| -6.06 	| n.s.       	|
+| Pseudomonadaceae      	| -0.29 	| -0.69 	| 0.49613 	| 0.5811 	| -6.46 	| n.s.       	|
+| Peptostreptococcaceae 	| -0.24 	| -0.42 	| 0.67333 	| 0.7541 	| -6.69 	| n.s.       	|
+| Alcaligenaceae        	| -0.23 	| -0.69 	| 0.49373 	| 0.5811 	| -6.62 	| n.s.       	|
+| Desulfovibrionaceae   	| -0.08 	| -0.19 	| 0.84964 	| 0.8811 	| -6.71 	| n.s.       	|
+| Oxalobacteraceae      	| -0.02 	| -0.05 	| 0.96040 	| 0.9604 	| -6.91 	| n.s.       	|
+| Neisseriaceae         	| 0.04  	| 0.05  	| 0.95947 	| 0.9604 	| -6.15 	| n.s.       	|
+| [Tissierellaceae]     	| 0.12  	| 0.25  	| 0.80721 	| 0.8529 	| -6.54 	| n.s.       	|
+| [Odoribacteraceae]    	| 0.13  	| 0.30  	| 0.76323 	| 0.8219 	| -6.80 	| n.s.       	|
+| [Mogibacteriaceae]    	| 0.23  	| 0.75  	| 0.45851 	| 0.5811 	| -6.62 	| n.s.       	|
+| Bacteroidaceae        	| 0.26  	| 0.69  	| 0.49086 	| 0.5811 	| -6.69 	| n.s.       	|
+| Clostridiaceae        	| 0.30  	| 0.80  	| 0.42928 	| 0.5811 	| -6.60 	| n.s.       	|
+| Erysipelotrichaceae   	| 0.37  	| 1.07  	| 0.29030 	| 0.4394 	| -6.34 	| n.s.       	|
+| Dehalobacteriaceae    	| 0.50  	| 0.77  	| 0.44726 	| 0.5811 	| -6.13 	| n.s.       	|
+| Bradyrhizobiaceae     	| 0.53  	| 0.81  	| 0.42790 	| 0.5811 	| -5.96 	| n.s.       	|
+| Porphyromonadaceae    	| 0.62  	| 1.58  	| 0.12030 	| 0.2495 	| -5.60 	| n.s.       	|
+| Victivallaceae        	| 0.72  	| 0.88  	| 0.39199 	| 0.5629 	| -5.86 	| n.s.       	|
+| Lachnospiraceae       	| 0.75  	| 2.69  	| 0.00958 	| 0.0483 	| -3.51 	|  *         	|
+| Ruminococcaceae       	| 0.80  	| 2.66  	| 0.01036 	| 0.0483 	| -3.58 	|  *         	|
+| S24-7                 	| 0.84  	| 1.56  	| 0.12653 	| 0.2531 	| -5.58 	| n.s.       	|
+| Turicibacteraceae     	| 0.88  	| 1.48  	| 0.14561 	| 0.2812 	| -5.67 	| n.s.       	|
+| Deferribacteraceae    	| 1.03  	| 1.11  	| 0.27826 	| 0.4328 	| -5.20 	| n.s.       	|
+| Rikenellaceae         	| 1.12  	| 2.09  	| 0.04174 	| 0.1113 	| -4.81 	| n.s.       	|
+| Christensenellaceae   	| 1.14  	| 2.50  	| 0.01643 	| 0.0575 	| -3.89 	| n.s.       	|
+| [Cerasicoccaceae]     	| 1.18  	| 1.42  	| 0.17454 	| 0.3153 	| -5.05 	| n.s.       	|
+| [Barnesiellaceae]     	| 1.46  	| 3.02  	| 0.00395 	| 0.0246 	| -2.68 	|  *         	|
+| no match              	| 1.96  	| 4.38  	| 0.00006 	| 0.0011 	| 1.28  	|  * *       	|
+
+### AIH vs. healthy
+
+| Family*               	| logFC 	| t     	| P value 	| FDR  	| B     	| sig. Level 	|
+|-----------------------	|-------	|-------	|---------	|------	|-------	|------------	|
+| Succinivibrionaceae   	| 1.98  	| 1.02  	| 0.33    	| 0.62 	| -4.75 	| n.a.       	|
+| Prevotellaceae        	| 1.95  	| 3.38  	| 0.00    	| 0.07 	| -1.19 	| n.a.       	|
+| Pasteurellaceae       	| 1.53  	| 3.25  	| 0.00    	| 0.07 	| -1.57 	| n.a.       	|
+| Dehalobacteriaceae    	| 1.30  	| 2.10  	| 0.05    	| 0.34 	| -3.80 	| n.a.       	|
+| Fusobacteriaceae      	| 1.25  	| 2.53  	| 0.02    	| 0.25 	| -3.11 	| n.a.       	|
+| Veillonellaceae       	| 1.08  	| 2.90  	| 0.01    	| 0.10 	| -2.35 	| n.a.       	|
+| Peptococcaceae        	| 0.79  	| 1.58  	| 0.13    	| 0.49 	| -4.48 	| n.a.       	|
+| Streptococcaceae      	| 0.77  	| 2.07  	| 0.05    	| 0.34 	| -4.07 	| n.a.       	|
+| Micrococcaceae        	| 0.64  	| 1.09  	| 0.29    	| 0.62 	| -5.11 	| n.a.       	|
+| Staphylococcaceae     	| 0.63  	| 1.60  	| 0.12    	| 0.49 	| -4.55 	| n.a.       	|
+| Moraxellaceae         	| 0.63  	| 1.62  	| 0.12    	| 0.49 	| -4.61 	| n.a.       	|
+| Pseudomonadaceae      	| 0.59  	| 1.37  	| 0.18    	| 0.50 	| -4.95 	| n.a.       	|
+| Carnobacteriaceae     	| 0.56  	| 1.47  	| 0.15    	| 0.50 	| -4.92 	| n.a.       	|
+| Campylobacteraceae    	| 0.54  	| 0.69  	| 0.50    	| 0.75 	| -5.25 	| n.a.       	|
+| [Paraprevotellaceae]  	| 0.51  	| 0.95  	| 0.35    	| 0.62 	| -5.45 	| n.a.       	|
+| Comamonadaceae        	| 0.50  	| 1.31  	| 0.20    	| 0.50 	| -5.17 	| n.a.       	|
+| Caulobacteraceae      	| 0.46  	| 0.95  	| 0.35    	| 0.62 	| -5.33 	| n.a.       	|
+| Enterobacteriaceae    	| 0.44  	| 0.94  	| 0.36    	| 0.62 	| -5.50 	| n.a.       	|
+| Verrucomicrobiaceae   	| 0.44  	| 0.83  	| 0.41    	| 0.67 	| -5.60 	| n.a.       	|
+| Sphingomonadaceae     	| 0.41  	| 1.29  	| 0.20    	| 0.50 	| -5.22 	| n.a.       	|
+| Peptostreptococcaceae 	| 0.37  	| 0.66  	| 0.51    	| 0.75 	| -5.67 	| n.a.       	|
+| Actinomycetaceae      	| 0.36  	| 1.11  	| 0.27    	| 0.62 	| -5.42 	| n.a.       	|
+| [Weeksellaceae]       	| 0.35  	| 0.59  	| 0.56    	| 0.75 	| -5.35 	| n.a.       	|
+| Gemellaceae           	| 0.30  	| 0.62  	| 0.54    	| 0.75 	| -5.40 	| n.a.       	|
+| Bifidobacteriaceae    	| 0.30  	| 0.63  	| 0.53    	| 0.75 	| -5.81 	| n.a.       	|
+| Coriobacteriaceae     	| 0.29  	| 1.00  	| 0.33    	| 0.62 	| -5.54 	| n.a.       	|
+| [Odoribacteraceae]    	| 0.23  	| 0.51  	| 0.61    	| 0.75 	| -5.89 	| n.a.       	|
+| Lactobacillaceae      	| 0.23  	| 0.50  	| 0.62    	| 0.75 	| -5.84 	| n.a.       	|
+| Erysipelotrichaceae   	| 0.23  	| 0.71  	| 0.48    	| 0.75 	| -5.78 	| n.a.       	|
+| Eubacteriaceae        	| 0.18  	| 0.39  	| 0.70    	| 0.79 	| -5.51 	| n.a.       	|
+| Deferribacteraceae    	| 0.14  	| 0.27  	| 0.79    	| 0.86 	| -5.51 	| n.a.       	|
+| Oxalobacteraceae      	| 0.12  	| 0.34  	| 0.73    	| 0.81 	| -5.93 	| n.a.       	|
+| Bacteroidaceae        	| 0.03  	| 0.10  	| 0.92    	| 0.97 	| -6.02 	| n.a.       	|
+| Alcaligenaceae        	| 0.02  	| 0.05  	| 0.96    	| 1.00 	| -6.00 	| n.a.       	|
+| Clostridiaceae        	| 0.00  	| 0.00  	| 1.00    	| 1.00 	| -6.03 	| n.a.       	|
+| Corynebacteriaceae    	| -0.01 	| -0.01 	| 0.99    	| 1.00 	| -5.59 	| n.a.       	|
+| Desulfovibrionaceae   	| -0.16 	| -0.43 	| 0.67    	| 0.78 	| -5.80 	| n.a.       	|
+| Christensenellaceae   	| -0.20 	| -0.52 	| 0.61    	| 0.75 	| -5.81 	| n.a.       	|
+| Rikenellaceae         	| -0.26 	| -0.56 	| 0.58    	| 0.75 	| -5.87 	| n.a.       	|
+| Porphyromonadaceae    	| -0.32 	| -0.96 	| 0.34    	| 0.62 	| -5.54 	| n.a.       	|
+| Turicibacteraceae     	| -0.33 	| -0.55 	| 0.59    	| 0.75 	| -5.79 	| n.a.       	|
+| [Mogibacteriaceae]    	| -0.35 	| -1.10 	| 0.28    	| 0.62 	| -5.42 	| n.a.       	|
+| Ruminococcaceae       	| -0.37 	| -1.58 	| 0.12    	| 0.49 	| -4.85 	| n.a.       	|
+| Lachnospiraceae       	| -0.39 	| -1.84 	| 0.07    	| 0.48 	| -4.46 	| n.a.       	|
+| Rhodobacteraceae      	| -0.39 	| -0.46 	| 0.65    	| 0.77 	| -5.21 	| n.a.       	|
+| Bradyrhizobiaceae     	| -0.55 	| -0.89 	| 0.39    	| 0.65 	| -5.14 	| n.a.       	|
+| S24-7                 	| -0.62 	| -1.36 	| 0.18    	| 0.50 	| -5.06 	| n.a.       	|
+| [Barnesiellaceae]     	| -0.72 	| -1.29 	| 0.20    	| 0.50 	| -5.24 	| n.a.       	|
+| [Tissierellaceae]     	| -0.94 	| -1.45 	| 0.16    	| 0.50 	| -4.64 	| n.a.       	|
+|                       	| -1.00 	| -2.25 	| 0.03    	| 0.31 	| -3.73 	| n.a.       	|
+| Victivallaceae        	| -1.27 	| -1.79 	| 0.09    	| 0.48 	| -4.21 	| n.a.       	|
+| [Cerasicoccaceae]     	| -1.52 	| -1.87 	| 0.09    	| 0.48 	| -4.08 	| n.a.       	|
+
+### AIH vs. non-AIH hep. control
+
+| Family*               	| logFC 	| t     	| P value 	| FDR  	| B     	| sig. Level 	|
+|-----------------------	|-------	|-------	|---------	|------	|-------	|------------	|
+| Succinivibrionaceae   	| 2.37  	| 2.19  	| 0.04    	| 0.63 	| -4.57 	| n.s.       	|
+| Dehalobacteriaceae    	| 1.80  	| 2.50  	| 0.02    	| 0.58 	| -4.56 	| n.s.       	|
+| no match              	| 0.96  	| 1.92  	| 0.06    	| 0.63 	| -4.52 	| n.s.       	|
+| Christensenellaceae   	| 0.93  	| 1.67  	| 0.10    	| 0.63 	| -4.56 	| n.s.       	|
+| Rikenellaceae         	| 0.85  	| 1.34  	| 0.19    	| 0.63 	| -4.57 	| n.s.       	|
+| [Barnesiellaceae]     	| 0.74  	| 1.22  	| 0.23    	| 0.63 	| -4.58 	| n.s.       	|
+| Erysipelotrichaceae   	| 0.60  	| 1.50  	| 0.14    	| 0.63 	| -4.56 	| n.s.       	|
+| Turicibacteraceae     	| 0.55  	| 0.75  	| 0.46    	| 0.79 	| -4.60 	| n.s.       	|
+| Ruminococcaceae       	| 0.43  	| 1.22  	| 0.23    	| 0.63 	| -4.58 	| n.s.       	|
+| [Odoribacteraceae]    	| 0.36  	| 0.74  	| 0.46    	| 0.79 	| -4.61 	| n.s.       	|
+| Lachnospiraceae       	| 0.36  	| 1.14  	| 0.26    	| 0.63 	| -4.59 	| n.s.       	|
+| Pseudomonadaceae      	| 0.30  	| 0.62  	| 0.54    	| 0.82 	| -4.61 	| n.s.       	|
+| Porphyromonadaceae    	| 0.30  	| 0.66  	| 0.51    	| 0.81 	| -4.61 	| n.s.       	|
+| Bacteroidaceae        	| 0.30  	| 0.71  	| 0.48    	| 0.79 	| -4.61 	| n.s.       	|
+| Clostridiaceae        	| 0.29  	| 0.70  	| 0.49    	| 0.79 	| -4.61 	| n.s.       	|
+| S24-7                 	| 0.22  	| 0.40  	| 0.69    	| 0.90 	| -4.61 	| n.s.       	|
+| Leptotrichiaceae      	| 0.19  	| 0.19  	| 0.85    	| 0.96 	| -4.60 	| n.s.       	|
+| Aerococcaceae         	| 0.18  	| 0.16  	| 0.87    	| 0.96 	| -4.60 	| n.s.       	|
+| Peptococcaceae        	| 0.17  	| 0.26  	| 0.80    	| 0.93 	| -4.60 	| n.s.       	|
+| Caulobacteraceae      	| 0.14  	| 0.31  	| 0.76    	| 0.93 	| -4.61 	| n.s.       	|
+| Peptostreptococcaceae 	| 0.13  	| 0.18  	| 0.85    	| 0.96 	| -4.61 	| n.s.       	|
+| Oxalobacteraceae      	| 0.10  	| 0.28  	| 0.78    	| 0.93 	| -4.62 	| n.s.       	|
+| Verrucomicrobiaceae   	| 0.07  	| 0.10  	| 0.92    	| 0.97 	| -4.61 	| n.s.       	|
+| Prevotellaceae        	| 0.06  	| 0.08  	| 0.94    	| 0.97 	| -4.62 	| n.s.       	|
+| Pasteurellaceae       	| 0.01  	| 0.03  	| 0.98    	| 0.98 	| -4.62 	| n.s.       	|
+| Bradyrhizobiaceae     	| -0.02 	| -0.03 	| 0.98    	| 0.98 	| -4.61 	| n.s.       	|
+| Bifidobacteriaceae    	| -0.06 	| -0.12 	| 0.91    	| 0.97 	| -4.62 	| n.s.       	|
+| [Mogibacteriaceae]    	| -0.11 	| -0.31 	| 0.76    	| 0.93 	| -4.62 	| n.s.       	|
+| Coriobacteriaceae     	| -0.14 	| -0.41 	| 0.69    	| 0.90 	| -4.62 	| n.s.       	|
+| Comamonadaceae        	| -0.16 	| -0.46 	| 0.65    	| 0.89 	| -4.62 	| n.s.       	|
+| Lactobacillaceae      	| -0.21 	| -0.38 	| 0.71    	| 0.90 	| -4.61 	| n.s.       	|
+| Alcaligenaceae        	| -0.21 	| -0.58 	| 0.57    	| 0.84 	| -4.61 	| n.s.       	|
+| Desulfovibrionaceae   	| -0.24 	| -0.51 	| 0.61    	| 0.87 	| -4.61 	| n.s.       	|
+| Actinomycetaceae      	| -0.34 	| -0.85 	| 0.40    	| 0.79 	| -4.60 	| n.s.       	|
+| Sphingomonadaceae     	| -0.35 	| -1.16 	| 0.25    	| 0.63 	| -4.59 	| n.s.       	|
+| Neisseriaceae         	| -0.41 	| -0.51 	| 0.61    	| 0.87 	| -4.60 	| n.s.       	|
+| Moraxellaceae         	| -0.50 	| -0.87 	| 0.39    	| 0.79 	| -4.60 	| n.s.       	|
+| Eubacteriaceae        	| -0.55 	| -0.75 	| 0.46    	| 0.79 	| -4.60 	| n.s.       	|
+| Victivallaceae        	| -0.56 	| -0.72 	| 0.48    	| 0.79 	| -4.60 	| n.s.       	|
+| Streptococcaceae      	| -0.59 	| -1.17 	| 0.25    	| 0.63 	| -4.59 	| n.s.       	|
+| Carnobacteriaceae     	| -0.64 	| -1.47 	| 0.15    	| 0.63 	| -4.57 	| n.s.       	|
+| [Weeksellaceae]       	| -0.69 	| -0.92 	| 0.37    	| 0.78 	| -4.60 	| n.s.       	|
+| Veillonellaceae       	| -0.71 	| -1.78 	| 0.08    	| 0.63 	| -4.54 	| n.s.       	|
+| Enterococcaceae       	| -0.73 	| -1.01 	| 0.32    	| 0.71 	| -4.60 	| n.s.       	|
+| [Paraprevotellaceae]  	| -0.77 	| -1.24 	| 0.22    	| 0.63 	| -4.58 	| n.s.       	|
+| Staphylococcaceae     	| -0.78 	| -1.16 	| 0.26    	| 0.63 	| -4.59 	| n.s.       	|
+| Campylobacteraceae    	| -0.80 	| -1.28 	| 0.21    	| 0.63 	| -4.59 	| n.s.       	|
+| [Tissierellaceae]     	| -0.82 	| -1.32 	| 0.20    	| 0.63 	| -4.59 	| n.s.       	|
+| Micrococcaceae        	| -0.83 	| -1.24 	| 0.23    	| 0.63 	| -4.59 	| n.s.       	|
+| Corynebacteriaceae    	| -0.88 	| -1.29 	| 0.21    	| 0.63 	| -4.59 	| n.s.       	|
+| Fusobacteriaceae      	| -0.99 	| -1.78 	| 0.09    	| 0.63 	| -4.57 	| n.s.       	|
+| Gemellaceae           	| -1.00 	| -1.69 	| 0.10    	| 0.63 	| -4.58 	| n.s.       	|
+| Enterobacteriaceae    	| -1.21 	| -2.40 	| 0.02    	| 0.58 	| -4.50 	| n.s.       	|
+| Rhodobacteraceae      	| -1.32 	| -1.09 	| 0.29    	| 0.67 	| -4.59 	| n.s.       	|
+| Deinococcaceae        	| -1.64 	| -1.26 	| 0.23    	| 0.63 	| -4.59 	| n.s.       	|
+
+
+## supplementary table 4
+
+statistics on genus level
+
+```
+soource('table_s4.R')
+```
+
+script generates
+- `results/table_s4_genus_aih_vs_control.tsv`
+- `table_s3_genus_aih_vs_helathy.tsv`
+- `table_s3_genus_healthy_vs_control.tsv`
+
+which was modified manually to create `ms/version_september_17/Table_S4.xlsx`
+
+## supplementary figure 1
+
+```
+soource('figure_s1.R')
+```
+
+script generates
+- `results/figure_s1a_observed.pdf`
+- `results/figure_s1b_shannon.pdf`
+
+which was modified manually to create part c of  `ms/version_september_17/figure_s3.pdf`
+
+## supplementary figure 2
+
+```
+soource('figure_s2.R')
+```
+
+script generates
+- `results/figure_s2.pdf`
+
+which was modified manually to create part c of  `ms/version_september_17/figure_s2.pdf`
 
 
 ## supplementary figure 3
