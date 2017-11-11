@@ -8,7 +8,12 @@ code depends on `metagenomeSeq` and other libraries that must be installed via e
 
 data which will be used by the scripts is located in the `data/` folder
 
-## figure 1a
+
+## figure 1
+
+![alt text](ms/version_september_17/figure1.png)
+
+### figure 1a
 
 alpha diversity
 
@@ -22,7 +27,20 @@ script generates
 which was modified manually (using pvalues from supplementary table 2) to create part a of  `ms/version_september_17/figure1.pdf`
 
 
-## figure 1c
+### figure 1b
+
+triplot
+
+```
+soource('figure_1b.R')
+```
+
+script generates
+- `results/figure_1b_triplot.pdf`
+
+which was modified to create part b of  `ms/version_september_17/figure1.pdf`
+
+### figure 1c
 
 alpha diversity
 
@@ -51,8 +69,11 @@ others-control -0.5923725 -1.463349 0.27860441 0.2384276
 
 which was modified manually to create part c of  `ms/version_september_17/figure1.pdf`
 
+## figure 2
 
-## figure 2a
+![alt text](ms/version_september_17/figure2.png)
+
+### figure 2a
 
 PCOA
 
@@ -66,7 +87,7 @@ script generates
 
 which was modified manually to create part a of  `ms/version_september_17/figure2.pdf`
 
-## figure 2b
+### figure 2b
 
 PCOA contrained by cohort
 
@@ -80,7 +101,7 @@ script generates
 
 which was modified manually to create part b of  `ms/version_september_17/figure2.pdf`
 
-## figure 2c
+### figure 2c
 
 PCOA contrained by cohort
 
@@ -95,7 +116,11 @@ script generates
 
 which was modified manually to create part c of  `ms/version_september_17/figure2.pdf`
 
+
 ## figure 3
+
+![alt text](ms/version_september_17/figure3.png)
+
 
 analysis on OTU level
 
@@ -168,8 +193,6 @@ script generates
 
 which was modified manually to create part c of  `ms/version_september_17/figure_s3.pdf`
 
-
-
 ## supplementary figure 2
 
 ```
@@ -200,12 +223,32 @@ which was modified manually to create part c of  `ms/version_september_17/figure
 - [figure 5, no groups](results/figure5/figure_5_no_cat.pdf)
 - [figure 5, dataset](results/figure5/data.csv)
 
+```
+    Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = chao1 ~ marker, data = alpha)
+
+$marker
+                                                   diff        lwr        upr     p adj
+hepatop_ohne_veraenderung-                    676.72081   20.24452 1333.19711 0.0402698
+keine_hepatopathie-                           872.74112  249.17307 1496.30916 0.0020684
+mit_fibrose-                                  608.94853  -25.85588 1243.75294 0.0659437
+mit_zirrhose-                                 536.56865  -85.51294 1158.65024 0.1217344
+keine_hepatopathie-hepatop_ohne_veraenderung  196.02030  -88.59827  480.63887 0.3070441
+mit_fibrose-hepatop_ohne_veraenderung         -67.77229 -376.23179  240.68721 0.9711754
+mit_zirrhose-hepatop_ohne_veraenderung       -140.15217 -421.49915  141.19482 0.6261394
+mit_fibrose-keine_hepatopathie               -263.79259 -494.06035  -33.52483 0.0171538
+mit_zirrhose-keine_hepatopathie              -336.17247 -528.60974 -143.73519 0.0000800
+mit_zirrhose-mit_fibrose                      -72.37988 -298.59136  153.83161 0.8942774
+```
+
 ### correlation of alpha diversity with markers
 
 - [figure 6](results/figure6/figure_6.pdf)
-- [figure 6](results/figure6/figure_6_all.pdf)
+- [figure 6 (with mean line)](results/figure6/figure_6_all.pdf)
 
-correlation coefficients will be printed to screen
+correlation coefficients will be printed to screen (for chao1, shannon, observed)
 
 shannon
 
