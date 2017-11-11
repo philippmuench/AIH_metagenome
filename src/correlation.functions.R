@@ -41,7 +41,7 @@ drawCorMarkerOtu <- function(df, title="correlation markers to alpha diversity",
 		a <- a + geom_smooth(method=lm, se=FALSE, linetype="dashed", color="black")		
 	}
 	a <- a + geom_point(shape=1, aes(color=type))
-	a <- a + facet_grid(variable ~ ., scales="free_y") + theme_minimal()
+	a <- a + facet_grid(variable ~ ., scales="free_y") + theme_bw()
 	a <- a + scale_color_manual(values = c("black","#00c094ff", "grey50", "darkblue"),labels = c("AIH","healthy", "control", "all"))
 	a <- a + ggtitle(title) 
 	return(a)

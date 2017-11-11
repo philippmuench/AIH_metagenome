@@ -46,6 +46,6 @@ plotAdiv <- function(df){
 	a <- a + stat_summary(geom = 'point', fun.y = 'mean', size = 3, shape = 21)
 	a <- a + scale_fill_manual(values = c("black","#00c094ff", "grey50"),labels = c("AIH","healthy", "control"))
 	a <- a + scale_color_manual(values = c("black","#00c094ff", "grey50"),labels = c("AIH","healthy", "control"))
-	a <- a + theme_minimal()
+	a <- a + theme_classic()
 	return(a)
 }
