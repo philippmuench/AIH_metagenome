@@ -1,0 +1,16 @@
+Leberstatus	1_normal	1_normal	1_normal	1_normal	1_normal	1_normal	2_fibrose	2_fibrose	2_fibrose	2_fibrose	2_fibrose	2_fibrose	2_fibrose	2_fibrose	2_fibrose	2_fibrose	2_fibrose
+SampleID	AIH027	AIH031	AIH040	AIH046	AIH058	AIH068	AIH018	AIH023	AIH033	AIH035	AIH043	AIH047	AIH052	AIH059	AIH069	AIH071	AIH072
+Bacteria	171	226	45	234	233	285	201	119	182	56	126	96	122	52	294	223	122
+Bacteria|Actinobacteria	358	16	15	141	282	645	131	19	32	124	533	933	467	63	294	420	21
+Bacteria|Bacteroidetes	64809	48126	14107	80062	38340	35227	33627	25532	33313	40341	43800	48173	54035	33038	49467	64885	38644
+Bacteria|Cyanobacteria[Melainabacteria]	0	1229	1	4	177	0	0	0	0	0	0	475	0	0	0	21	1
+Bacteria|Deinococcus-Thermus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria|Euryarchaeota	698	0	0	0	187	2	0	0	0	0	0	0	64	0	0	0	0
+Bacteria|Firmicutes	24868	42157	6097	25596	42972	65021	48122	6962	2741	61203	37151	35345	23617	10022	38878	32911	17689
+Bacteria|Fusobacteria	13	0	0	33	0	1	26	4	0	21	3	30	0	0	0	7	0
+Bacteria|Lentisphaerae	0	0	0	0	0	1	0	0	0	0	0	4	10	0	0	0	0
+Bacteria|Proteobacteria	9407	554	23	461	4561	519	2011	88	1765	3354	23861	1512	1580	1617	2021	809	425
+Bacteria|Spirochaetes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria|Synergistetes	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	14
+Bacteria|Unclassified-Bacteria	11	4	0	36	1883	4	15	0	0	2	1258	4	0	0	6	0	0
+Bacteria|Verrucomicrobia	15	2	13	8	3480	18	120	25482	57702	1094	0	4800	25441	552	11800	1	1675
