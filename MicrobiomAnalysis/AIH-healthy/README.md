@@ -28,6 +28,8 @@
 
 ## Alpha Diversity
 
+### Chao1
+
  ![alt text](/MicrobiomAnalysis/AIH-healthy/AlphaDiversity/Chao1_alpha_diver_2_1.png)
 
  ![alt text](/MicrobiomAnalysis/AIH-healthy/AlphaDiversity/Chao1_alpha_diverbox_2_1.png)
@@ -199,11 +201,11 @@ Familiy
 
  ![alt text](/MicrobiomAnalysis/AIH-healthy/metagenomeSeq/family_box_plot_5_1.png)
  
- ![alt text](/MicrobiomAnalysis/AIH-healthy/metagenomeSeq/family_box_plot_6_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-healthy/metagenomeSeq/family-box_plot_6_1.png)
  
  Genus
  
- ![alt text](/MicrobiomAnalysis/AIH-healthy/metagenomeSeq/box_plot_2-Prevotella.png)
+ ![alt text](/MicrobiomAnalysis/AIH-healthy/metagenomeSeq/box_plot_2-Prevotella_1.png)
  
 
  
