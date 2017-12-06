@@ -38,8 +38,17 @@
 
 ## Univariate Analysis
 
- ![alt text](/MicrobiomAnalysis/AIH-healthy/UnivariateAnalysis/box_plot_0.pdf)
+ ![alt text](/MicrobiomAnalysis/AIH-healthy/UnivariateAnalysis/box_plot_0_1.png)
+ 
+| ""                      | "Pvalues"  | "FDR"     | "Statistics" | 
+|-------------------------|------------|-----------|--------------| 
+| "Prevotellaceae"        | 0.00010518 | 0.0042073 | 263          | 
+| "Desulfovibrionaceae"   | 0.0090635  | 0.16366   | 73           | 
+| "unclassified"          | 0.012275   | 0.16366   | 77           | 
+| "Eubacteriaceae"        | 0.044123   | 0.44123   | 91           | 
 
 ## metagenomeSeq
+
+
 
 ### Family
