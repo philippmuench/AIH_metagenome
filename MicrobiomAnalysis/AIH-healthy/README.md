@@ -2,6 +2,8 @@
 
 ## Taxonomic Bar Plots
 
+by Sample:
+
 ### Phylum
 
  ![alt text](/MicrobiomAnalysis/AIH-healthy/StackedBar/taxa_alpha_5_1.png)
@@ -25,6 +27,21 @@
 ### Species
 
  ![alt text](/MicrobiomAnalysis/AIH-healthy/StackedBar/taxa_alpha_10_1.png)
+
+by Group
+
+### Phylum
+
+ ![alt text](/MicrobiomAnalysis/AIH-healthy/StackedBar/taxa_alpha_11_1.png)
+
+### Class
+
+ ![alt text](/MicrobiomAnalysis/AIH-healthy/StackedBar/taxa_alpha_12_1.png)
+
+### Order
+
+ ![alt text](/MicrobiomAnalysis/AIH-healthy/StackedBar/taxa_alpha_13_1.png)
+
 
 ## Alpha Diversity
 
