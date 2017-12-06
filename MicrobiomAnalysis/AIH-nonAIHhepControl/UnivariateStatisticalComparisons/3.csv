@@ -1,0 +1,16 @@
+"","Pvalues","FDR","Statistics"
+"Negativicutes",0.020251,0.24835,103
+"Bacteroidia",0.034735,0.24835,258
+"Erysipelotrichia",0.04967,0.24835,253
+"Epsilonproteobacteria",0.095417,0.33778,134.5
+"Gammaproteobacteria",0.12059,0.33778,129
+"Clostridia",0.13511,0.33778,237
+"Actinobacteria",0.40408,0.67679,214
+"Deltaproteobacteria",0.52158,0.67679,206
+"Betaproteobacteria",0.52502,0.67679,207
+"Coriobacteriia",0.52907,0.67679,202
+"Alphaproteobacteria",0.54366,0.67679,206
+"unclassified",0.57399,0.67679,203.5
+"Fusobacteriia",0.58655,0.67679,166
+"Verrucomicrobiae",0.8304,0.85452,192
+"Bacilli",0.85452,0.85452,191
