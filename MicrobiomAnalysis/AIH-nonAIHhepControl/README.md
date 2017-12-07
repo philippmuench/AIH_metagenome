@@ -1,6 +1,6 @@
 # AIH versus nonAIHhepControl
 
- ![alt text](/norm_libsizes_0_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/norm_libsizes_0_1.png)
 
 ## Taxonomic Bar Plots
 
@@ -8,87 +8,98 @@ by Sample:
 
 ### Phylum
 
- ![alt text](/TaxBars/2.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/TaxBars/2_1.png)
 
 ### Class
 
- ![alt text](/TaxBars/3.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/TaxBars/3_1.png)
 
 ### Order
 
- ![alt text](/TaxBars/4.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/TaxBars/4_1.png)
 
 ### Family
 
- ![alt text](/TaxBars/5.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/TaxBars/5_1.png)
 
 ### Genus
 
- ![alt text](/TaxBars/6.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/TaxBars/6_1.png)
 
 ### Species
 
- ![alt text](/TaxBars/7.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/TaxBars/7_1.png)
 
 by Group
 
 ### Phylum
 
- ![alt text](/TaxBars/g2.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/TaxBars/g2_1.png)
 
 ### Class
 
- ![alt text](/TaxBars/g3.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/TaxBars/g3_1.png)
 
 ### Order
 
- ![alt text](/TaxBars/g4.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/TaxBars/g4_1.png)
 
 
 ## Alpha Diversity
 
 Observed	p-value: 0.0078032; [T-test] statistic: 2.8509
+
 Observed	p-value: 0.0097489; [Mann-Whitney] statistic: 275
+
 Chao1	p-value: 0.0075928; [T-test] statistic: 2.8695
+
 Chao1	p-value: 0.0053966; [Mann-Whitney] statistic: 280
+
 ACE	p-value: 0.0045493; [T-test] statistic: 3.0659
+
 ACE	p-value: 0.0036375; [Mann-Whitney] statistic: 284
+
 Shannon	p-value: 0.04944; [T-test] statistic: 2.037
+
 Shannon	p-value: 0.056954; [Mann-Whitney] statistic: 251
+
 Simpson	p-value: 0.091489; [T-test] statistic: 1.7327
+
 Simpson	p-value: 0.084115; [Mann-Whitney] statistic: 245
+
 Fisher	p-value: 0.006944; [T-test] statistic: 2.9136
+
 Fisher	p-value: 0.0036375; [Mann-Whitney] statistic: 284
 
 ### Observed
 
- ![alt text](/Alphadiversity/Observed_1.png)
- ![alt text](/Alphadiversity/gObserved_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Alphadiversity/Observed_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Alphadiversity/gObserved_1.png)
 
 ### Chao1
 
- ![alt text](/Alphadiversity/Chao1_1.png)
- ![alt text](/Alphadiversity/gChao1_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Alphadiversity/Chao1_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Alphadiversity/gChao1_1.png)
 
 ### ACE
 
- ![alt text](/Alphadiversity/ACE_1.png)
- ![alt text](/Alphadiversity/gACE_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Alphadiversity/ACE_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Alphadiversity/gACE_1.png)
 
 ### Shannon
 
- ![alt text](/Alphadiversity/Shannon_1.png)
- ![alt text](/Alphadiversity/gShannon_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Alphadiversity/Shannon_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Alphadiversity/gShannon_1.png)
 
 ### Simpson
 
- ![alt text](/Alphadiversity/Simpson_1.png)
- ![alt text](/Alphadiversity/gSimpson_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Alphadiversity/Simpson_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Alphadiversity/gSimpson_1.png)
 
 ### Fisher
 
- ![alt text](/Alphadiversity/Fisher_1.png)
- ![alt text](/Alphadiversity/gFisher_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Alphadiversity/Fisher_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Alphadiversity/gFisher_1.png)
 
 
 ## Beta Diversity
@@ -96,8 +107,8 @@ Fisher	p-value: 0.0036375; [Mann-Whitney] statistic: 284
 PCoA	[PERMANOVA] R-squared: 0.069417; p-value < 0.001
 MNDS	[PERMANOVA] R-squared: 0.069417; p-value < 0.001
 
- ![alt text](/BetaDiverity/PCoA_1.png)
- ![alt text](/BetaDiverity/MNDS_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/BetaDiverity/PCoA_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/BetaDiverity/MNDS_1.png)
 
 ## Univariate Analysis
  
@@ -273,4 +284,34 @@ MNDS	[PERMANOVA] R-squared: 0.069417; p-value < 0.001
 ## metagenomeSeq
 
 none
+
+## DDseq2
+
+see folder
+
+## LEfSe
+
+### Phylum
+
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/LEfSe/2_1.png)
+
+### Class
+
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/LEfSe/3_1.png)
+
+### Order
+
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/LEfSe/4_1.png)
+
+### Family
+
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/LEfSe/5_1.png)
+
+### Genus
+
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/LEfSe/6_1.png)
+
+### Species
+
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/LEfSe/7_1.png)
 
