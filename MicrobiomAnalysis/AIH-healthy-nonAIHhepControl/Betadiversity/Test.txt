@@ -1,2 +1,2 @@
-PCoA	[PERMANOVA] R-squared: 0.069417; p-value < 0.001
-MNDS	[PERMANOVA] R-squared: 0.069417; p-value < 0.001
+PCoA	[PERMANOVA] R-squared: 0.072321; p-value < 0.001
+MNDS	[PERMANOVA] R-squared: 0.072321; p-value < 0.002
