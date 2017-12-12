@@ -1,0 +1,12 @@
+"","log2FC","lfcSE","Pvalues","FDR"
+"Shigella_sonnei",4.9389,0.83343,3.1056e-09,5.8697e-07
+"OTU126|NN=Alistipes_marseilloanorexicus_JX101692|D=90_9",5.033,1.1079,5.5458e-06,0.00052408
+"Veillonella_rogosae",3.8422,0.92698,3.4001e-05,0.0021421
+"Bacteroides_plebeius",-4.4087,1.0925,5.4492e-05,0.0025748
+"Dialister_pneumosintes",4.1774,1.1032,0.00015272,0.005773
+"OTU80|NN=Eubacterium_desmolans_EUBRRDO|D=94_1",-3.1615,0.89792,0.00043011,0.013548
+"OTU379|NN=Dialister_succinatiphilus_AB370249|D=96_3",-4.2506,1.2317,0.00055845,0.013662
+"OTU1339|NN=Clostridium_clariflavum_NR_102987_1|D=76_8",-3.8534,1.1197,0.00057831,0.013662
+"Oscillospira_plautii",2.3607,0.72736,0.0011719,0.022996
+"Alistipes_putredinis",-2.6812,0.82884,0.0012167,0.022996
+"OTU1028|NN=Ruminococcus_gnavus_JN713312|D=95_6",-2.7649,0.90756,0.002315,0.039776
