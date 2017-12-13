@@ -1,0 +1,6 @@
+"","log2FC","lfcSE","Pvalues","FDR"
+"Gammaproteobacteria",2.8556,0.62546,4.9821e-06,3.8269e-05
+"Deltaproteobacteria",-3.2654,0.7183,5.467e-06,3.8269e-05
+"Bacilli",1.7399,0.44973,0.00010939,0.00041449
+"Negativicutes",1.9798,0.51431,0.00011843,0.00041449
+"Fusobacteriia",2.9351,1.1849,0.013245,0.037087
