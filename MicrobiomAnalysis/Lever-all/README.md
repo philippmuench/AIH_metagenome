@@ -123,6 +123,8 @@ Fisher	p-value: 0.00020323; [Kruskal-Wallis] statistic: 19.623
 
 ## Univariate Analysis
 
+ ![include](/MicrobiomAnalysis/Lever-all/UnivariateStatisticalComparisons/3.csv)
+ 
 see folder
 
 ## metagenomeSeq
