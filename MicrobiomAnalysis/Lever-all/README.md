@@ -118,8 +118,8 @@ Fisher	p-value: 0.00020323; [Kruskal-Wallis] statistic: 19.623
 
 [PERMANOVA] R-squared: 0.10529; p-value < 0.001
 
- ![alt text](/MicrobiomAnalysis/Lever-all/BetaDiverity/PCoA_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/BetaDiverity/MNDS_1.png)
+ ![alt text](/MicrobiomAnalysis/Lever-all/Betadiverity/PCoA_1.png)
+ ![alt text](/MicrobiomAnalysis/Lever-all/Betadiverity/MNDS_1.png)
 
 ## Univariate Analysis
 
