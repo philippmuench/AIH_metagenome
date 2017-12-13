@@ -1,4 +1,4 @@
-# Lever Evaluation
+# Liver Evaluation
 
  ![alt text](/MicrobiomAnalysis/Lever-all/norm_libsizes_0_1.png)
 
