@@ -230,11 +230,11 @@ see folder
 
  ![DESeq2](/MicrobiomAnalysis/Liver-all/DESeq2/)
 
-| "Class"        | "log2FC" | "lfcSE" | "Pvalues"  | "FDR"     | 
+| "Phylum"        | "log2FC" | "lfcSE" | "Pvalues"  | "FDR"     | 
 |----------------|----------|---------|------------|-----------| 
 | "Fusobacteria" | 3.2854   | 0.99116 | 0.00091734 | 0.0073387 | 
 
-| "Order"               | "log2FC" | "lfcSE" | "Pvalues"  | "FDR"      | 
+| "Class"               | "log2FC" | "lfcSE" | "Pvalues"  | "FDR"      | 
 |-----------------------|----------|---------|------------|------------| 
 | "Gammaproteobacteria" | 2.8556   | 0.62546 | 4.9821e-06 | 3.8269e-05 | 
 | "Deltaproteobacteria" | -3.2654  | 0.7183  | 5.467e-06  | 3.8269e-05 | 
