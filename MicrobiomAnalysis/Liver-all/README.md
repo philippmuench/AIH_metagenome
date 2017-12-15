@@ -4,7 +4,9 @@
 
 ## Taxonomic Bar Plots
 
-by Sample:
+OTU data can be further summarized and compared their abundance at different taxonomic levels based on the annotation. Users can choose to visualize the results in either area plot or bar plot (actual or proportion). OTUs without taxa designation will be collapsed into one NA (Not_Assigned) group, which could be an arbitrary mixture of OTUs across different levels.
+
+### by Sample:
 
 ### Phylum
 
@@ -30,7 +32,7 @@ by Sample:
 
  ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/7_1.png)
 
-by Group
+### by Group
 
 ### Phylum
 
@@ -54,7 +56,7 @@ by Group
 
 ### Species
 
- ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/g7_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/g7b_1.png)
 
 
 ## Alpha Diversity
@@ -533,3 +535,4 @@ Core microbiome refers to the set of taxa that are detected in a high fraction o
 ## Correlation Analysis (Genus)
 
  ![alt text](/MicrobiomAnalysis/Liver-all/CorrelationAnalysis/genus_2.png)
+
