@@ -67,7 +67,7 @@ ACE and Chao1: They considers observed OTUs with account for unobserved species 
 
 Shannon, Simpson and Fisher: These metrics accounts for both richness and evenness.
 
-Statistics:
+### Statistics:
 
 Observed	p-value: 4.9197e-05; [ANOVA] F-value: 9.2855
 
@@ -149,53 +149,53 @@ see folder:
 
 | "Species"                                                    | "Pvalues"  | "FDR"     | "Statistics" | 
 |--------------------------------------------------------------|------------|-----------|--------------| 
-| "OTU1337|NN=Desulfovibrio_desulfuricans_DVURRDA|D=89"        | 2.3411e-05 | 0.0044012 | 24.135       | 
-| "OTU506|NN=Christensenella_minuta_AB490809|D=83_8"           | 6.2399e-05 | 0.0051714 | 22.093       | 
-| "OTU916|NN=Eubacterium_siraeum_EUBRRDV|D=93_2"               | 8.2522e-05 | 0.0051714 | 21.509       | 
-| "OTU1033|NN=Ruminococcus_bromii_DQ882649|D=88"               | 0.00024542 | 0.010694  | 19.227       | 
-| "OTU383|NN=Clostridium_populeti_X71853|D=91_5"               | 0.00028442 | 0.010694  | 18.917       | 
-| "OTU1335|NN=Oscillibacter_valericigenes_AB238598|D=95_6"     | 0.00038077 | 0.011931  | 18.304       | 
+| "OTU1337-NN=Desulfovibrio_desulfuricans_DVURRDA-D=89"        | 2.3411e-05 | 0.0044012 | 24.135       | 
+| "OTU506-NN=Christensenella_minuta_AB490809-D=83_8"           | 6.2399e-05 | 0.0051714 | 22.093       | 
+| "OTU916-NN=Eubacterium_siraeum_EUBRRDV-D=93_2"               | 8.2522e-05 | 0.0051714 | 21.509       | 
+| "OTU1033-NN=Ruminococcus_bromii_DQ882649-D=88"               | 0.00024542 | 0.010694  | 19.227       | 
+| "OTU383-NN=Clostridium_populeti_X71853-D=91_5"               | 0.00028442 | 0.010694  | 18.917       | 
+| "OTU1335-NN=Oscillibacter_valericigenes_AB238598-D=95_6"     | 0.00038077 | 0.011931  | 18.304       | 
 | "Dialister_pneumosintes"                                     | 0.00060686 | 0.014621  | 17.322       | 
-| "OTU661|NN=Blautia_wexlerae_EF036467|D=94_9"                 | 0.00062217 | 0.014621  | 17.269       | 
-| "OTU694|NN=Clostridium_clariflavum_NR_102987_1|D=85_2"       | 0.001108   | 0.022905  | 16.049       | 
-| "OTU293|NN=Clostridium_glycyrrhizinilyticum_AB233029|D=91_2" | 0.0012471  | 0.022905  | 15.799       | 
-| "OTU1689|NN=Soleaferrea_massiliensis_JX101688|D=88_9"        | 0.0013402  | 0.022905  | 15.646       | 
-| "OTU342|NN=Clostridium_clariflavum_NR_102987_1|D=77_3"       | 0.0016346  | 0.025609  | 15.224       | 
-| "OTU1482|NN=Veillonella_atypica_X84007|D=96_9"               | 0.0022356  | 0.032331  | 14.558       | 
-| "OTU1339|NN=Clostridium_clariflavum_NR_102987_1|D=76_8"      | 0.0024735  | 0.033216  | 14.343       | 
-| "OTU1240|NN=OscillospiraClostridium_viride_X81125|D=86"      | 0.0029348  | 0.035741  | 13.978       | 
+| "OTU661-NN=Blautia_wexlerae_EF036467-D=94_9"                 | 0.00062217 | 0.014621  | 17.269       | 
+| "OTU694-NN=Clostridium_clariflavum_NR_102987_1-D=85_2"       | 0.001108   | 0.022905  | 16.049       | 
+| "OTU293-NN=Clostridium_glycyrrhizinilyticum_AB233029-D=91_2" | 0.0012471  | 0.022905  | 15.799       | 
+| "OTU1689-NN=Soleaferrea_massiliensis_JX101688-D=88_9"        | 0.0013402  | 0.022905  | 15.646       | 
+| "OTU342-NN=Clostridium_clariflavum_NR_102987_1-D=77_3"       | 0.0016346  | 0.025609  | 15.224       | 
+| "OTU1482-NN=Veillonella_atypica_X84007-D=96_9"               | 0.0022356  | 0.032331  | 14.558       | 
+| "OTU1339-NN=Clostridium_clariflavum_NR_102987_1-D=76_8"      | 0.0024735  | 0.033216  | 14.343       | 
+| "OTU1240-NN=OscillospiraClostridium_viride_X81125-D=86"      | 0.0029348  | 0.035741  | 13.978       | 
 | "Parabacteroides_goldsteinii"                                | 0.0030418  | 0.035741  | 13.902       | 
-| "OTU902|NN=Prevotella_loescheii_AB547688|D=88_8"             | 0.0035049  | 0.03876   | 13.599       | 
+| "OTU902-NN=Prevotella_loescheii_AB547688-D=88_8"             | 0.0035049  | 0.03876   | 13.599       | 
 
 | "OTU"                                                        | "Pvalues"  | "FDR"     | "Statistics" | 
 |--------------------------------------------------------------|------------|-----------|--------------| 
-| "OTU1337|NN=Desulfovibrio_desulfuricans_DVURRDA|D=89_2"      | 3.6063e-05 | 0.0082247 | 23.236       | 
-| "OTU506|NN=Christensenella_minuta_AB490809|D=83_8"           | 6.2399e-05 | 0.0082247 | 22.093       | 
-| "OTU916|NN=Eubacterium_siraeum_EUBRRDV|D=93_2"               | 8.2522e-05 | 0.0082247 | 21.509       | 
+| "OTU1337-NN=Desulfovibrio_desulfuricans_DVURRDA-D=89_2"      | 3.6063e-05 | 0.0082247 | 23.236       | 
+| "OTU506-NN=Christensenella_minuta_AB490809-D=83_8"           | 6.2399e-05 | 0.0082247 | 22.093       | 
+| "OTU916-NN=Eubacterium_siraeum_EUBRRDV-D=93_2"               | 8.2522e-05 | 0.0082247 | 21.509       | 
 | "unclassified_39"                                            | 0.00014119 | 0.00982   | 20.386       | 
 | "Clostridiales_54"                                           | 0.00016421 | 0.00982   | 20.069       | 
-| "OTU1033|NN=Ruminococcus_bromii_DQ882649|D=88"               | 0.00024542 | 0.012149  | 19.227       | 
-| "OTU383|NN=Clostridium_populeti_X71853|D=91_5"               | 0.00028442 | 0.012149  | 18.917       | 
+| "OTU1033-NN=Ruminococcus_bromii_DQ882649-D=88"               | 0.00024542 | 0.012149  | 19.227       | 
+| "OTU383-NN=Clostridium_populeti_X71853-D=91_5"               | 0.00028442 | 0.012149  | 18.917       | 
 | "unclassified_4"                                             | 0.00034055 | 0.012728  | 18.538       | 
 | "Bacteroidales_5"                                            | 0.00057757 | 0.016912  | 17.426       | 
 | "Dialister_pneumosintes"                                     | 0.00060686 | 0.016912  | 17.322       | 
-| "OTU661|NN=Blautia_wexlerae_EF036467|D=94_9"                 | 0.00062217 | 0.016912  | 17.269       | 
+| "OTU661-NN=Blautia_wexlerae_EF036467-D=94_9"                 | 0.00062217 | 0.016912  | 17.269       | 
 | "Oscillospira_4"                                             | 0.00083863 | 0.019179  | 16.638       | 
 | "Lachnoclostridium_1"                                        | 0.00088375 | 0.019179  | 16.528       | 
 | "Lachnospiraceae_7"                                          | 0.00089802 | 0.019179  | 16.494       | 
-| "OTU694|NN=Clostridium_clariflavum_NR_102987_1|D=85_2"       | 0.001108   | 0.022087  | 16.049       | 
-| "OTU293|NN=Clostridium_glycyrrhizinilyticum_AB233029|D=91_2" | 0.0012471  | 0.022262  | 15.799       | 
+| "OTU694-NN=Clostridium_clariflavum_NR_102987_1-D=85_2"       | 0.001108   | 0.022087  | 16.049       | 
+| "OTU293-NN=Clostridium_glycyrrhizinilyticum_AB233029-D=91_2" | 0.0012471  | 0.022262  | 15.799       | 
 | "Barnesiella_10"                                             | 0.0012821  | 0.022262  | 15.74        | 
-| "OTU1689|NN=Soleaferrea_massiliensis_JX101688|D=88_9"        | 0.0013402  | 0.022262  | 15.646       | 
+| "OTU1689-NN=Soleaferrea_massiliensis_JX101688-D=88_9"        | 0.0013402  | 0.022262  | 15.646       | 
 | "Bacteria_5"                                                 | 0.0015054  | 0.022628  | 15.399       | 
-| "OTU1335|NN=Oscillibacter_valericigenes_AB238598|D=95_6"     | 0.0015136  | 0.022628  | 15.388       | 
-| "OTU342|NN=Clostridium_clariflavum_NR_102987_1|D=77_3"       | 0.0016346  | 0.023274  | 15.224       | 
-| "OTU1482|NN=Veillonella_atypica_X84007|D=96_9"               | 0.0022356  | 0.030384  | 14.558       | 
-| "OTU1339|NN=Clostridium_clariflavum_NR_102987_1|D=76_8"      | 0.0024735  | 0.032156  | 14.343       | 
-| "OTU1240|NN=OscillospiraClostridium_viride_X81125|D=86"      | 0.0029348  | 0.034981  | 13.978       | 
+| "OTU1335-NN=Oscillibacter_valericigenes_AB238598-D=95_6"     | 0.0015136  | 0.022628  | 15.388       | 
+| "OTU342-NN=Clostridium_clariflavum_NR_102987_1-D=77_3"       | 0.0016346  | 0.023274  | 15.224       | 
+| "OTU1482-NN=Veillonella_atypica_X84007-D=96_9"               | 0.0022356  | 0.030384  | 14.558       | 
+| "OTU1339-NN=Clostridium_clariflavum_NR_102987_1-D=76_8"      | 0.0024735  | 0.032156  | 14.343       | 
+| "OTU1240-NN=OscillospiraClostridium_viride_X81125-D=86"      | 0.0029348  | 0.034981  | 13.978       | 
 | "unclassified_38"                                            | 0.00303    | 0.034981  | 13.91        | 
 | "Parabacteroides_goldsteinii"                                | 0.0030418  | 0.034981  | 13.902       | 
-| "OTU902|NN=Prevotella_loescheii_AB547688|D=88_8"             | 0.0035049  | 0.038814  | 13.599       | 
+| "OTU902-NN=Prevotella_loescheii_AB547688-D=88_8"             | 0.0035049  | 0.038814  | 13.599       | 
 | "Streptococcus_1"                                            | 0.0044657  | 0.047687  | 13.081       | 
 
 ## metagenomeSeq
@@ -213,10 +213,10 @@ see folder:
 | "OTU"                                                   | "Pvalues"  | "FDR"     | 
 |---------------------------------------------------------|------------|-----------| 
 | "Prevotella"                                            | 2.2598e-05 | 0.0067568 | 
-| "OTU516|NN=Prevotella_copri_AB064923|D=96_6_3"          | 7.9304e-05 | 0.011856  | 
+| "OTU516-NN=Prevotella_copri_AB064923-D=96_6_3"          | 7.9304e-05 | 0.011856  | 
 | "Bacteroidales_5"                                       | 0.00013051 | 0.013007  | 
 | "Barnesiella_10"                                        | 0.00021425 | 0.016015  | 
-| "OTU1337|NN=Desulfovibrio_desulfuricans_DVURRDA|D=89_2" | 0.00068136 | 0.040745  | 
+| "OTU1337-NN=Desulfovibrio_desulfuricans_DVURRDA-D=89_2" | 0.00068136 | 0.040745  | 
 | "Alistipes_indistinctus"                                | 0.00083117 | 0.04142   | 
 
 
@@ -277,63 +277,63 @@ see folder
 
 | "Species"                                                | "log2FC" | "lfcSE" | "Pvalues"  | "FDR"      | 
 |----------------------------------------------------------|----------|---------|------------|------------| 
-| "OTU1028|NN=Ruminococcus_gnavus_JN713312|D=95_6"         | 6.5111   | 0.93552 | 3.4073e-12 | 3.6976e-10 | 
-| "OTU1482|NN=Veillonella_atypica_X84007|D=96_9"           | 5.1259   | 0.73858 | 3.9128e-12 | 3.6976e-10 | 
+| "OTU1028-NN=Ruminococcus_gnavus_JN713312-D=95_6"         | 6.5111   | 0.93552 | 3.4073e-12 | 3.6976e-10 | 
+| "OTU1482-NN=Veillonella_atypica_X84007-D=96_9"           | 5.1259   | 0.73858 | 3.9128e-12 | 3.6976e-10 | 
 | "Streptococcus_infantis"                                 | 3.9275   | 0.62695 | 3.7421e-10 | 2.3575e-08 | 
-| "OTU1337|NN=Desulfovibrio_desulfuricans_DVURRDA|D=89"    | -5.9611  | 0.99089 | 1.7888e-09 | 8.4519e-08 | 
+| "OTU1337-NN=Desulfovibrio_desulfuricans_DVURRDA-D=89"    | -5.9611  | 0.99089 | 1.7888e-09 | 8.4519e-08 | 
 | "Dialister_pneumosintes"                                 | 7.2606   | 1.2199  | 2.6535e-09 | 1.003e-07  | 
 | "Streptococcus_anginosus"                                | 5.0796   | 0.86981 | 5.225e-09  | 1.6459e-07 | 
-| "OTU790|NN=Barnesiella_intestinihominis_AB370251|D=84_6" | 6.7489   | 1.2191  | 3.093e-08  | 8.3511e-07 | 
-| "OTU506|NN=Christensenella_minuta_AB490809|D=83_8"       | -5.7248  | 1.0396  | 3.6604e-08 | 8.6476e-07 | 
+| "OTU790-NN=Barnesiella_intestinihominis_AB370251-D=84_6" | 6.7489   | 1.2191  | 3.093e-08  | 8.3511e-07 | 
+| "OTU506-NN=Christensenella_minuta_AB490809-D=83_8"       | -5.7248  | 1.0396  | 3.6604e-08 | 8.6476e-07 | 
 | "Veillonella_rogosae"                                    | 5.1187   | 0.95835 | 9.2351e-08 | 1.9394e-06 | 
 | "Shigella_sonnei"                                        | 4.5891   | 0.87351 | 1.4918e-07 | 2.8195e-06 | 
-| "OTU175|NN=Roseburia_hominis_AB661434|D=94_3"            | -4.8133  | 0.94715 | 3.7378e-07 | 6.4222e-06 | 
+| "OTU175-NN=Roseburia_hominis_AB661434-D=94_3"            | -4.8133  | 0.94715 | 3.7378e-07 | 6.4222e-06 | 
 | "Parabacteroides_goldsteinii"                            | -4.698   | 0.97152 | 1.3269e-06 | 2.0898e-05 | 
 | "Haemophilus_parainfluenzae"                             | 3.8547   | 0.85371 | 6.3254e-06 | 9.1961e-05 | 
-| "OTU1339|NN=Clostridium_clariflavum_NR_102987_1|D=76_8"  | -4.704   | 1.1527  | 4.4876e-05 | 0.00060583 | 
-| "OTU869|NN=Papillibacter_cinnamivorans_AF167711|D=90_2"  | -4.2336  | 1.1193  | 0.00015527 | 0.0019564  | 
-| "OTU84|NN=Robinsoniella_peoriensis_AF445258|D=93_1"      | -2.952   | 0.7875  | 0.0001779  | 0.0021014  | 
-| "OTU1000|NN=Bacteroides_vulgatus_BNRRR16SA|D=96_9"       | 2.3596   | 0.63638 | 0.00020908 | 0.0023244  | 
-| "OTU1074|NN=Papillibacter_cinnamivorans_AF167711|D=85_3" | -4.5432  | 1.238   | 0.00024261 | 0.0025474  | 
-| "OTU1678|NN=Veillonella_dispar_GQ422726|D=94_9"          | 5.4823   | 1.5065  | 0.00027357 | 0.0026489  | 
-| "OTU516|NN=Prevotella_copri_AB064923|D=96_6"             | 3.5841   | 0.98659 | 0.00028031 | 0.0026489  | 
+| "OTU1339-NN=Clostridium_clariflavum_NR_102987_1-D=76_8"  | -4.704   | 1.1527  | 4.4876e-05 | 0.00060583 | 
+| "OTU869-NN=Papillibacter_cinnamivorans_AF167711-D=90_2"  | -4.2336  | 1.1193  | 0.00015527 | 0.0019564  | 
+| "OTU84-NN=Robinsoniella_peoriensis_AF445258-D=93_1"      | -2.952   | 0.7875  | 0.0001779  | 0.0021014  | 
+| "OTU1000-NN=Bacteroides_vulgatus_BNRRR16SA-D=96_9"       | 2.3596   | 0.63638 | 0.00020908 | 0.0023244  | 
+| "OTU1074-NN=Papillibacter_cinnamivorans_AF167711-D=85_3" | -4.5432  | 1.238   | 0.00024261 | 0.0025474  | 
+| "OTU1678-NN=Veillonella_dispar_GQ422726-D=94_9"          | 5.4823   | 1.5065  | 0.00027357 | 0.0026489  | 
+| "OTU516-NN=Prevotella_copri_AB064923-D=96_6"             | 3.5841   | 0.98659 | 0.00028031 | 0.0026489  | 
 | "Phascolarctobacterium_succinatutens"                    | 4.3877   | 1.2269  | 0.00034866 | 0.0031379  | 
-| "OTU1033|NN=Ruminococcus_bromii_DQ882649|D=88"           | -2.8326  | 0.82496 | 0.00059558 | 0.0051166  | 
-| "OTU1683|NN=Ruminococcus_bromii_DQ882649|D=90"           | -3.5819  | 1.0514  | 0.00065738 | 0.005402   | 
+| "OTU1033-NN=Ruminococcus_bromii_DQ882649-D=88"           | -2.8326  | 0.82496 | 0.00059558 | 0.0051166  | 
+| "OTU1683-NN=Ruminococcus_bromii_DQ882649-D=90"           | -3.5819  | 1.0514  | 0.00065738 | 0.005402   | 
 | "Fusicatenibacter_saccharivorans"                        | -2.2513  | 0.67178 | 0.00080451 | 0.0063356  | 
-| "OTU1240|NN=OscillospiraClostridium_viride_X81125|D=86"  | -3.9442  | 1.1912  | 0.00092952 | 0.0070272  | 
-| "OTU555|NN=Christensenella_minuta_AB490809|D=88_7"       | -3.7926  | 1.1618  | 0.0010972  | 0.0079761  | 
-| "OTU867|NN=Christensenella_minuta_AB490809|D=91_9"       | -2.6129  | 0.83408 | 0.0017323  | 0.012126   | 
-| "OTU1524|NN=Anaerofilum_pentosovorans_X97852|D=90_6"     | -2.8035  | 0.89844 | 0.0018058  | 0.012189   | 
+| "OTU1240-NN=OscillospiraClostridium_viride_X81125-D=86"  | -3.9442  | 1.1912  | 0.00092952 | 0.0070272  | 
+| "OTU555-NN=Christensenella_minuta_AB490809-D=88_7"       | -3.7926  | 1.1618  | 0.0010972  | 0.0079761  | 
+| "OTU867-NN=Christensenella_minuta_AB490809-D=91_9"       | -2.6129  | 0.83408 | 0.0017323  | 0.012126   | 
+| "OTU1524-NN=Anaerofilum_pentosovorans_X97852-D=90_6"     | -2.8035  | 0.89844 | 0.0018058  | 0.012189   | 
 | "Ruminococcus_callidus"                                  | -3.2155  | 1.0632  | 0.0024917  | 0.016239   | 
-| "OTU855|NN=Roseburia_faecis_AY804149|D=95_5"             | -1.8723  | 0.63147 | 0.0030269  | 0.01907    | 
-| "OTU252|NN=Rothia_aeria_AB753461|D=96_6"                 | 2.4169   | 0.81861 | 0.0031532  | 0.019224   | 
+| "OTU855-NN=Roseburia_faecis_AY804149-D=95_5"             | -1.8723  | 0.63147 | 0.0030269  | 0.01907    | 
+| "OTU252-NN=Rothia_aeria_AB753461-D=96_6"                 | 2.4169   | 0.81861 | 0.0031532  | 0.019224   | 
 | "Granulicatella_adiacens"                                | 1.8893   | 0.64715 | 0.0035068  | 0.020712   | 
-| "OTU342|NN=Clostridium_clariflavum_NR_102987_1|D=77_3"   | -2.4839  | 0.88497 | 0.0050033  | 0.028655   | 
+| "OTU342-NN=Clostridium_clariflavum_NR_102987_1-D=77_3"   | -2.4839  | 0.88497 | 0.0050033  | 0.028655   | 
 | "Not_Assigned"                                           | 0.98141  | 0.35954 | 0.0063406  | 0.035246   | 
-| "OTU962|NN=Oscillibacter_valericigenes_AB238598|D=89_7"  | -3.4972  | 1.2979  | 0.0070516  | 0.038079   | 
-| "OTU379|NN=Dialister_succinatiphilus_AB370249|D=96_3"    | -3.4533  | 1.2983  | 0.0078173  | 0.041041   | 
+| "OTU962-NN=Oscillibacter_valericigenes_AB238598-D=89_7"  | -3.4972  | 1.2979  | 0.0070516  | 0.038079   | 
+| "OTU379-NN=Dialister_succinatiphilus_AB370249-D=96_3"    | -3.4533  | 1.2983  | 0.0078173  | 0.041041   | 
 | "Eggerthella_lenta"                                      | 2.1472   | 0.8134  | 0.0082967  | 0.042381   | 
-| "OTU661|NN=Blautia_wexlerae_EF036467|D=94_9"             | -1.5468  | 0.58839 | 0.0085675  | 0.042612   | 
-| "OTU1689|NN=Soleaferrea_massiliensis_JX101688|D=88_9"    | -2.3464  | 0.89842 | 0.0090102  | 0.043665   | 
-| "OTU197|NN=Ruminococcus_albus_AY445596|D=93_7"           | -2.5669  | 0.99553 | 0.0099252  | 0.046896   | 
+| "OTU661-NN=Blautia_wexlerae_EF036467-D=94_9"             | -1.5468  | 0.58839 | 0.0085675  | 0.042612   | 
+| "OTU1689-NN=Soleaferrea_massiliensis_JX101688-D=88_9"    | -2.3464  | 0.89842 | 0.0090102  | 0.043665   | 
+| "OTU197-NN=Ruminococcus_albus_AY445596-D=93_7"           | -2.5669  | 0.99553 | 0.0099252  | 0.046896   | 
 
 | "OTU"                                                    | "log2FC" | "lfcSE" | "Pvalues"  | "FDR"      | 
 |----------------------------------------------------------|----------|---------|------------|------------| 
-| "OTU1482|NN=Veillonella_atypica_X84007|D=96_9"           | 6.2078   | 0.77191 | 8.8328e-16 | 2.641e-13  | 
+| "OTU1482-NN=Veillonella_atypica_X84007-D=96_9"           | 6.2078   | 0.77191 | 8.8328e-16 | 2.641e-13  | 
 | "Streptococcus_1"                                        | 5.5123   | 0.69674 | 2.5426e-15 | 3.8012e-13 | 
-| "OTU1028|NN=Ruminococcus_gnavus_JN713312|D=95_6"         | 6.4167   | 0.92343 | 3.6845e-12 | 3.6722e-10 | 
+| "OTU1028-NN=Ruminococcus_gnavus_JN713312-D=95_6"         | 6.4167   | 0.92343 | 3.6845e-12 | 3.6722e-10 | 
 | "Bacteroides_3"                                          | -6.7879  | 1.0228  | 3.2156e-11 | 2.4036e-09 | 
 | "Streptococcus_infantis"                                 | 3.8191   | 0.60326 | 2.4411e-10 | 1.4598e-08 | 
 | "Dialister_pneumosintes"                                 | 7.2558   | 1.2099  | 2.0108e-09 | 1.0021e-07 | 
-| "OTU506|NN=Christensenella_minuta_AB490809|D=83_8"       | -6.0393  | 1.0339  | 5.1736e-09 | 2.2099e-07 | 
+| "OTU506-NN=Christensenella_minuta_AB490809-D=83_8"       | -6.0393  | 1.0339  | 5.1736e-09 | 2.2099e-07 | 
 | "Streptococcus_anginosus"                                | 4.9493   | 0.86599 | 1.0958e-08 | 4.0957e-07 | 
-| "OTU790|NN=Barnesiella_intestinihominis_AB370251|D=84_6" | 6.7883   | 1.2109  | 2.0705e-08 | 6.2652e-07 | 
+| "OTU790-NN=Barnesiella_intestinihominis_AB370251-D=84_6" | 6.7883   | 1.2109  | 2.0705e-08 | 6.2652e-07 | 
 | "Streptococcus"                                          | 3.5874   | 0.64015 | 2.0954e-08 | 6.2652e-07 | 
 | "Bacteroidales_5"                                        | -5.8559  | 1.0889  | 7.5456e-08 | 1.9139e-06 | 
 | "Shigella_sonnei"                                        | 4.6813   | 0.87102 | 7.6814e-08 | 1.9139e-06 | 
-| "OTU1337|NN=Desulfovibrio_desulfuricans_DVURRDA|D=89_2"  | -5.6423  | 1.0634  | 1.1205e-07 | 2.5772e-06 | 
-| "OTU175|NN=Roseburia_hominis_AB661434|D=94_3"            | -4.8783  | 0.93763 | 1.9637e-07 | 4.1938e-06 | 
+| "OTU1337-NN=Desulfovibrio_desulfuricans_DVURRDA-D=89_2"  | -5.6423  | 1.0634  | 1.1205e-07 | 2.5772e-06 | 
+| "OTU175-NN=Roseburia_hominis_AB661434-D=94_3"            | -4.8783  | 0.93763 | 1.9637e-07 | 4.1938e-06 | 
 | "Paraprevotella_clara"                                   | 5.563    | 1.0745  | 2.2498e-07 | 4.4847e-06 | 
 | "Parabacteroides_goldsteinii"                            | -4.7466  | 0.96598 | 8.9367e-07 | 1.67e-05   | 
 | "Megasphaera"                                            | 5.4131   | 1.1279  | 1.593e-06  | 2.7819e-05 | 
@@ -342,54 +342,54 @@ see folder
 | "Haemophilus_parainfluenzae"                             | 3.8578   | 0.8441  | 4.8698e-06 | 7.2804e-05 | 
 | "Lachnospiraceae_7"                                      | -4.4495  | 0.9944  | 7.6574e-06 | 0.00010903 | 
 | "Bacteroides_1"                                          | 5.2738   | 1.209   | 1.288e-05  | 0.00017506 | 
-| "OTU1000|NN=Bacteroides_vulgatus_BNRRR16SA|D=96_9"       | 2.6943   | 0.62703 | 1.7315e-05 | 0.00022509 | 
-| "OTU1339|NN=Clostridium_clariflavum_NR_102987_1|D=76_8"  | -4.8767  | 1.142   | 1.9523e-05 | 0.00024322 | 
+| "OTU1000-NN=Bacteroides_vulgatus_BNRRR16SA-D=96_9"       | 2.6943   | 0.62703 | 1.7315e-05 | 0.00022509 | 
+| "OTU1339-NN=Clostridium_clariflavum_NR_102987_1-D=76_8"  | -4.8767  | 1.142   | 1.9523e-05 | 0.00024322 | 
 | "Lachnospiraceae"                                        | -2.2711  | 0.54315 | 2.898e-05  | 0.0003466  | 
-| "OTU84|NN=Robinsoniella_peoriensis_AF445258|D=93_1"      | -3.0892  | 0.76335 | 5.1902e-05 | 0.00059688 | 
+| "OTU84-NN=Robinsoniella_peoriensis_AF445258-D=93_1"      | -3.0892  | 0.76335 | 5.1902e-05 | 0.00059688 | 
 | "Pasteurellaceae"                                        | 3.6134   | 0.91724 | 8.1674e-05 | 0.00090447 | 
 | "unclassified_39"                                        | -3.8967  | 1.0098  | 0.0001139  | 0.0012162  | 
 | "Fusobacterium"                                          | 4.1157   | 1.0745  | 0.00012799 | 0.0013196  | 
 | "Oscillospira_4"                                         | -4.1742  | 1.1007  | 0.0001493  | 0.0014729  | 
 | "Prevotella_1"                                           | 4.0681   | 1.0743  | 0.00015271 | 0.0014729  | 
 | "Bacteria_5"                                             | -3.7444  | 1.0125  | 0.00021709 | 0.0020039  | 
-| "OTU1074|NN=Papillibacter_cinnamivorans_AF167711|D=85_3" | -4.5908  | 1.2429  | 0.00022117 | 0.0020039  | 
+| "OTU1074-NN=Papillibacter_cinnamivorans_AF167711-D=85_3" | -4.5908  | 1.2429  | 0.00022117 | 0.0020039  | 
 | "Clostridiales_54"                                       | -3.6997  | 1.0256  | 0.00030932 | 0.0026638  | 
 | "Fusicatenibacter_saccharivorans"                        | -2.3442  | 0.65022 | 0.00031182 | 0.0026638  | 
-| "OTU869|NN=Papillibacter_cinnamivorans_AF167711|D=90_2"  | -3.9957  | 1.1141  | 0.00033526 | 0.0027836  | 
+| "OTU869-NN=Papillibacter_cinnamivorans_AF167711-D=90_2"  | -3.9957  | 1.1141  | 0.00033526 | 0.0027836  | 
 | "unclassified_5"                                         | -4.0589  | 1.134   | 0.00034446 | 0.0027836  | 
-| "OTU1678|NN=Veillonella_dispar_GQ422726|D=94_9"          | 5.2826   | 1.4926  | 0.00040142 | 0.0031586  | 
+| "OTU1678-NN=Veillonella_dispar_GQ422726-D=94_9"          | 5.2826   | 1.4926  | 0.00040142 | 0.0031586  | 
 | "unclassified_4"                                         | -3.2215  | 0.92199 | 0.00047579 | 0.0036477  | 
 | "Phascolarctobacterium_succinatutens"                    | 4.1989   | 1.2227  | 0.0005943  | 0.0044424  | 
-| "OTU516|NN=Prevotella_copri_AB064923|D=96_6"             | 3.4175   | 0.99732 | 0.00061111 | 0.0044567  | 
-| "OTU1240|NN=OscillospiraClostridium_viride_X81125|D=86"  | -4.0036  | 1.1974  | 0.00082714 | 0.0058885  | 
+| "OTU516-NN=Prevotella_copri_AB064923-D=96_6"             | 3.4175   | 0.99732 | 0.00061111 | 0.0044567  | 
+| "OTU1240-NN=OscillospiraClostridium_viride_X81125-D=86"  | -4.0036  | 1.1974  | 0.00082714 | 0.0058885  | 
 | "Clostridiales_20"                                       | -3.051   | 0.91538 | 0.00085911 | 0.0059738  | 
-| "OTU197|NN=Ruminococcus_albus_AY445596|D=93_7"           | -3.3576  | 1.0119  | 0.00090675 | 0.0061618  | 
-| "OTU1524|NN=Anaerofilum_pentosovorans_X97852|D=90_6"     | -2.9303  | 0.89419 | 0.0010488  | 0.0068981  | 
-| "OTU1683|NN=Ruminococcus_bromii_DQ882649|D=90"           | -3.4039  | 1.0397  | 0.0010613  | 0.0068981  | 
-| "OTU555|NN=Christensenella_minuta_AB490809|D=88_7_1"     | -3.7906  | 1.1655  | 0.0011441  | 0.0072787  | 
+| "OTU197-NN=Ruminococcus_albus_AY445596-D=93_7"           | -3.3576  | 1.0119  | 0.00090675 | 0.0061618  | 
+| "OTU1524-NN=Anaerofilum_pentosovorans_X97852-D=90_6"     | -2.9303  | 0.89419 | 0.0010488  | 0.0068981  | 
+| "OTU1683-NN=Ruminococcus_bromii_DQ882649-D=90"           | -3.4039  | 1.0397  | 0.0010613  | 0.0068981  | 
+| "OTU555-NN=Christensenella_minuta_AB490809-D=88_7_1"     | -3.7906  | 1.1655  | 0.0011441  | 0.0072787  | 
 | "Barnesiella_10"                                         | -3.5754  | 1.1089  | 0.0012624  | 0.0078635  | 
 | "Ruminococcus_callidus"                                  | -3.3784  | 1.0654  | 0.0015186  | 0.0090836  | 
 | "unclassified_38"                                        | -3.0702  | 0.96819 | 0.001519   | 0.0090836  | 
-| "OTU867|NN=Christensenella_minuta_AB490809|D=91_9"       | -2.595   | 0.82302 | 0.0016162  | 0.0093557  | 
+| "OTU867-NN=Christensenella_minuta_AB490809-D=91_9"       | -2.595   | 0.82302 | 0.0016162  | 0.0093557  | 
 | "Paraprevotella_clara_1"                                 | 4.1391   | 1.3136  | 0.0016271  | 0.0093557  | 
-| "OTU252|NN=Rothia_aeria_AB753461|D=96_6"                 | 2.4406   | 0.7932  | 0.0020918  | 0.011801   | 
+| "OTU252-NN=Rothia_aeria_AB753461-D=96_6"                 | 2.4406   | 0.7932  | 0.0020918  | 0.011801   | 
 | "Bacteria_3"                                             | 1.0919   | 0.35854 | 0.0023233  | 0.012729   | 
 | "Bacteria"                                               | 1.0506   | 0.34523 | 0.0023415  | 0.012729   | 
 | "Bacteria_8"                                             | 1.0377   | 0.34403 | 0.0025595  | 0.013666   | 
-| "OTU855|NN=Roseburia_faecis_AY804149|D=95_5"             | -1.8659  | 0.62198 | 0.0027009  | 0.014168   | 
-| "OTU342|NN=Clostridium_clariflavum_NR_102987_1|D=77_3"   | -2.6048  | 0.8784  | 0.003023   | 0.015584   | 
+| "OTU855-NN=Roseburia_faecis_AY804149-D=95_5"             | -1.8659  | 0.62198 | 0.0027009  | 0.014168   | 
+| "OTU342-NN=Clostridium_clariflavum_NR_102987_1-D=77_3"   | -2.6048  | 0.8784  | 0.003023   | 0.015584   | 
 | "Bacteria_6"                                             | 1.0087   | 0.34363 | 0.0033307  | 0.016879   | 
 | "Barnesiella_intestinihominis_1"                         | -2.6278  | 0.90084 | 0.0035341  | 0.017559   | 
 | "Lachnoclostridium_1"                                    | -2.04    | 0.70035 | 0.0035823  | 0.017559   | 
 | "Granulicatella_adiacens"                                | 1.7855   | 0.63206 | 0.0047308  | 0.022815   | 
-| "OTU962|NN=Oscillibacter_valericigenes_AB238598|D=89_7"  | -3.6398  | 1.2994  | 0.0050939  | 0.024176   | 
+| "OTU962-NN=Oscillibacter_valericigenes_AB238598-D=89_7"  | -3.6398  | 1.2994  | 0.0050939  | 0.024176   | 
 | "Eubacterium_2"                                          | 1.8744   | 0.68114 | 0.0059252  | 0.02734    | 
 | "unclassified_3"                                         | -2.2028  | 0.80077 | 0.0059434  | 0.02734    | 
 | "Bacteroides"                                            | 1.8081   | 0.67118 | 0.0070634  | 0.031656   | 
 | "Atopobium"                                              | 2.0837   | 0.77393 | 0.0070936  | 0.031656   | 
-| "OTU379|NN=Dialister_succinatiphilus_AB370249|D=96_3"    | -3.4238  | 1.3097  | 0.0089411  | 0.039315   | 
+| "OTU379-NN=Dialister_succinatiphilus_AB370249-D=96_3"    | -3.4238  | 1.3097  | 0.0089411  | 0.039315   | 
 | "Erysipelatoclostridium"                                 | 2.1258   | 0.83996 | 0.011379   | 0.049308   | 
-| "OTU661|NN=Blautia_wexlerae_EF036467|D=94_9"             | -1.4804  | 0.58667 | 0.011624   | 0.049649   | 
+| "OTU661-NN=Blautia_wexlerae_EF036467-D=94_9"             | -1.4804  | 0.58667 | 0.011624   | 0.049649   | 
 
 ### Examples:
 
@@ -430,23 +430,23 @@ See results in folder:
 
 | "Species"                                                    | "Pvalues"  | "FDR"     | "healthy"       | "normal"        | "fibrose"       | "zirrhose"      | "LDAscore" | 
 |--------------------------------------------------------------|------------|-----------|------------------|------------------|------------------|------------------|------------| 
-| "OTU1337|NN=Desulfovibrio_desulfuricans_DVURRDA|D=89"        | 2.5068e-05 | 0.0047628 | 8462.44760624677 | 2510.48286950075 | 488.494334667348 | 43.9942737326595 | 3.62       | 
-| "OTU506|NN=Christensenella_minuta_AB490809|D=83_8"           | 6.2399e-05 | 0.0048236 | 97187.570906333  | 52045.1492756922 | 7286.47990258686 | 475.00243296263  | 4.68       | 
-| "OTU916|NN=Eubacterium_siraeum_EUBRRDV|D=93_2"               | 7.6162e-05 | 0.0048236 | 17393.7003925028 | 2761.75765933834 | 21.4443636706746 | 3868.71050294625 | 3.94       | 
-| "OTU383|NN=Clostridium_populeti_X71853|D=91_5"               | 0.00023753 | 0.011283  | 14734.2585420822 | 35877.5747128127 | 3041.57185887673 | 9023.65047746983 | 4.22       | 
-| "OTU1033|NN=Ruminococcus_bromii_DQ882649|D=88"               | 0.0003066  | 0.011651  | 2375.2152708857  | 260.373731840983 | 1194.41725549619 | 711.329499727706 | 3.02       | 
-| "OTU1335|NN=Oscillibacter_valericigenes_AB238598|D=95_6"     | 0.00043939 | 0.013914  | 3898.11656376373 | 3840.73352562476 | 1595.24954199799 | 1483.65348546604 | 3.08       | 
+| "OTU1337-NN=Desulfovibrio_desulfuricans_DVURRDA-D=89"        | 2.5068e-05 | 0.0047628 | 8462.44760624677 | 2510.48286950075 | 488.494334667348 | 43.9942737326595 | 3.62       | 
+| "OTU506-NN=Christensenella_minuta_AB490809-D=83_8"           | 6.2399e-05 | 0.0048236 | 97187.570906333  | 52045.1492756922 | 7286.47990258686 | 475.00243296263  | 4.68       | 
+| "OTU916-NN=Eubacterium_siraeum_EUBRRDV-D=93_2"               | 7.6162e-05 | 0.0048236 | 17393.7003925028 | 2761.75765933834 | 21.4443636706746 | 3868.71050294625 | 3.94       | 
+| "OTU383-NN=Clostridium_populeti_X71853-D=91_5"               | 0.00023753 | 0.011283  | 14734.2585420822 | 35877.5747128127 | 3041.57185887673 | 9023.65047746983 | 4.22       | 
+| "OTU1033-NN=Ruminococcus_bromii_DQ882649-D=88"               | 0.0003066  | 0.011651  | 2375.2152708857  | 260.373731840983 | 1194.41725549619 | 711.329499727706 | 3.02       | 
+| "OTU1335-NN=Oscillibacter_valericigenes_AB238598-D=95_6"     | 0.00043939 | 0.013914  | 3898.11656376373 | 3840.73352562476 | 1595.24954199799 | 1483.65348546604 | 3.08       | 
 | "Dialister_pneumosintes"                                     | 0.00060686 | 0.015669  | 0                | 2195.80314308171 | 285.697562754108 | 43077.0779944808 | 4.33       | 
-| "OTU661|NN=Blautia_wexlerae_EF036467|D=94_9"                 | 0.00065975 | 0.015669  | 28024.8817821196 | 15003.9107284982 | 3482.76886188742 | 4462.72756529591 | 4.09       | 
-| "OTU694|NN=Clostridium_clariflavum_NR_102987_1|D=85_2"       | 0.0010549  | 0.02227   | 9440.38516187504 | 6069.24180458566 | 3966.53325813013 | 2198.76804721345 | 3.56       | 
-| "OTU293|NN=Clostridium_glycyrrhizinilyticum_AB233029|D=91_2" | 0.0011866  | 0.022546  | 9076.64778195034 | 3506.21944381522 | 30.7795070376657 | 2307.27887656725 | 3.66       | 
-| "OTU1689|NN=Soleaferrea_massiliensis_JX101688|D=88_9"        | 0.0013189  | 0.022782  | 5231.73992941993 | 3051.8222455415  | 3475.82665060504 | 560.277041563892 | 3.37       | 
-| "OTU342|NN=Clostridium_clariflavum_NR_102987_1|D=77_3"       | 0.0015065  | 0.023852  | 17644.4159246064 | 8520.08840776765 | 3678.86865878213 | 1450.10859534348 | 3.91       | 
-| "OTU1482|NN=Veillonella_atypica_X84007|D=96_9"               | 0.0023425  | 0.033569  | 114489.215468368 | 244072.179110858 | 237031.899462028 | 1410885.47779397 | 5.81       | 
-| "OTU1339|NN=Clostridium_clariflavum_NR_102987_1|D=76_8"      | 0.0024735  | 0.033569  | 13615.7631275547 | 4655.63942077853 | 30733.8974395363 | 73.8525195105683 | 4.19       | 
-| "OTU1240|NN=OscillospiraClostridium_viride_X81125|D=86"      | 0.0029348  | 0.036122  | 1423.02412528051 | 112.232582722412 | 747.994393800127 | 0                | 2.85       | 
+| "OTU661-NN=Blautia_wexlerae_EF036467-D=94_9"                 | 0.00065975 | 0.015669  | 28024.8817821196 | 15003.9107284982 | 3482.76886188742 | 4462.72756529591 | 4.09       | 
+| "OTU694-NN=Clostridium_clariflavum_NR_102987_1-D=85_2"       | 0.0010549  | 0.02227   | 9440.38516187504 | 6069.24180458566 | 3966.53325813013 | 2198.76804721345 | 3.56       | 
+| "OTU293-NN=Clostridium_glycyrrhizinilyticum_AB233029-D=91_2" | 0.0011866  | 0.022546  | 9076.64778195034 | 3506.21944381522 | 30.7795070376657 | 2307.27887656725 | 3.66       | 
+| "OTU1689-NN=Soleaferrea_massiliensis_JX101688-D=88_9"        | 0.0013189  | 0.022782  | 5231.73992941993 | 3051.8222455415  | 3475.82665060504 | 560.277041563892 | 3.37       | 
+| "OTU342-NN=Clostridium_clariflavum_NR_102987_1-D=77_3"       | 0.0015065  | 0.023852  | 17644.4159246064 | 8520.08840776765 | 3678.86865878213 | 1450.10859534348 | 3.91       | 
+| "OTU1482-NN=Veillonella_atypica_X84007-D=96_9"               | 0.0023425  | 0.033569  | 114489.215468368 | 244072.179110858 | 237031.899462028 | 1410885.47779397 | 5.81       | 
+| "OTU1339-NN=Clostridium_clariflavum_NR_102987_1-D=76_8"      | 0.0024735  | 0.033569  | 13615.7631275547 | 4655.63942077853 | 30733.8974395363 | 73.8525195105683 | 4.19       | 
+| "OTU1240-NN=OscillospiraClostridium_viride_X81125-D=86"      | 0.0029348  | 0.036122  | 1423.02412528051 | 112.232582722412 | 747.994393800127 | 0                | 2.85       | 
 | "Parabacteroides_goldsteinii"                                | 0.0030418  | 0.036122  | 11720.6757435959 | 2750.28181220383 | 3461.66709320441 | 209.726669436687 | 3.76       | 
-| "OTU902|NN=Prevotella_loescheii_AB547688|D=88_8"             | 0.0039699  | 0.04437   | 8848.44554766887 | 1727.23649559518 | 4682.19080552405 | 1333.62736346102 | 3.58       | 
+| "OTU902-NN=Prevotella_loescheii_AB547688-D=88_8"             | 0.0039699  | 0.04437   | 8848.44554766887 | 1727.23649559518 | 4682.19080552405 | 1333.62736346102 | 3.58       | 
 
 ### Phylum
 
