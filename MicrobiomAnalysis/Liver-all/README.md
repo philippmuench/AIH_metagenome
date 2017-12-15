@@ -1,6 +1,6 @@
 # Liver Evaluation
 
- ![alt text](/MicrobiomAnalysis/Lever-all/norm_libsizes_0_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/norm_libsizes_0_1.png)
 
 ## Taxonomic Bar Plots
 
@@ -8,53 +8,53 @@ by Sample:
 
 ### Phylum
 
- ![alt text](/MicrobiomAnalysis/Lever-all/TaxBars/2_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/2_1.png)
 
 ### Class
 
- ![alt text](/MicrobiomAnalysis/Lever-all/TaxBars/3_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/3_1.png)
 
 ### Order
 
- ![alt text](/MicrobiomAnalysis/Lever-all/TaxBars/4_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/4_1.png)
 
 ### Family
 
- ![alt text](/MicrobiomAnalysis/Lever-all/TaxBars/5_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/5_1.png)
 
 ### Genus
 
- ![alt text](/MicrobiomAnalysis/Lever-all/TaxBars/6_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/6_1.png)
 
 ### Species
 
- ![alt text](/MicrobiomAnalysis/Lever-all/TaxBars/7_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/7_1.png)
 
 by Group
 
 ### Phylum
 
- ![alt text](/MicrobiomAnalysis/Lever-all/TaxBars/g2_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/g2_1.png)
 
 ### Class
 
- ![alt text](/MicrobiomAnalysis/Lever-all/TaxBars/g3_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/g3_1.png)
 
 ### Order
 
- ![alt text](/MicrobiomAnalysis/Lever-all/TaxBars/g4_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/g4_1.png)
 
 ### Family
 
- ![alt text](/MicrobiomAnalysis/Lever-all/TaxBars/g5_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/g5_1.png)
 
 ### Genus
 
- ![alt text](/MicrobiomAnalysis/Lever-all/TaxBars/g6_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/g6_1.png)
 
 ### Species
 
- ![alt text](/MicrobiomAnalysis/Lever-all/TaxBars/g7_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/TaxBars/g7_1.png)
 
 
 ## Alpha Diversity
@@ -95,33 +95,33 @@ Fisher	p-value: 0.00020323; [Kruskal-Wallis] statistic: 19.623
 
 ### Observed
 
- ![alt text](/MicrobiomAnalysis/Lever-all/Alphadiversity/Observed_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/Alphadiversity/gObserved_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Alphadiversity/Observed_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Alphadiversity/gObserved_1.png)
 
 ### Chao1
 
- ![alt text](/MicrobiomAnalysis/Lever-all/Alphadiversity/Chao1_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/Alphadiversity/gChao1_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Alphadiversity/Chao1_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Alphadiversity/gChao1_1.png)
 
 ### ACE
 
- ![alt text](/MicrobiomAnalysis/Lever-all/Alphadiversity/ACE_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/Alphadiversity/gACE_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Alphadiversity/ACE_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Alphadiversity/gACE_1.png)
 
 ### Shannon
 
- ![alt text](/MicrobiomAnalysis/Lever-all/Alphadiversity/Shannon_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/Alphadiversity/gShannon_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Alphadiversity/Shannon_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Alphadiversity/gShannon_1.png)
 
 ### Simpson
 
- ![alt text](/MicrobiomAnalysis/Lever-all/Alphadiversity/Simpson_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/Alphadiversity/gSimpson_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Alphadiversity/Simpson_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Alphadiversity/gSimpson_1.png)
 
 ### Fisher
 
- ![alt text](/MicrobiomAnalysis/Lever-all/Alphadiversity/Fisher_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/Alphadiversity/gFisher_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Alphadiversity/Fisher_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Alphadiversity/gFisher_1.png)
 
 
 ## Beta Diversity
@@ -130,12 +130,12 @@ Beta diversity represents the explicit comparison of microbial communities (in-b
 
 [PERMANOVA] R-squared: 0.10529; p-value < 0.001
 
- ![alt text](/MicrobiomAnalysis/Lever-all/Betadiversity/PCoA_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/Betadiversity/MNDS_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Betadiversity/PCoA_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Betadiversity/MNDS_1.png)
 
 ## Univariate Analysis
 
- ![include](/MicrobiomAnalysis/Lever-all/UnivariateStatisticalComparisons/3.csv)
+ ![include](/MicrobiomAnalysis/Liver-all/UnivariateStatisticalComparisons/3.csv)
  
 see folder
 
@@ -145,7 +145,7 @@ The algorithm is designed to determine features that are differentially abundant
 
 see folder:
 
- ![alt text](/MicrobiomAnalysis/Lever-all/metagenomeSeq/
+ ![alt text](/MicrobiomAnalysis/Liver-all/metagenomeSeq/)
 
 ## DDseq2
 
@@ -153,7 +153,7 @@ DESeq2 are two powerful statistical methods originally developed for RNAseq data
 
 see folder
 
- ![alt text](/MicrobiomAnalysis/Lever-all/DESeq2/
+ ![alt text](/MicrobiomAnalysis/Liver-all/DESeq2/)
 
 ## LEfSe
 
@@ -161,31 +161,31 @@ The LEfSe algorithm was developed for biomarker discovery and interpretation for
 
 See results in folder:
 
- ![alt text](/MicrobiomAnalysis/Lever-all/LEfSe/)
+ ![alt text](/MicrobiomAnalysis/Liver-all/LEfSe/)
 
 ### Phylum
 
- ![alt text](/MicrobiomAnalysis/Lever-all/LEfSe/2_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/LEfSe/2_1.png)
 
 ### Class
 
- ![alt text](/MicrobiomAnalysis/Lever-all/LEfSe/3_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/LEfSe/3_1.png)
 
 ### Order
 
- ![alt text](/MicrobiomAnalysis/Lever-all/LEfSe/4_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/LEfSe/4_1.png)
 
 ### Family
 
- ![alt text](/MicrobiomAnalysis/Lever-all/LEfSe/5_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/LEfSe/5_1.png)
 
 ### Genus
 
- ![alt text](/MicrobiomAnalysis/Lever-all/LEfSe/6_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/LEfSe/6_1.png)
 
 ### Species
 
- ![alt text](/MicrobiomAnalysis/Lever-all/LEfSe/7_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/LEfSe/7_1.png)
 
 ## Random Forests
 
@@ -193,38 +193,38 @@ Random Forests is a powerful machine learning algorithms for classification as w
 
 ### Phylum
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c2_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f2_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c2_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f2_1.png)
 
 ### Class
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c3_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f3_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c3_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f3_1.png)
 
 ### Order
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c4_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f4_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c4_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f4_1.png)
 
 ### Family
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c5_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f5_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c5_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f5_1.png)
 
 ### Genus
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c6_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f6_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c6_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f6_1.png)
 
 ### Species
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c7_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f7_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c7_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f7_1.png)
 
 ### OTU
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c8_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f8_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c8_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f8_1.png)
 
 ## Random Forests
 
@@ -232,38 +232,38 @@ Random Forests is a powerful machine learning algorithms for classification as w
 
 ### Phylum
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c2_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f2_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c2_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f2_1.png)
 
 ### Class
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c3_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f3_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c3_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f3_1.png)
 
 ### Order
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c4_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f4_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c4_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f4_1.png)
 
 ### Family
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c5_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f5_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c5_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f5_1.png)
 
 ### Genus
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c6_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f6_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c6_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f6_1.png)
 
 ### Species
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c7_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f7_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c7_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f7_1.png)
 
 ### OTU
 
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/c8_1.png)
- ![alt text](/MicrobiomAnalysis/Lever-all/RandomForests/f8_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/c8_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/RandomForests/f8_1.png)
 
 ## Core Microbiome
 
@@ -271,18 +271,18 @@ Core microbiome refers to the set of taxa that are detected in a high fraction o
 
 ### Genus
 
- ![alt text](/MicrobiomAnalysis/Lever-all/CoreMicrobiome/genus_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/CoreMicrobiome/genus_1.png)
 
 ## Hierarchical Clustering & Heatmap Visualization
 
 ### Genus
 
- ![alt text](/MicrobiomAnalysis/Lever-all/Heatmap/genus_2.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Heatmap/genus_2.png)
  
 ## Dendrogram (OTUs)
 
- ![alt text](/MicrobiomAnalysis/Lever-all/Dendrogram/OTU_1.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/Dendrogram/OTU_1.png)
 
 ## Correlation Analysis (Genus)
 
- ![alt text](/MicrobiomAnalysis/Lever-all/CorrelationAnalysis/genus_2.png)
+ ![alt text](/MicrobiomAnalysis/Liver-all/CorrelationAnalysis/genus_2.png)
