@@ -1,0 +1,12 @@
+Observed	p-value: 0.028403; [T-test] statistic: -2.2923
+Observed	p-value: 0.041618; [Mann-Whitney] statistic: 90
+Chao1	p-value: 0.030117; [T-test] statistic: -2.2665
+Chao1	p-value: 0.047883; [Mann-Whitney] statistic: 92
+ACE	p-value: 0.035863; [T-test] statistic: -2.1879
+ACE	p-value: 0.056186; [Mann-Whitney] statistic: 94
+Shannon	p-value: 0.052649; [T-test] statistic: -2.0208
+Shannon	p-value: 0.076275; [Mann-Whitney] statistic: 98
+Simpson	p-value: 0.047993; [T-test] statistic: -2.1074
+Simpson	p-value: 0.044123; [Mann-Whitney] statistic: 91
+Fisher	p-value: 0.037503; [T-test] statistic: -2.1677
+Fisher	p-value: 0.060754; [Mann-Whitney] statistic: 95

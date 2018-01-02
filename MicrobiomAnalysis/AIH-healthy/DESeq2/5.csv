@@ -1,0 +1,6 @@
+"Family","log2FC","lfcSE","Pvalues","FDR"
+"Prevotellaceae",-4.324,0.67306,1.3241e-10,5.4288e-09
+"Desulfovibrionaceae",2.6789,0.71741,0.00018838,0.0038617
+"Pasteurellaceae",-2.3121,0.77072,0.0027006,0.032134
+"unclassified",1.4173,0.47977,0.0031351,0.032134
+"Streptococcaceae",-1.4422,0.51901,0.0054585,0.04476

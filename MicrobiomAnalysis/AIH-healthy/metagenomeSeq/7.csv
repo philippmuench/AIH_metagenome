@@ -1,0 +1,12 @@
+"Species","Pvalues","FDR"
+"Paraprevotella_clara",0.00017653,0.022567
+"Alistipes_indistinctus",0.0002033,0.022567
+"OTU516|NN=Prevotella_copri_AB064923|D=96_6",0.00040427,0.029916
+"Bacteroides_plebeius",0.00057768,0.032061
+"OTU392|NN=Aggregatibacter_aphrophilus_EF605278|D=95_1",0.00082535,0.036646
+"Parabacteroides_goldsteinii",0.0013696,0.038491
+"OTU810|NN=Soleaferrea_massiliensis_JX101688|D=87_6",0.0013822,0.038491
+"OTU790|NN=Barnesiella_intestinihominis_AB370251|D=84_6",0.0013871,0.038491
+"Christensenella_minuta",0.0015687,0.038695
+"OTU1413|NN=Mesorhizobium_loti_RLU50164|D=82_1",0.0020361,0.042041
+"OTU1322|NN=Catabacter_hongkongensis_AB671763|D=85_4",0.0020831,0.042041
