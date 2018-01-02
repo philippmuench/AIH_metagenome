@@ -113,7 +113,9 @@ adonis/ANOSIM: Tests whether two or more groups of samples are significantly dif
 PERMDISP: This method analyzes the multivariate homogeneity of group dispersions (variances).This test is different from two others in that it specifically tests for differences in the spread (dispersion, variability) among groups. In essence, it determines whether the variances of groups of samples are significantly different.
 
 [PERMANOVA] R-squared: 0.038991; p-value < 0.063
+
 [ANOSIM] R: -0.025411; p-value < 0.685
+
 [PERMDISP] F-value: 7.4332; p-value: 0.0097279
 
  ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Betadiversity/PCoA_1.png)
