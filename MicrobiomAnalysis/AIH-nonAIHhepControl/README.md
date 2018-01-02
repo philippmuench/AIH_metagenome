@@ -106,8 +106,8 @@ Fisher	p-value: 0.0036375; [Mann-Whitney] statistic: 284
 
 [PERMANOVA] R-squared: 0.069417; p-value < 0.001
 
- ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Betadiverity/PCoA_1.png)
- ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Betadiverity/MNDS_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Betadiversity/PCoA_1.png)
+ ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Betadiversity/MNDS_1.png)
 
 ## Univariate Analysis
  
