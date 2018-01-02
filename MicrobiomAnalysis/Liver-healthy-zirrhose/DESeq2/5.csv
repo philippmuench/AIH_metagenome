@@ -1,0 +1,13 @@
+"Family","log2FC","lfcSE","Pvalues","FDR"
+"Prevotellaceae",5.218,0.70745,1.6329e-13,6.5314e-12
+"Pasteurellaceae",4.6705,0.75349,5.6985e-10,1.1397e-08
+"Streptococcaceae",2.8926,0.51512,1.9613e-08,2.3938e-07
+"Desulfovibrionaceae",-3.5467,0.63552,2.3938e-08,2.3938e-07
+"Veillonellaceae",3.3716,0.71343,2.2906e-06,1.8324e-05
+"Dehalobacteriaceae",-4.326,1.0621,4.6424e-05,0.00030949
+"Micrococcaceae",3.0508,0.76305,6.3849e-05,0.00036485
+"Enterobacteriaceae",2.6699,0.75238,0.0003874,0.001937
+"Erysipelotrichaceae",-1.8785,0.55059,0.00064559,0.0028693
+"Bifidobacteriaceae",1.8985,0.61911,0.0021659,0.0086634
+"Fusobacteriaceae",2.2324,0.78106,0.0042617,0.015497
+"Carnobacteriaceae",1.5495,0.58684,0.0082811,0.027604

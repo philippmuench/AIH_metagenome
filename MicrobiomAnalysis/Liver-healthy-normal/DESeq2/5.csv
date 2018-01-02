@@ -1,0 +1,5 @@
+"Family","log2FC","lfcSE","Pvalues","FDR"
+"Enterobacteriaceae",6.1414,1.0982,2.24e-08,9.6321e-07
+"Prevotellaceae",6.0369,1.1477,1.4417e-07,3.0996e-06
+"Sutterellaceae",-4.156,1.0029,3.4151e-05,0.0004895
+"Streptococcaceae",2.23,0.7491,0.0029112,0.031295

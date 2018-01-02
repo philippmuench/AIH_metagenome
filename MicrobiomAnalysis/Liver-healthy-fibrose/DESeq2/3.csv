@@ -1,0 +1,4 @@
+"Class","log2FC","lfcSE","Pvalues","FDR"
+"Verrucomicrobiae",3.807,0.89986,2.3304e-05,0.00034956
+"Betaproteobacteria",-1.8845,0.61766,0.0022805,0.01207
+"Deltaproteobacteria",-2.4902,0.82077,0.0024139,0.01207

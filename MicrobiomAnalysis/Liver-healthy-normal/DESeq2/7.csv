@@ -1,0 +1,16 @@
+"Species","log2FC","lfcSE","Pvalues","FDR"
+"Phascolarctobacterium_succinatutens",10.07,1.5914,2.4852e-10,6.039e-08
+"Shigella_sonnei",6.9616,1.2675,3.9614e-08,4.8131e-06
+"OTU790|NN=Barnesiella_intestinihominis_AB370251|D=84_6",7.269,1.4879,1.0325e-06,8.3635e-05
+"Bacteroides_plebeius",6.4441,1.3782,2.9273e-06,0.00017783
+"Paraprevotella_clara",6.2478,1.3581,4.2141e-06,0.00020481
+"Intestinimonas_butyriciproducens",4.7083,1.1451,3.9269e-05,0.0015904
+"OTU516|NN=Prevotella_copri_AB064923|D=96_6",5.3207,1.3303,6.3474e-05,0.0022034
+"Streptococcus_infantis",2.6795,0.72694,0.00022773,0.0064404
+"Lachnoclostridium_asparagiforme",4.7531,1.3016,0.00026053,0.0064404
+"Lachnoclostridium_aldenense",4.829,1.324,0.00026504,0.0064404
+"OTU286|NN=Ruminococcus_bromii_DQ882649|D=96_6",-3.3748,0.94669,0.00036407,0.0080427
+"Alistipes_indistinctus",-3.55,1.115,0.0014539,0.029441
+"OTU1615|NN=Eubacterium_ventriosum_EUBRRDAB|D=95_1",4.1444,1.315,0.0016233,0.030343
+"OTU689|NN=Clostridium_clariflavum_NR_102987_1|D=78_8",5.3869,1.7311,0.0018598,0.032281
+"OTU345|NN=Christensenella_minuta_AB490809|D=84_1",4.8145,1.6071,0.0027375,0.044348

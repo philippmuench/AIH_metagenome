@@ -1,0 +1,5 @@
+"Class","log2FC","lfcSE","Pvalues","FDR"
+"Betaproteobacteria",-3.4195,0.75831,6.5013e-06,0.00010402
+"Gammaproteobacteria",2.2023,0.78895,0.0052479,0.039986
+"Bacteroidia",1.1559,0.44165,0.0088647,0.039986
+"Not_Assigned",0.89469,0.34732,0.0099965,0.039986

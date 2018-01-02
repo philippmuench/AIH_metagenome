@@ -1,0 +1,6 @@
+"Order","log2FC","lfcSE","Pvalues","FDR"
+"Desulfovibrionales",-3.4561,0.72473,1.8538e-06,4.2637e-05
+"Pasteurellales",3.4275,0.75148,5.0931e-06,5.8571e-05
+"Erysipelotrichales",-2.0838,0.5244,7.0745e-05,0.00054238
+"Selenomonadales",1.8445,0.50965,0.00029564,0.0016999
+"Enterobacteriales",2.4452,0.77549,0.0016158,0.0074326

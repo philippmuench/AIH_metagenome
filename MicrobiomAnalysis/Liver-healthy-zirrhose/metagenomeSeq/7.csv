@@ -1,0 +1,13 @@
+"Species","Pvalues","FDR"
+"OTU1337|NN=Desulfovibrio_desulfuricans_DVURRDA|D=89",5.2281e-07,0.00010143
+"Parabacteroides_goldsteinii",4.9301e-06,0.00047822
+"Christensenella_minuta",6.7627e-05,0.0043732
+"OTU117|NN=Clostridium_bolteae_AJ508452|D=90_7",0.00023098,0.0091762
+"OTU1096|NN=Alistipes_indistinctus_AB600999|D=96",0.0002365,0.0091762
+"OTU798|NN=Oscillibacter_valericigenes_AB238598|D=90_1",0.00035831,0.011585
+"OTU175|NN=Roseburia_hominis_AB661434|D=94_3",0.00078365,0.021574
+"OTU506|NN=Christensenella_minuta_AB490809|D=83_8",0.00088966,0.021574
+"OTU1482|NN=Veillonella_atypica_X84007|D=96_9",0.0016667,0.03453
+"Streptococcus_infantis",0.0017799,0.03453
+"Dialister_pneumosintes",0.0027084,0.046191
+"OTU1339|NN=Clostridium_clariflavum_NR_102987_1|D=76_8",0.0028572,0.046191
