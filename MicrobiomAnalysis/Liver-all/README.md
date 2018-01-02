@@ -202,7 +202,7 @@ see folder:
 
 ## metagenomeSeq
 
-The algorithm is designed to determine features that are differentially abundant between two or more groups of multiple samples. It addresses the effects of both normalization and under-sampling of microbial communities on disease association detection and the testing of feature correlations. In particular, it can perform zero-inflated Gaussian fit or fitFeatureModel (for two groups only) on data after normalizing the data through cumulative sum scaling (CSS) method. For more details, please refer to the original publication: 
+The algorithm is designed to determine features that are differentially abundant between two or more groups of multiple samples. It addresses the effects of both normalization and under-sampling of microbial communities on disease association detection and the testing of feature correlations. In particular, it can perform zero-inflated Gaussian fit or fitFeatureModel (for two groups only) on data after normalizing the data through cumulative sum scaling (CSS) method. For more details, please refer to the original publication: http://dx.doi.org/doi:10.1038/nmeth.2658
 
 see folder:
 

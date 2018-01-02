@@ -1,0 +1,1 @@
+[PERMANOVA] R-squared: 0.038991; p-value < 0.063

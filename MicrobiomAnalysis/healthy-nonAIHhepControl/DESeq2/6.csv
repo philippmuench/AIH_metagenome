@@ -1,4 +1,4 @@
-"","log2FC","lfcSE","Pvalues","FDR"
+"Genus","log2FC","lfcSE","Pvalues","FDR"
 "Prevotella",7.1962,0.83525,6.9548e-18,4.6597e-16
 "Shigella",6.6034,0.88497,8.5417e-14,2.1605e-12
 "Veillonella",5.381,0.72274,9.6737e-14,2.1605e-12
