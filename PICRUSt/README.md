@@ -26,3 +26,10 @@
 
  ![alt text](/PICRUSt/AIH_hmap_KEGGbar_1.png)
 
+## headmap of Kegg Module Presents (full Ordering By Group)
+
+ ![alt text](/PICRUSt/AIH_hmap_KEGGbar_OrderingByGroup_1.png)
+
+## headmap of Kegg Module Presents (full Ordering By Liver)
+
+ ![alt text](/PICRUSt/AIH_hmap_KEGGbar_OrderingByLiver_1.png)
