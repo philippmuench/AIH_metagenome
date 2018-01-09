@@ -104,7 +104,19 @@ Fisher	p-value: 0.0036375; [Mann-Whitney] statistic: 284
 
 ## Beta Diversity
 
-[PERMANOVA] R-squared: 0.069417; p-value < 0.001
+The statistical methods test the strength and statistical significance of sample groupings based on distance matrix. Users can choose from different statistical methods such as:
+
+Permutational multivariate analysis of variance (PERMANOVA), is a non-parametric multivariate statistical test. PERMANOVA is used to compare groups of objects and test the null hypothesis that the centroids and dispersion of the groups as defined by measure space are equivalent for all groups.
+
+adonis/ANOSIM: Tests whether two or more groups of samples are significantly different based on a categorical variable found in the sample mapping file. An R value near 1 means that there is dissimilarity between the groups, while an R value near 0 indicates no significant dissimilarity between the groups.
+
+PERMDISP: This method analyzes the multivariate homogeneity of group dispersions (variances).This test is different from two others in that it specifically tests for differences in the spread (dispersion, variability) among groups. In essence, it determines whether the variances of groups of samples are significantly different.
+
+[PERMANOVA] R-squared: 0.038991; p-value < 0.063
+
+[ANOSIM] R: -0.025411; p-value < 0.685
+
+[PERMDISP] F-value: 7.4332; p-value: 0.0097279
 
  ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Betadiversity/PCoA_1.png)
  ![alt text](/MicrobiomAnalysis/AIH-nonAIHhepControl/Betadiversity/MNDS_1.png)
