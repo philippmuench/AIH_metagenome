@@ -1,6 +1,6 @@
 ### MicrobiomeAnalyst: comprehensive statistical, visual and meta-analysis of microbiome data
 
-Die hier aufgeführten Analysen kan man selbst nochmal nachrechnen lassen. Die Daten liegen im jeweiligen Verzeichnis und können hier analysiert werden:
+Die hier aufgeführten Analysen kann man sich selbst nochmal nachrechnen lassen. Die Daten liegen im jeweiligen Verzeichnis und können hier analysiert werden:
 
 
 http://www.microbiomeanalyst.ca/faces/upload/OtuUploadView.xhtml
