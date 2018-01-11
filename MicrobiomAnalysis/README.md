@@ -2,10 +2,10 @@
 
 Die hier aufgeführten Analysen kan man selbst nochmal nachrechnen lassen. Die Daten liegen im jeweiligen Verzeichnis und können hier analysiert werden:
 
-http://www.microbiomeanalyst.ca <http://www.microbiomeanalyst.ca/faces/upload/OtuUploadView.xhtml>
+<http://www.microbiomeanalyst.ca/faces/upload/OtuUploadView.xhtml>
 
 Dhariwal, Achal, et al. "MicrobiomeAnalyst: a web-based tool for comprehensive statistical, visual and meta-analysis of microbiome data." Nucleic Acids Research (2017).
-<https://www.ncbi.nlm.nih.gov/pubmed/28449106)>
+<https://www.ncbi.nlm.nih.gov/pubmed/28449106>
  
 ### Daten Upload
 
