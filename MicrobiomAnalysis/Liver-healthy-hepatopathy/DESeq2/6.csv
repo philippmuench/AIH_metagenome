@@ -1,0 +1,10 @@
+""	"log2FC"	"lfcSE"	"Pvalues"	"FDR"
+"Shigella"	6.9976	0.89535	5.4737e-15	3.6674e-13
+"Veillonella"	5.0845	0.69323	2.2252e-13	7.4544e-12
+"Streptococcus"	3.5373	0.54325	7.4448e-11	1.6627e-09
+"Prevotella"	4.9266	0.86269	1.1253e-08	1.8849e-07
+"Megasphaera"	5.7014	1.2057	2.2601e-06	2.5727e-05
+"Haemophilus"	3.7154	0.78638	2.3039e-06	2.5727e-05
+"Fusicatenibacter"	-2.2216	0.56754	9.0589e-05	0.00086707
+"Fusobacterium"	4.1396	1.0723	0.00011323	0.0009483
+"Lachnoclostridium"	-1.0573	0.37549	0.0048662	0.036227

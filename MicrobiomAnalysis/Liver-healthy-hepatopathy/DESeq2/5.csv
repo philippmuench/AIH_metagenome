@@ -1,0 +1,8 @@
+""	"log2FC"	"lfcSE"	"Pvalues"	"FDR"
+"Streptococcaceae"	3.3909	0.55818	1.2408e-09	4.963e-08
+"Prevotellaceae"	4.6767	0.82595	1.4945e-08	2.989e-07
+"Pasteurellaceae"	3.6437	0.78191	3.163e-06	4.2174e-05
+"Veillonellaceae"	2.9868	0.67138	8.6369e-06	8.6369e-05
+"Micrococcaceae"	2.7326	0.78318	0.00048454	0.0038763
+"Desulfovibrionaceae"	-2.3219	0.74133	0.0017355	0.01157
+"Enterobacteriaceae"	2.3822	0.88524	0.0071226	0.0407
